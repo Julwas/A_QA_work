@@ -1,6 +1,6 @@
 import org.testng.annotations.*;
 
-public class AuniTest extends BaseTest {
+public class AunitTest extends BaseTest {
    @Test
     public void initTes_1() {
         System.out.println("1 Hello world!!!");
