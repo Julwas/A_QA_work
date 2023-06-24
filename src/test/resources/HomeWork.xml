@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Main Suite">
+    <test name="HomeWork">
+        <groups>
+            <define name="Group Int">
+                <include name="Int"/>
+            </define>
+            <define name="Group Double">
+                <include name="Double"/>
+            </define>
+            <run>
+                <include name="Group Int"/>
+                <include name="Group Double"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="HomeWorkTest"/>
+        </classes>
+    </test>
+</suite>
