@@ -2,49 +2,49 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class HomeWorkTest extends BaseTest{
-    @Test(expectedExceptions = AssertionError.class)
+    @Test(expectedExceptions = AssertionError.class, priority = 6)
     public void divInt_1(){
         int expectedValue = 50;
         int actualValue = calculator.divInt(0, 100);
         Assert.assertEquals(actualValue, expectedValue, "value is not equals");
     }
-    @Test
+    @Test(priority = 3)
     public void divInt_2(){
         int expectedValue = 0;
         int actualValue = calculator.divInt(0, 100);
         Assert.assertEquals(actualValue, expectedValue, "value is not equals");
     }
-@Test
+@Test(priority = 1)
     public void divInt_3(){
         int expectedValue = 50;
         int actualValue = calculator.divInt(100, 2);
         Assert.assertEquals(actualValue, expectedValue, "value is not equals");
     }
-    @Test
+    @Test(priority = 8, description = "checked division by zero")
     public void divInt_4() {
         int expectedValue = 0;
         int actualValue = calculator.divInt(100, 0);
         Assert.assertEquals(actualValue, expectedValue);
     }
- @Test
+ @Test(priority = 4)
     public void divDouble_1(){
         int expectedValue = 0;
         double actualValue = calculator.divDouble(0,10.7);
         Assert.assertEquals(actualValue, expectedValue, "value is not equals");
     }
-@Test(expectedExceptions = AssertionError.class)
+@Test(expectedExceptions = AssertionError.class, priority = 5)
     public void divDouble_2(){
         int expectedValue = 15;
         double actualValue = calculator.divDouble(60.2, 10.7);
         Assert.assertEquals(actualValue, expectedValue, "value is not equals");
     }
-    @Test
+    @Test(priority = 2)
     public void divDouble_3(){
         int expectedValue = 5;
         double actualValue = calculator.divDouble(60.2, 10.7);
         Assert.assertEquals(actualValue, expectedValue, "value is not equals");
     }
-@Test
+@Test(enabled = false, priority = 7)
     public void divDouble_4(){
         int expectedValue = 0;
         double actualValue = calculator.divDouble(100.5, 0);
