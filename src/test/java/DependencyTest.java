@@ -9,7 +9,7 @@ public class DependencyTest {
     @Test (dependsOnMethods = "stepB")
     public void stepA2() {
         System.out.println("stepA2...");
-        Assert.assertTrue(false);
+        Assert.fail();
     }
     @Test(dependsOnMethods = "stepA2", alwaysRun = true)
     public void stepA11() {
