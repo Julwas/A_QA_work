@@ -10,6 +10,7 @@ public class DependencyTest {
     public void stepA2() {
         System.out.println("stepA2...");
         Assert.fail();
+
     }
     @Test(dependsOnMethods = "stepA2", alwaysRun = true)
     public void stepA11() {
