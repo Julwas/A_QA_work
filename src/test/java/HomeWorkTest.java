@@ -67,7 +67,7 @@ public class HomeWorkTest extends BaseTest {
         Assert.assertEquals(actualValue, expectedValue);
     }
 
-    @Test(priority = 10, groups = "Double", expectedExceptions = ArithmeticException.class)
+    @Test( groups = "Double", expectedExceptions = ArithmeticException.class)
     public void divDouble_5() {
         int expectedValue = 0;
         double actualValue = calculator.divDouble(0.0, 0.0);
@@ -87,4 +87,10 @@ public class HomeWorkTest extends BaseTest {
         Thread.sleep(800);
         Assert.assertEquals(calculator.divInt(a, b), expectedValue, "value is not equals");
     }
+    @Test(dependsOnMethods = "timeOuteTest")
+    public void depOnMethods() {
+        int expectedValue = -15;
+        double actualValue = calculator.divDouble(232.5, -15.05);
+        Assert.assertEquals(actualValue, expectedValue, "value is not equals");
+}
 }
