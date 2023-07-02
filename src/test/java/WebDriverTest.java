@@ -20,5 +20,11 @@ public class WebDriverTest {
        Thread.sleep(2000);
         driver.quit();
     }
-
+    @Test
+    public void browserFactoryTest() throws InterruptedException {
+        BrowserFactory browserFactory = new BrowserFactory();
+        WebDriver driver = browserFactory.getDriver();
+        Thread.sleep(2000);
+        driver.quit();
+    }
 }
