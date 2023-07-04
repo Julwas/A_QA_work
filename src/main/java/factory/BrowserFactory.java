@@ -14,12 +14,13 @@ import java.time.Duration;
 public class BrowserFactory {
     private WebDriver driver = null;
     private DriverManagerType driverManagerType = null;
-    public BrowserFactory(){
-        switch (ReadProperties.browserName().toLowerCase()){
+
+    public BrowserFactory() {
+        switch (ReadProperties.browserName().toLowerCase()) {
             case "chrome" :
                 driverManagerType = DriverManagerType.CHROME;
-                WebDriverManager.getInstance(driverManagerType).setup();// проверяет возможю скопировать нужную версию
-//драйвера на комп. прописать нужные переменные
+                WebDriverManager.getInstance(driverManagerType).setup();
+
                 driver = new ChromeDriver(getChromeOptions());
                 break;
             case "firefox":
@@ -33,10 +34,11 @@ public class BrowserFactory {
                 break;
         }
     }
-    public WebDriver getDriver(){
-        driver.manage().window().maximize();// возможность управл. окном
-        //driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30)); работа с таймаутами
+
+    public WebDriver getDriver() {
+        driver.manage().window().maximize();
         driver.manage().deleteAllCookies();
+
         return this.driver;
     }
 
@@ -52,6 +54,7 @@ public class BrowserFactory {
 
         return chromeOptions;
     }
+
     public FirefoxOptions getFirefoxOptions() {
         FirefoxOptions firefoxOptions = new FirefoxOptions();
 
