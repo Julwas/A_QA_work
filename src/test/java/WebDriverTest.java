@@ -1,7 +1,6 @@
 import factory.AdvancedDriver;
 import factory.BrowserFactory;
 import factory.SimpleDriver;
-import org.junit.jupiter.api.DisplayNameGenerator;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 

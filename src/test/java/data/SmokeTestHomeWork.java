@@ -10,8 +10,6 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import static java.lang.Thread.sleep;
-
 public class SmokeTestHomeWork {
     protected WebDriver driver;
 
@@ -32,19 +30,20 @@ public class SmokeTestHomeWork {
         WebElement selectWebElementRoomType = driver.findElement(By.id("room_type"));
         Select selectRoomType = new Select(selectWebElementRoomType);
         selectRoomType.selectByVisibleText("Ванная");
-        sleep(1000);
+
+        Thread.sleep(1000);
 
         WebElement selectWebElementHeatingType = driver.findElement(By.id("heating_type"));
         Select selectHeatingType = new Select(selectWebElementHeatingType);
         selectHeatingType.selectByVisibleText("Основное отопление");
-        sleep(1000);
+        Thread.sleep(1000);
 
         WebElement elFlossesInput = driver.findElement(By.id("el_f_losses"));
         elFlossesInput.sendKeys("300");
 
         WebElement calcButton = driver.findElement(By.name("button"));
         calcButton.click();
-        sleep(1000);
+        Thread.sleep(1000);
 
         WebElement resultFloorCablePower = driver.findElement(By.id("floor_cable_power"));
         Assert.assertEquals(resultFloorCablePower.getAttribute("value"), "315");
