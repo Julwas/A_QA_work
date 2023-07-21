@@ -8,16 +8,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d77c945-0099-49b3-afda-8efe4673f3e4" name="Changes" comment="removed and corrected JUnit">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/LoginStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/baseEntities/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/baseEntities/BaseStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/baseEntities/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/DashBoardPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/SideMenuPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TopMenuPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testes/NavigationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testes/SmokeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testes/TestCaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BasicLocatorsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CssSelectorsTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Listener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Retry.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/data/XpathLocatorsTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Listener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Retry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/factory/BrowserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/BrowserFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/factory/BrowserFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/factory/BrowserFactory.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,26 +133,16 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pages" />
+      <recent name="testes" />
       <recent name="data" />
       <recent name="" />
       <recent name="factory" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTest.successLoginTest">
-    <configuration name="CssSelectorsTest.cssSelectorsTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.LoginTest.incorrectEmailLoginTest">
+    <configuration name="LoginTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA21onl" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CssSelectorsTest" />
-      <option name="METHOD_NAME" value="cssSelectorsTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AQA21" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="LoginTest" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -157,11 +152,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest.succesLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AQA21" />
+    <configuration name="LoginTest.incorrectEmailLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AQA21onl" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="LoginTest" />
-      <option name="METHOD_NAME" value="succesLoginTest" />
+      <option name="METHOD_NAME" value="incorrectEmailLoginTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.shortPswLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AQA21onl" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LoginTest" />
+      <option name="METHOD_NAME" value="shortPswLoginTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.successLoginTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AQA21onl" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LoginTest" />
+      <option name="METHOD_NAME" value="successLoginTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -181,38 +200,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XpathLocatorsTest.basicXpathLocatorsTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AQA21onl" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="data.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="data" />
-      <option name="MAIN_CLASS_NAME" value="data.XpathLocatorsTest" />
-      <option name="METHOD_NAME" value="basicXpathLocatorsTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="TestNG.LoginTest" />
-      <item itemvalue="TestNG.LoginTest.succesLoginTest" />
+      <item itemvalue="TestNG.LoginTest (1)" />
+      <item itemvalue="TestNG.LoginTest.incorrectEmailLoginTest" />
+      <item itemvalue="TestNG.LoginTest.shortPswLoginTest" />
+      <item itemvalue="TestNG.LoginTest.successLoginTest (1)" />
       <item itemvalue="TestNG.LoginTest.successLoginTest" />
-      <item itemvalue="TestNG.CssSelectorsTest.cssSelectorsTest (1)" />
-      <item itemvalue="TestNG.XpathLocatorsTest.basicXpathLocatorsTest (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoginTest.incorrectEmailLoginTest" />
+        <item itemvalue="TestNG.LoginTest.shortPswLoginTest" />
+        <item itemvalue="TestNG.LoginTest (1)" />
+        <item itemvalue="TestNG.LoginTest.successLoginTest (1)" />
         <item itemvalue="TestNG.LoginTest.successLoginTest" />
-        <item itemvalue="TestNG.LoginTest.succesLoginTest" />
-        <item itemvalue="TestNG.LoginTest" />
-        <item itemvalue="TestNG.XpathLocatorsTest.basicXpathLocatorsTest (1)" />
-        <item itemvalue="TestNG.CssSelectorsTest.cssSelectorsTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -449,7 +450,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689331183796</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="removed and corrected JUnit">
+      <created>1689768929408</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1689768929408</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
