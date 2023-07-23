@@ -1,11 +1,11 @@
 package pages;
 
-import baseEntities.BasePage;
+import baseEntities.BasePageHW;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class CartPage extends BasePage {
+public class CartPageHW extends BasePageHW {
 
     private final static String pagePath = "cart.html";
 
@@ -14,7 +14,7 @@ public class CartPage extends BasePage {
     private final By checkoutButtonLocator = By.id("checkout");
 
     // Блок инициализации
-    public CartPage(WebDriver driver) {
+    public CartPageHW(WebDriver driver) {
         super(driver);
     }
     public void openPageByUrl(){

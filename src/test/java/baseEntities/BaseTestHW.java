@@ -7,11 +7,11 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import utils.configuration.ReadProperties;
 
-public class BaseTest {
+public class BaseTestHW {
     protected WebDriver driver;
-    protected LoginStep loginStep;
-    protected ProductsStep productsStep;
-    protected CheckoutStep checkoutStep;
+    protected LoginStepHW loginStep;
+    protected ProductsStepHW productsStep;
+    protected CheckoutStepHW checkoutStep;
 
 
 
@@ -21,9 +21,9 @@ public class BaseTest {
         BrowserFactory browserFactory = new BrowserFactory();
         driver = browserFactory.getDriver();
 
-        loginStep = new LoginStep(driver);
-        productsStep = new ProductsStep(driver);
-        checkoutStep = new CheckoutStep(driver);
+        loginStep = new LoginStepHW(driver);
+        productsStep = new ProductsStepHW(driver);
+        checkoutStep = new CheckoutStepHW(driver);
 
 
 

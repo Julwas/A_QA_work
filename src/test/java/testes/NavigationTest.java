@@ -1,17 +1,17 @@
 package testes;
 
-import baseEntities.BaseTest;
+import baseEntities.BaseTestHW;
 import org.testng.annotations.Test;
-import pages.LoginPage;
+import pages.LoginPageHW;
 import utils.configuration.ReadProperties;
 
-public class NavigationTest extends BaseTest {
+public class NavigationTest extends BaseTestHW {
 
     @Test
     public void successLoginTest() {
         driver.get(ReadProperties.getUrl());
 
-        LoginPage loginPage = new LoginPage(driver);
+        LoginPageHW loginPage = new LoginPageHW(driver);
         loginPage.setEmail("atrostyanko@gmail.com");
         loginPage.getPswInput().sendKeys("Qwertyu_1");
         loginPage.getLogInButton().click();

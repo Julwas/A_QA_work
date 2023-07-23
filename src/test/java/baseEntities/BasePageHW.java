@@ -4,10 +4,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import utils.configuration.ReadProperties;
 
-public abstract class  BasePage {
+public abstract class BasePageHW {
     protected static WebDriver driver;
 
-    public BasePage(WebDriver driver) {
+    public BasePageHW(WebDriver driver) {
         this.driver = driver;
     }
 

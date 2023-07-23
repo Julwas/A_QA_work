@@ -36,9 +36,11 @@ public class ReadProperties {
         return properties.getProperty("headless").equalsIgnoreCase("true");
     }
 
+
     public static String lastname() {return properties.getProperty("lastname");
     }
 
-    public static String zip() {return properties.getProperty("zip");
+    public static String zip() {
+        return properties.getProperty("zip");
     }
 }

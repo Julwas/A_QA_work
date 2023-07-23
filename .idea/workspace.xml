@@ -7,7 +7,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d77c945-0099-49b3-afda-8efe4673f3e4" name="Changes" comment="endtoend" />
+    <list default="true" id="8d77c945-0099-49b3-afda-8efe4673f3e4" name="Changes" comment="endtoend">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/configuration/ReadProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/configuration/ReadProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/E2ETest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/E2ETestHW.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/CheckoutStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/CheckoutStepHW.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/LoginStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/LoginStepHW.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/ProductsStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/ProductsStepHW.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/baseEntities/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseEntities/BasePageHW.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/baseEntities/BaseStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseEntities/BaseStepHW.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/baseEntities/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseEntities/BaseTestHW.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/CartPageHW.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/CheckoutCompletePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/CheckoutCompletePageHW.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/CheckoutInfoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/CheckoutInfoPageHW.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/CheckoutOverviewPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/CheckoutOverviewPageHW.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPageHW.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/ProductsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/ProductsPageHW.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testes/NavigationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testes/NavigationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -124,11 +142,11 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.E2ETest.E2ETest">
-    <configuration name="E2ETest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.E2ETestHW.E2ETest">
+    <configuration name="E2ETestHW" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA21onl" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="E2ETest" />
+      <option name="MAIN_CLASS_NAME" value="E2ETestHW" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -136,10 +154,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E2ETest.E2ETest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="E2ETestHW.E2ETest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA21onl" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="E2ETest" />
+      <option name="MAIN_CLASS_NAME" value="E2ETestHW" />
       <option name="METHOD_NAME" value="E2ETest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -148,10 +166,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E2ETest.incorrectEmailLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="E2ETestHW.incorrectEmailLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA21onl" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="E2ETest" />
+      <option name="MAIN_CLASS_NAME" value="E2ETestHW" />
       <option name="METHOD_NAME" value="incorrectEmailLoginTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -160,10 +178,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E2ETest.shortPswLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="E2ETestHW.shortPswLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA21onl" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="E2ETest" />
+      <option name="MAIN_CLASS_NAME" value="E2ETestHW" />
       <option name="METHOD_NAME" value="shortPswLoginTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -172,10 +190,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E2ETest.successLoginTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="E2ETestHW.successLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA21onl" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="E2ETest" />
+      <option name="MAIN_CLASS_NAME" value="E2ETestHW" />
       <option name="METHOD_NAME" value="successLoginTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -197,19 +215,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.E2ETest.E2ETest" />
-      <item itemvalue="TestNG.E2ETest" />
-      <item itemvalue="TestNG.E2ETest.incorrectEmailLoginTest" />
-      <item itemvalue="TestNG.E2ETest.shortPswLoginTest" />
-      <item itemvalue="TestNG.E2ETest.successLoginTest (1)" />
+      <item itemvalue="TestNG.E2ETestHW" />
+      <item itemvalue="TestNG.E2ETestHW.E2ETest" />
+      <item itemvalue="TestNG.E2ETestHW.incorrectEmailLoginTest" />
+      <item itemvalue="TestNG.E2ETestHW.shortPswLoginTest" />
+      <item itemvalue="TestNG.E2ETestHW.successLoginTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.E2ETest.E2ETest" />
-        <item itemvalue="TestNG.E2ETest" />
-        <item itemvalue="TestNG.E2ETest.successLoginTest (1)" />
-        <item itemvalue="TestNG.E2ETest.incorrectEmailLoginTest" />
-        <item itemvalue="TestNG.E2ETest.shortPswLoginTest" />
+        <item itemvalue="TestNG.E2ETestHW.E2ETest" />
+        <item itemvalue="TestNG.E2ETestHW" />
+        <item itemvalue="TestNG.E2ETestHW.successLoginTest" />
+        <item itemvalue="TestNG.E2ETestHW.incorrectEmailLoginTest" />
+        <item itemvalue="TestNG.E2ETestHW.shortPswLoginTest" />
       </list>
     </recent_temporary>
   </component>
@@ -495,7 +513,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690121722855</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="endtoend">
+      <created>1690121788669</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1690121788669</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

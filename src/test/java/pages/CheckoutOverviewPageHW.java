@@ -1,11 +1,11 @@
 package pages;
 
-import baseEntities.BasePage;
+import baseEntities.BasePageHW;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class CheckoutOverviewPage extends BasePage {
+public class CheckoutOverviewPageHW extends BasePageHW {
 
     private final static String pagePath = "/checkout-step-two.html";
 
@@ -15,7 +15,7 @@ public class CheckoutOverviewPage extends BasePage {
     private final By finishCheckoutButtonLocator = By.id("finish");
 
     // Блок инициализации
-    public CheckoutOverviewPage(WebDriver driver) {
+    public CheckoutOverviewPageHW(WebDriver driver) {
         super(driver);
     }
     public void openPageByUrl(){

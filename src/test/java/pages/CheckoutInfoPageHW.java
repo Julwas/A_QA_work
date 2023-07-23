@@ -1,13 +1,11 @@
 package pages;
 
-import baseEntities.BasePage;
+import baseEntities.BasePageHW;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import javax.swing.*;
-
-public class CheckoutInfoPage extends BasePage {
+public class CheckoutInfoPageHW extends BasePageHW {
     private final static String pagePath = "checkout-step-one.html";
 
     //блок описания локаторов
@@ -18,7 +16,7 @@ public class CheckoutInfoPage extends BasePage {
     private final By continueButtonLocator = By.id("continue");
 
     // Блок инициализации
-    public CheckoutInfoPage(WebDriver driver) {
+    public CheckoutInfoPageHW(WebDriver driver) {
         super(driver);
     }
     public void openPageByUrl(){
