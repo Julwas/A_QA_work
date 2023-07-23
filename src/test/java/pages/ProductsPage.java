@@ -37,4 +37,9 @@ public class ProductsPage extends BasePage {
     public static WebElement getShoppingCart() {
         return driver.findElement(shoppingCartLocator);
     }
+    //блок комплексных методов
+    public void getProducts(){
+        getAddToCartButton();
+        getShoppingCart();
+    }
 }

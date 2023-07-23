@@ -5,6 +5,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+import javax.swing.*;
+
 public class CheckoutInfoPage extends BasePage {
     private final static String pagePath = "checkout-step-one.html";
 
@@ -13,7 +15,7 @@ public class CheckoutInfoPage extends BasePage {
     private final By firstNameInputLocator = By.id("first-name");
     private final By lastNameInputLocator = By.id("last-name");
     private final By zipCodeInputLocator = By.id("postal-code");
-    private final By submitLocator = By.id("continue");
+    private final By continueButtonLocator = By.id("continue");
 
     // Блок инициализации
     public CheckoutInfoPage(WebDriver driver) {
@@ -25,7 +27,7 @@ public class CheckoutInfoPage extends BasePage {
 
     @Override
     protected By getPageIdentifier() {
-        return submitLocator;
+        return continueButtonLocator;
     }
 
     //блок атомарных методов
@@ -46,24 +48,16 @@ public class CheckoutInfoPage extends BasePage {
         return driver.findElement(zipCodeInputLocator);
     }
 
-    public WebElement getSubmit() {
-        return driver.findElement(submitLocator);
-    }
-    public void setFirstName(String value) {
-        getFirstNameInput().sendKeys(value);
+    public WebElement getContinueButton() {
+        return driver.findElement(continueButtonLocator);
     }
 
-    public void setLastName(String value) {
-        getLastNameInput().sendKeys(value);
-    }
+    //блок комплексных методов
 
-    public void setZipCode(String value) {
-        getZipCodeInput().sendKeys(value);
-    }
-
-    public void inputYourData() {
-        setFirstName("testFirstName");
-        setLastName("testLastName");
-        setZipCode("0123");
+    public void inputYourData(String firstname, String lastname, String zip) {
+        getFirstNameInput().sendKeys(firstname);
+        getLastNameInput().sendKeys(lastname);
+        getZipCodeInput().sendKeys(zip);
+        getContinueButton().click();
     }
 }

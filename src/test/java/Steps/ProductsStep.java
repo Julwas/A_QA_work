@@ -2,6 +2,7 @@ package Steps;
 
 import baseEntities.BaseStep;
 import org.openqa.selenium.WebDriver;
+import pages.CartPage;
 import pages.ProductsPage;
 
 public class ProductsStep extends BaseStep {
@@ -9,22 +10,12 @@ public class ProductsStep extends BaseStep {
         super(driver);
     }
 
-    public ProductsPage AddToCart() {
-        ProductsPage.getAddToCartButton().click();
+    public CartPage AddProdusts() {
+        productsPage.getProducts();
 
-        return productsPage;
-
-    }
-    public ProductsPage HeaderTitle(){
-        ProductsPage.getHeaderTitle().click();
-
-        return productsPage;
+        return cartPage;
 
     }
-    public ProductsPage ShoppingCart(){
-        ProductsPage.getShoppingCart().click();
 
-        return productsPage;
 
-    }
 }
