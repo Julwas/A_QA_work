@@ -4,24 +4,19 @@ import baseEntities.BasePage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.testng.annotations.BeforeMethod;
-import utils.configuration.ReadProperties;
 
 public class LoginPage extends BasePage {
 
-    //блок описания локаторов private final By elementNameTypeLocator = By.id("");
-    private final By emailInputLocator = By.id("name");
+    //блок описания локаторов
+    private final By emailInputLocator = By.id("user-name");
     private final By pswInputLocator = By.id("password");
-    private final By logInButtonLocator = By.id("button_primary");
-    private final By errorTextLocator = By.className("error-text");
-    private final By errorFieldTextLocator = By.className("loginpage-message");
+    private final By logInButtonLocator = By.id("login-button");
 
     // Блок инициализации
     public LoginPage(WebDriver driver){
 
         super(driver);
     }
-
     @Override
     protected By getPageIdentifier() {
         return logInButtonLocator;
@@ -39,17 +34,8 @@ public class LoginPage extends BasePage {
     public WebElement getLogInButton() {
         return driver.findElement(logInButtonLocator);
     }
-
-    public void setEmail(String value){
+    public void setEmail(String value) {
         getEmailInput().sendKeys(value);
-    }
-
-    public WebElement getErrorTextElement() {
-        return driver.findElement(errorTextLocator);
-    }
-
-    public WebElement getErrorFieldTextElement() {
-        return driver.findElement(errorFieldTextLocator);
     }
     //блок комплексных методов
     public void login(String username, String psw) {

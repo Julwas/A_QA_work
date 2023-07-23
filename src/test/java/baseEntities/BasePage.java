@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import utils.configuration.ReadProperties;
 
 public abstract class  BasePage {
-    protected WebDriver driver;
+    protected static WebDriver driver;
 
     public BasePage(WebDriver driver) {
         this.driver = driver;
