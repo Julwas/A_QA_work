@@ -7,7 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d77c945-0099-49b3-afda-8efe4673f3e4" name="Changes" comment="workspace" />
+    <list default="true" id="8d77c945-0099-49b3-afda-8efe4673f3e4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/factory/BrowserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/BrowserFactory.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +42,7 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Locators" />
+        <entry key="$PROJECT_DIR$" value="LocatorsHW" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -124,7 +127,7 @@
       <recent name="factory" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTest.incorrectEmailLoginTest">
+  <component name="RunManager" selected="TestNG.LoginTest (1)">
     <configuration name="LoginTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA21onl" />
       <option name="PACKAGE_NAME" value="" />
@@ -193,9 +196,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoginTest (1)" />
         <item itemvalue="TestNG.LoginTest.incorrectEmailLoginTest" />
         <item itemvalue="TestNG.LoginTest.shortPswLoginTest" />
-        <item itemvalue="TestNG.LoginTest (1)" />
         <item itemvalue="TestNG.LoginTest.successLoginTest (1)" />
         <item itemvalue="TestNG.LoginTest.successLoginTest" />
       </list>
