@@ -4,10 +4,11 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import utils.configuration.ReadProperties;
 
-public abstract class BasePageHW {
-    protected static WebDriver driver;
+public abstract class BasePage {
 
-    public BasePageHW(WebDriver driver) {
+    public static WebDriver driver;
+
+    public BasePage(WebDriver driver) {
         this.driver = driver;
     }
 
@@ -17,5 +18,6 @@ public abstract class BasePageHW {
     protected abstract By getPageIdentifier();
     public boolean isPageOpened() {
         return driver.findElement(getPageIdentifier()).isDisplayed();
-        }
+    }
 }
+

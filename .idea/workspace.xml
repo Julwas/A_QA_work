@@ -9,6 +9,38 @@
   <component name="ChangeListManager">
     <list default="true" id="8d77c945-0099-49b3-afda-8efe4673f3e4" name="Changes" comment="comper">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/configuration/ReadProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/configuration/ReadProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/E2ETestHW.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/E2ETest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/CheckoutStepHW.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/CheckoutStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/LoginStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/LoginStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/LoginStepHW.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/ProductsStepHW.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/ProductsStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/baseEntities/BasePageHW.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseEntities/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/baseEntities/BaseStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseEntities/BaseStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/baseEntities/BaseStepHW.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/baseEntities/BaseTestHW.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseEntities/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/BaseProgectPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/CartPageHW.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/CartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/CheckoutCompletePageHW.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/CheckoutCompletePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/CheckoutInfoPageHW.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/CheckoutInfoPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/CheckoutOverviewPageHW.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/CheckoutOverviewPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/DashBoardPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPageHW.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/ProductsPageHW.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/ProductsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/SideMenuPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/TopMenuPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testes/NavigationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testes/SmokeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/configuration/ReadProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/configuration/ReadProperties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/E2ETest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/E2ETest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/ProductsStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/ProductsStep.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/baseEntities/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/baseEntities/BasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/baseEntities/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/baseEntities/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/CheckoutInfoPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/CheckoutInfoPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/ProductsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/ProductsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testes/NavigationTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testes/SmokeTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,11 +161,11 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.E2ETestHW.E2ETest">
-    <configuration name="E2ETestHW" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.E2ETestHW">
+    <configuration name="E2ETest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA21onl" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="E2ETestHW" />
+      <option name="MAIN_CLASS_NAME" value="E2ETest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -141,10 +173,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E2ETestHW.E2ETest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="E2ETest.E2ETest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA21onl" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="E2ETestHW" />
+      <option name="MAIN_CLASS_NAME" value="E2ETest" />
       <option name="METHOD_NAME" value="E2ETest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -153,10 +185,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E2ETestHW.incorrectEmailLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="E2ETest.incorrectEmailLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA21onl" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="E2ETestHW" />
+      <option name="MAIN_CLASS_NAME" value="E2ETest" />
       <option name="METHOD_NAME" value="incorrectEmailLoginTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -165,23 +197,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E2ETestHW.shortPswLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="E2ETest.shortPswLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA21onl" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="E2ETestHW" />
+      <option name="MAIN_CLASS_NAME" value="E2ETest" />
       <option name="METHOD_NAME" value="shortPswLoginTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="E2ETestHW.successLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AQA21onl" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="E2ETestHW" />
-      <option name="METHOD_NAME" value="successLoginTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -201,21 +221,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="E2ETest.successLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AQA21onl" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="E2ETest" />
+      <option name="METHOD_NAME" value="successLoginTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="TestNG.E2ETest.E2ETest" />
+      <item itemvalue="TestNG.E2ETest.incorrectEmailLoginTest" />
+      <item itemvalue="TestNG.E2ETest.shortPswLoginTest" />
       <item itemvalue="TestNG.E2ETest.successLoginTest" />
       <item itemvalue="TestNG.E2ETestHW" />
-      <item itemvalue="TestNG.E2ETestHW.E2ETest" />
-      <item itemvalue="TestNG.E2ETestHW.incorrectEmailLoginTest" />
-      <item itemvalue="TestNG.E2ETestHW.shortPswLoginTest" />
-      <item itemvalue="TestNG.E2ETestHW.successLoginTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.E2ETestHW.E2ETest" />
+        <item itemvalue="TestNG.E2ETest.E2ETest" />
         <item itemvalue="TestNG.E2ETestHW" />
-        <item itemvalue="TestNG.E2ETestHW.successLoginTest" />
-        <item itemvalue="TestNG.E2ETestHW.incorrectEmailLoginTest" />
-        <item itemvalue="TestNG.E2ETestHW.shortPswLoginTest" />
+        <item itemvalue="TestNG.E2ETest.successLoginTest" />
+        <item itemvalue="TestNG.E2ETest.incorrectEmailLoginTest" />
+        <item itemvalue="TestNG.E2ETest.shortPswLoginTest" />
       </list>
     </recent_temporary>
   </component>
@@ -546,6 +577,20 @@
     <option name="LAST_COMMIT_MESSAGE" value="comper" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/E2ETest.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/baseEntities/BasePage.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="TestNG">
         <watch expression="driver" language="JAVA" />

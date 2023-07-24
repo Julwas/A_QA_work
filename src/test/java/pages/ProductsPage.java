@@ -1,11 +1,11 @@
 package pages;
 
-import baseEntities.BasePageHW;
+import baseEntities.BasePage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class ProductsPageHW extends BasePageHW {
+public class ProductsPage extends BasePage {
     private final static String pagePath = "/inventory.html";
 
     //блок описания локаторов
@@ -14,9 +14,10 @@ public class ProductsPageHW extends BasePageHW {
     private static final By shoppingCartLocator = By.id("shopping_cart_container");
 
     // Блок инициализации
-    public ProductsPageHW(WebDriver driver) {
+    public ProductsPage(WebDriver driver) {
         super(driver);
     }
+
     public void openPageByUrl(){
         super.openPageByUrl(pagePath);
     }

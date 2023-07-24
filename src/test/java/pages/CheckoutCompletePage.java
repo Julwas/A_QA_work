@@ -1,11 +1,11 @@
 package pages;
 
-import baseEntities.BasePageHW;
+import baseEntities.BasePage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class CheckoutCompletePageHW extends BasePageHW {
+public class CheckoutCompletePage extends BasePage {
     private final static String pagePath = "checkout-complete.html";
 
     //блок описания локаторов
@@ -13,7 +13,7 @@ public class CheckoutCompletePageHW extends BasePageHW {
     private final By thanYouMessageLocator = By.className("complete-header");
     private final By backHomeButtonLocator = By.id("back-to-products");
 
-    public CheckoutCompletePageHW(WebDriver driver) {
+    public CheckoutCompletePage(WebDriver driver) {
         super(driver);
     }
 

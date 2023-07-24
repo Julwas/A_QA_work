@@ -1,14 +1,17 @@
-import baseEntities.BaseTestHW;
+import Steps.ProductsStep;
+import baseEntities.BaseTest;
+import baseEntities.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pages.CartPageHW;
-import pages.CheckoutCompletePageHW;
-import pages.CheckoutOverviewPageHW;
-import pages.ProductsPageHW;
+import pages.CartPage;
+import pages.CheckoutCompletePage;
+import pages.CheckoutOverviewPage;
+import pages.ProductsPage;
 import utils.configuration.ReadProperties;
 
-public class E2ETestHW extends BaseTestHW {
+import static baseEntities.BasePage.driver;
 
+public class E2ETest extends BaseTest {
 
     @Test
     public void E2ETest() {
@@ -16,17 +19,17 @@ public class E2ETestHW extends BaseTestHW {
         ).isPageOpened());
         Assert.assertTrue(productsStep.AddProdusts().isPageOpened());
 
-        CartPageHW cartPage = new CartPageHW(driver);
+        CartPage cartPage = new CartPage(driver);
         cartPage.getCheckoutButton().click();
 
         Assert.assertTrue(checkoutStep.getYourData(ReadProperties.firstname,
                 ReadProperties.lastname(), ReadProperties.zip()).isPageOpened());
 
-        CheckoutOverviewPageHW checkoutOverviewPage = new CheckoutOverviewPageHW(driver);
+        CheckoutOverviewPage checkoutOverviewPage = new CheckoutOverviewPage(driver);
         checkoutOverviewPage.getFinishCheckoutButton().click();
 
-        CheckoutCompletePageHW checkoutCompletePage =new CheckoutCompletePageHW(driver);
+        CheckoutCompletePage checkoutCompletePage =new CheckoutCompletePage(driver);
         checkoutCompletePage.getBackHomeButton().click();
-        Assert.assertTrue(new ProductsPageHW(driver).isPageOpened());
+        Assert.assertTrue(new ProductsPage(driver).isPageOpened());
     }
 }
