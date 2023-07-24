@@ -4,8 +4,11 @@ import baseEntities.BasePage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeMethod;
 import utils.configuration.ReadProperties;
+
+import java.time.Duration;
 
 public class LoginPage extends BasePage {
 
@@ -20,6 +23,7 @@ public class LoginPage extends BasePage {
     public LoginPage(WebDriver driver){
 
         super(driver);
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
     }
 
     @Override
@@ -29,7 +33,7 @@ public class LoginPage extends BasePage {
     //блок атомарных методов
 
     public WebElement getEmailInput() {
-        return driver.findElement(emailInputLocator);
+        return waitService.waitForExists(emailInputLocator);
     }
 
     public WebElement getPswInput() {

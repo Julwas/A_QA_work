@@ -37,8 +37,11 @@ public class BrowserFactory {
     }
 
     public WebDriver getDriver() {
-        driver.manage().window().maximize();
+        driver.manage().window().maximize();// принудительное развертывание окна браузера на макс
+        // driver.manage().window().fullscreen(); // исчезают все эл-ты управления
         driver.manage().deleteAllCookies();
+        //driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 
         return this.driver;
     }
