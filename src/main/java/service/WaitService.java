@@ -3,13 +3,12 @@ package service;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedCondition;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.support.ui.*;
 import utils.configuration.ReadProperties;
 
 import java.time.Duration;
 import java.util.List;
+import java.util.NoSuchElementException;
 
 public class WaitService {
     private WebDriverWait wait;
@@ -37,6 +36,15 @@ public class WaitService {
 
     public List<WebElement> waitForAllVisibleElementsLocatedBy(By locator) {
         return wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(locator));
-}
+    }
+    public WebElement fluentWaitForElement(By locator) {
+        Wait<WebDriver> fluent = new FluentWait<>(driver)
+                .withTimeout(Duration.ofSeconds(30))//возврвщвет таймаут експшен через 30
+                .pollingEvery(Duration.ofMillis(50))
+                .ignoring(NoSuchElementException.class);
+
+        return fluent.until(driverItem -> driverItem.findElement(locator));//ф-я с пом драйвера исчет элемент на основании локатора
+    }
+
 
 }
