@@ -23,6 +23,7 @@ public class LoginPage extends BasePage {
     public LoginPage(WebDriver driver){
 
         super(driver);
+
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
     }
 
@@ -37,14 +38,18 @@ public class LoginPage extends BasePage {
     }
 
     public WebElement getPswInput() {
-        return driver.findElement(pswInputLocator);
+        return waitService.waitForExists(pswInputLocator);
+    }
+
+    public boolean isPswInputDisplayed() {
+        return waitService.waitForVisibility(getPswInput()).isDisplayed();
     }
 
     public WebElement getLogInButton() {
         return driver.findElement(logInButtonLocator);
     }
 
-    public void setEmail(String value){
+    public void setEmail(String value) {
         getEmailInput().sendKeys(value);
     }
 

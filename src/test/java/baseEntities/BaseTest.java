@@ -4,8 +4,6 @@ import factory.BrowserFactory;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-import steps.LoginStep;
-import utils.configuration.ReadProperties;
 
 public class BaseTest {
     protected WebDriver driver;
@@ -25,8 +23,4 @@ public class BaseTest {
     public void tearDown() {
         driver.quit();
     }
-
-}
-
-
 }

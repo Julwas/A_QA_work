@@ -1,6 +1,5 @@
 package testes;
 
-import Steps.LoginStep;
 import baseEntities.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;

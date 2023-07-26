@@ -41,7 +41,7 @@ public class BrowserFactory {
         // driver.manage().window().fullscreen(); // исчезают все эл-ты управления
         driver.manage().deleteAllCookies();
         //driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(0));
 
         return this.driver;
     }

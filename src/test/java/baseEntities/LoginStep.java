@@ -1,4 +1,4 @@
-package Steps;
+package baseEntities;
 
 import baseEntities.BaseStep;
 import org.openqa.selenium.WebDriver;

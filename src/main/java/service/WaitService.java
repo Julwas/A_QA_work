@@ -25,7 +25,7 @@ public class WaitService {
     }
 
     public WebElement waitForExists(By locator){
-        return wait.until(ExpectedConditions.presenceOfElementLocated(locator));
+        return wait.until(ExpectedConditions.presenceOfElementLocated(locator));//заменяем драйвер findelement
     }
     public WebElement waitForVisibility(WebElement element) {
         return wait.until(ExpectedConditions.visibilityOf(element));
@@ -33,18 +33,18 @@ public class WaitService {
     public WebElement waitForVisibilityLocatedBy(By locator) {
         return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
     }
-
     public List<WebElement> waitForAllVisibleElementsLocatedBy(By locator) {
-        return wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(locator));
-    }
+        return wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(locator));}
+
+    public Boolean waitForElementInvisible(WebElement element) {
+        return wait.until(ExpectedConditions.invisibilityOf(element));}
+
     public WebElement fluentWaitForElement(By locator) {
         Wait<WebDriver> fluent = new FluentWait<>(driver)
                 .withTimeout(Duration.ofSeconds(30))//возврвщвет таймаут експшен через 30
-                .pollingEvery(Duration.ofMillis(50))
+                .pollingEvery(Duration.ofMillis(50))// время(через) проверки условия
                 .ignoring(NoSuchElementException.class);
 
         return fluent.until(driverItem -> driverItem.findElement(locator));//ф-я с пом драйвера исчет элемент на основании локатора
     }
-
-
 }
