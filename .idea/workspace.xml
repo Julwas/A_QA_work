@@ -125,11 +125,40 @@
       <recent name="factory" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.BasicLocatorsTest_hw.basicLocatorsTest_hw">
+  <component name="RunManager" selected="TestNG.BasicLocatorsTest_hw">
     <configuration name="BasicLocatorsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA21onl" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="BasicLocatorsTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasicLocatorsTest.basicLocatorsTest_2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AQA21onl" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BasicLocatorsTest" />
+      <option name="METHOD_NAME" value="basicLocatorsTest_2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasicLocatorsTest_hw" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AQA21onl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="helper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="helper" />
+      <option name="MAIN_CLASS_NAME" value="helper.BasicLocatorsTest_hw" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -148,30 +177,6 @@
       <option name="PACKAGE_NAME" value="helper" />
       <option name="MAIN_CLASS_NAME" value="helper.BasicLocatorsTest_hw" />
       <option name="METHOD_NAME" value="basicLocatorsTest_hw" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CssSelectorsTest.cssSelectorsTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AQA21onl" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CssSelectorsTest" />
-      <option name="METHOD_NAME" value="cssSelectorsTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CssSelectorsTest.cssSelectorsTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AQA21" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CssSelectorsTest" />
-      <option name="METHOD_NAME" value="cssSelectorsTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -198,19 +203,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="TestNG.BasicLocatorsTest.basicLocatorsTest_2" />
+      <item itemvalue="TestNG.BasicLocatorsTest_hw" />
       <item itemvalue="TestNG.BasicLocatorsTest_hw.basicLocatorsTest_hw" />
       <item itemvalue="TestNG.BasicLocatorsTest" />
-      <item itemvalue="TestNG.CssSelectorsTest.cssSelectorsTest" />
-      <item itemvalue="TestNG.CssSelectorsTest.cssSelectorsTest (1)" />
       <item itemvalue="TestNG.XpathLocatorsTest.basicXpathLocatorsTest (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.BasicLocatorsTest_hw.basicLocatorsTest_hw" />
+        <item itemvalue="TestNG.BasicLocatorsTest_hw" />
         <item itemvalue="TestNG.BasicLocatorsTest" />
+        <item itemvalue="TestNG.BasicLocatorsTest.basicLocatorsTest_2" />
+        <item itemvalue="TestNG.BasicLocatorsTest_hw.basicLocatorsTest_hw" />
         <item itemvalue="TestNG.XpathLocatorsTest.basicXpathLocatorsTest (1)" />
-        <item itemvalue="TestNG.CssSelectorsTest.cssSelectorsTest (1)" />
-        <item itemvalue="TestNG.CssSelectorsTest.cssSelectorsTest" />
       </list>
     </recent_temporary>
   </component>
