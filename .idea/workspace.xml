@@ -7,10 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d77c945-0099-49b3-afda-8efe4673f3e4" name="Changes" comment="kw waitservice">
+    <list default="true" id="8d77c945-0099-49b3-afda-8efe4673f3e4" name="Changes" comment="uploadFileTest">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testes/ActionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testes/ActionTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testes/ActionTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testes/ActionTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -516,7 +514,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690233646219</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="uploadFileTest">
+      <created>1690550009852</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1690550009852</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -543,15 +548,16 @@
     <MESSAGE value="cw" />
     <MESSAGE value="workspace" />
     <MESSAGE value="kw waitservice" />
-    <option name="LAST_COMMIT_MESSAGE" value="kw waitservice" />
+    <MESSAGE value="uploadFileTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="uploadFileTest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/testes/ActionTests.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="26" />
+          <line>42</line>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
