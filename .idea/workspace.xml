@@ -7,8 +7,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d77c945-0099-49b3-afda-8efe4673f3e4" name="Changes" comment="removed and corrected JUnit">
+    <list default="true" id="8d77c945-0099-49b3-afda-8efe4673f3e4" name="Changes" comment="c">
+      <change afterPath="$PROJECT_DIR$/src/test/java/data/Locattors_hw.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/factory/BrowserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/BrowserFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BasicLocatorsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/data/BasicLocatorsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CssSelectorsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/data/CssSelectorsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Listener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Retry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/factory/BrowserFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/factory/BrowserFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/BasicLocatorsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CssSelectorsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Listener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Retry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/config.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +54,7 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Selenium_wd" />
+        <entry key="$PROJECT_DIR$" value="Locators" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -124,35 +137,12 @@
       <recent name="factory" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.BasicLocatorsTest">
+  <component name="RunManager" selected="TestNG.Locattors_hw.BasicLocatorsHW">
     <configuration name="BasicLocatorsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA21onl" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BasicLocatorsTest" />
+      <option name="MAIN_CLASS_NAME" value="data.BasicLocatorsTest" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CssSelectorsTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AQA21" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CssSelectorsTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CssSelectorsTest.cssSelectorsTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AQA21onl" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CssSelectorsTest" />
-      <option name="METHOD_NAME" value="cssSelectorsTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -162,8 +152,38 @@
     <configuration name="CssSelectorsTest.cssSelectorsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA21" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CssSelectorsTest" />
+      <option name="MAIN_CLASS_NAME" value="data.CssSelectorsTest" />
       <option name="METHOD_NAME" value="cssSelectorsTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CssSelectorsTest.cssSelectorsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AQA21onl" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="data.CssSelectorsTest" />
+      <option name="METHOD_NAME" value="cssSelectorsTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Locattors_hw.BasicLocatorsHW" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AQA21onl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="data" />
+      <option name="MAIN_CLASS_NAME" value="data.Locattors_hw" />
+      <option name="METHOD_NAME" value="BasicLocatorsHW" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -190,19 +210,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="TestNG.Locattors_hw.BasicLocatorsHW" />
       <item itemvalue="TestNG.BasicLocatorsTest" />
-      <item itemvalue="TestNG.CssSelectorsTest" />
       <item itemvalue="TestNG.CssSelectorsTest.cssSelectorsTest" />
       <item itemvalue="TestNG.CssSelectorsTest.cssSelectorsTest (1)" />
       <item itemvalue="TestNG.XpathLocatorsTest.basicXpathLocatorsTest (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Locattors_hw.BasicLocatorsHW" />
         <item itemvalue="TestNG.BasicLocatorsTest" />
         <item itemvalue="TestNG.XpathLocatorsTest.basicXpathLocatorsTest (1)" />
         <item itemvalue="TestNG.CssSelectorsTest.cssSelectorsTest (1)" />
         <item itemvalue="TestNG.CssSelectorsTest.cssSelectorsTest" />
-        <item itemvalue="TestNG.CssSelectorsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -439,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689331183796</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="c">
+      <created>1690553746792</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1690553746792</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -463,18 +490,10 @@
     <MESSAGE value="Commit reformat code" />
     <MESSAGE value="retry and listener" />
     <MESSAGE value="removed and corrected JUnit" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed and corrected JUnit" />
+    <MESSAGE value="c" />
+    <option name="LAST_COMMIT_MESSAGE" value="c" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/CssSelectorsTest.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="TestNG">
         <watch expression="driver" language="JAVA" />

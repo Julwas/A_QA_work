@@ -1,3 +1,5 @@
+package data;
+
 import factory.BrowserFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -18,6 +20,7 @@ public class BasicLocatorsTest {
     public void tearDown() {// сloses the browser in case of an error
         driver.quit();
     }
+
 
     @Test
     public void basicLocatorsTest(){

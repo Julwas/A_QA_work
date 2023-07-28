@@ -1,3 +1,5 @@
+package data;
+
 import factory.BrowserFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
