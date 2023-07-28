@@ -8,21 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d77c945-0099-49b3-afda-8efe4673f3e4" name="Changes" comment="kw waitservice">
-      <change afterPath="$PROJECT_DIR$/src/test/java/testes/ActionTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testes/AlertTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testes/FrameTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testes/JSTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testes/WaitsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/download.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/factory/BrowserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/BrowserFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/WaitService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/WaitService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/LoginStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseEntities/LoginStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/baseEntities/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseEntities/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testes/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testes/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/factory/BrowserFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/factory/BrowserFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/service/WaitService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/service/WaitService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testes/ActionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testes/ActionTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testes/ActionTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testes/ActionTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +129,7 @@
       <recent name="factory" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ActionTests">
+  <component name="RunManager" selected="TestNG.ActionTests.uploadFileTest">
     <configuration name="ActionTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA21onl" />
       <extension name="coverage">
@@ -153,6 +141,24 @@
       <option name="PACKAGE_NAME" value="testes" />
       <option name="MAIN_CLASS_NAME" value="testes.ActionTests" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ActionTests.uploadFileTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AQA21onl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testes" />
+      <option name="MAIN_CLASS_NAME" value="testes.ActionTests" />
+      <option name="METHOD_NAME" value="uploadFileTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -211,38 +217,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WaitsTest.presenceOfElementWaitTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AQA21onl" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testes" />
-      <option name="MAIN_CLASS_NAME" value="testes.WaitsTest" />
-      <option name="METHOD_NAME" value="presenceOfElementWaitTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="TestNG.ActionTests.uploadFileTest" />
       <item itemvalue="TestNG.ActionTests" />
       <item itemvalue="TestNG.AlertTests.promptAlertTest" />
       <item itemvalue="TestNG.FrameTests" />
       <item itemvalue="TestNG.JSTests" />
-      <item itemvalue="TestNG.WaitsTest.presenceOfElementWaitTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ActionTests.uploadFileTest" />
         <item itemvalue="TestNG.ActionTests" />
         <item itemvalue="TestNG.AlertTests.promptAlertTest" />
         <item itemvalue="TestNG.JSTests" />
         <item itemvalue="TestNG.FrameTests" />
-        <item itemvalue="TestNG.WaitsTest.presenceOfElementWaitTest" />
       </list>
     </recent_temporary>
   </component>
@@ -558,6 +546,15 @@
     <option name="LAST_COMMIT_MESSAGE" value="kw waitservice" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/testes/ActionTests.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="TestNG">
         <watch expression="driver" language="JAVA" />

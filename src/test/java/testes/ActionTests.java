@@ -2,7 +2,6 @@ package testes;
 
 import baseEntities.BaseTest;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
@@ -28,7 +27,7 @@ public class ActionTests extends BaseTest {
                 .click(waitService.waitForVisibilityLocatedBy(By.cssSelector("[href='/users/1']"))) //ждем нахождение локализации
                 .build()  // собрать
                 .perform(); //выполнить
-
+//.moveToElement(targetElements.get(0), 10, 10.click(driver.findElement(By.cssSelector("[href='/users/1']"))).build().perform();
         Assert.assertTrue(waitService.waitForElementInvisible(targetElements.get(0)));//подождать что исчезнет
     }
     @Test
@@ -39,6 +38,7 @@ public class ActionTests extends BaseTest {
 
         WebElement fileUploadElement = waitService.waitForExists(By.xpath("//form/input[@type='file']"));
         String pathToFile = ActionTests.class.getClassLoader().getResource("download.jpeg").getPath();
+
         System.out.println(pathToFile);
         fileUploadElement.sendKeys(pathToFile);
 
