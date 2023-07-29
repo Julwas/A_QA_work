@@ -7,22 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d77c945-0099-49b3-afda-8efe4673f3e4" name="Changes" comment="c">
-      <change afterPath="$PROJECT_DIR$/src/test/java/data/Locattors_hw.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/factory/BrowserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/BrowserFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BasicLocatorsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/data/BasicLocatorsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CssSelectorsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/data/CssSelectorsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Listener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Retry.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/factory/BrowserFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/factory/BrowserFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/BasicLocatorsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CssSelectorsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Listener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Retry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/config.properties" afterDir="false" />
-    </list>
+    <list default="true" id="8d77c945-0099-49b3-afda-8efe4673f3e4" name="Changes" comment="basicLocT" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -213,7 +198,6 @@
       <item itemvalue="TestNG.Locattors_hw.BasicLocatorsHW" />
       <item itemvalue="TestNG.BasicLocatorsTest" />
       <item itemvalue="TestNG.CssSelectorsTest.cssSelectorsTest" />
-      <item itemvalue="TestNG.CssSelectorsTest.cssSelectorsTest (1)" />
       <item itemvalue="TestNG.XpathLocatorsTest.basicXpathLocatorsTest (1)" />
     </list>
     <recent_temporary>
@@ -221,7 +205,6 @@
         <item itemvalue="TestNG.Locattors_hw.BasicLocatorsHW" />
         <item itemvalue="TestNG.BasicLocatorsTest" />
         <item itemvalue="TestNG.XpathLocatorsTest.basicXpathLocatorsTest (1)" />
-        <item itemvalue="TestNG.CssSelectorsTest.cssSelectorsTest (1)" />
         <item itemvalue="TestNG.CssSelectorsTest.cssSelectorsTest" />
       </list>
     </recent_temporary>
@@ -466,7 +449,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690553746792</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="basicLocT">
+      <created>1690581710309</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1690581710309</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -491,7 +481,8 @@
     <MESSAGE value="retry and listener" />
     <MESSAGE value="removed and corrected JUnit" />
     <MESSAGE value="c" />
-    <option name="LAST_COMMIT_MESSAGE" value="c" />
+    <MESSAGE value="basicLocT" />
+    <option name="LAST_COMMIT_MESSAGE" value="basicLocT" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

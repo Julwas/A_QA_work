@@ -36,10 +36,6 @@ public class Locattors_hw {
         driver.findElement(By.linkText("See conditions")).click();
         // Find webElement by PartialLinkText
         driver.findElement(By.partialLinkText("conditions")).click();
-
-
-
-
     }
 
 }
