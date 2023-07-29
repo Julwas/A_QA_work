@@ -41,6 +41,7 @@ public class Locators_hw {
     public void cssSelectorsTestHW() throws InterruptedException {
 
         driver.get(ReadProperties.getUrl());
+
         Thread.sleep(5000);
         // Поиск по id
         Assert.assertTrue(driver.findElement(By.cssSelector("#date_date_depart")).isDisplayed());
@@ -90,40 +91,41 @@ public class Locators_hw {
         Assert.assertEquals(2, driver.findElements(By.cssSelector("li:nth-child(12)")).size());
     }
     @Test
-    public void basicXpathLocatorsTestHW() {
+    public void basicXpathLocatorsTestHW() throws InterruptedException {
         driver.get(ReadProperties.getUrl());
 
-        // Абсолютный xpath nie urzywamy zazwyczaj
+        Thread.sleep(5000);
+
         Assert.assertTrue(driver.findElement(By.xpath("/html/body/div[2]/main/section[4]/p")).isDisplayed());
-        // Все элементы на странице начина с HTML
         driver.findElements(By.xpath("//*"));
-        // Аналог поиска по tagName
         Assert.assertTrue(driver.findElement(By.xpath("//h2")).isDisplayed());
-        // Аналог родительского div и на один уровень ниже h2
         Assert.assertTrue(driver.findElement(By.xpath("//div/h2")).isDisplayed());
-        // Аналог родительского div и на любом уровене ниже form
         Assert.assertTrue(driver.findElement(By.xpath("//div//form")).isDisplayed());
-        // Поиск элемента с тэгом img у которого есть аьттрибут id
-        Assert.assertTrue(driver.findElement(By.xpath("//img[@id]")).isDisplayed());
-        // Поиск элемента у которого есть аттрибут id cо значением top-logo
-        Assert.assertTrue(driver.findElement(By.xpath("//*[@id = 'interaction-studio-destinations-hotels']")).isDisplayed());
-        // Поиск элемента у которого есть аттрибут method cо значением и aттрибут target со значением
+        Assert.assertTrue(driver.findElement(By.xpath("//main[@id]")).isDisplayed());
+        Assert.assertTrue(driver.findElement(By.xpath("//*[@id = 'main']")).isDisplayed());
         Assert.assertTrue(driver.findElement(By.xpath("//*[@method='post' and @autocomplete='off']")).isDisplayed());
-
-        // Поиск элемента у которого значение аттрибута начинается с
         Assert.assertTrue(driver.findElement(By.xpath("//*[starts-with(@id, 'new')]")).isDisplayed());
+        Assert.assertTrue(driver.findElement(By.xpath("//*[contains(@id, 'main')]")).isDisplayed());
+        Assert.assertTrue(driver.findElement(By.xpath("//h2[text() ='Exclusive offers']")).isDisplayed());
+        Assert.assertTrue(driver.findElement(By.xpath("//*[. ='Email (eg name@domain.com)']")).isDisplayed());
+        Assert.assertTrue(driver.findElement(By.xpath("//*[contains(text(), 'Sign up to our ')]")).isDisplayed());
+        Assert.assertTrue(driver.findElement(By.xpath("//section[@class = 'offers boxDefault']/h2[1]")).isDisplayed());
+    }
+    @Test
+    public void axesXPath_HW() throws InterruptedException {
+        driver.get(ReadProperties.getUrl());
 
-        // Поиск элемента у которого значение аттрибута содержит подстроку
-        Assert.assertTrue(driver.findElement(By.xpath("//div[contains(@id, 'Template')]")).isDisplayed());
+        Thread.sleep(5000);
 
-        // Поиск элемента у которого текстовое значение содержит равно
-        Assert.assertTrue(driver.findElement(By.xpath("//div[text() = 'All Projects']")).isDisplayed());
-        Assert.assertTrue(driver.findElement(By.xpath("//*[. = 'Todos']")).isDisplayed());
+        Assert.assertTrue(driver.findElement(By.xpath("//iframe/..")).isDisplayed());
+        Assert.assertTrue(driver.findElement(By.xpath("//div/parent::header")).isDisplayed());
+        Assert.assertTrue(driver.findElement(By.xpath("//div/ancestor::header")).isDisplayed());
+        Assert.assertTrue(driver.findElement(By.xpath("//nav/child::ul")).isDisplayed());
+        Assert.assertTrue(driver.findElement(By.xpath("//div/descendant::nav")).isDisplayed());
+        Assert.assertTrue(driver.findElement(By.xpath("//*[@class='mainBlock']/following::h2")).isDisplayed());
+        Assert.assertTrue(driver.findElement(By.xpath("//*[@class='bookingEngine boxDefault']/following-sibling::section")).isDisplayed());
+        Assert.assertTrue(driver.findElement(By.xpath("//*[@class='helper']/preceding::p")).isDisplayed());
+        Assert.assertTrue(driver.findElement(By.xpath("//*[@id='bookingEngine']/preceding-sibling::div")).isDisplayed());
 
-        // Поиск элемента у которого текстовое значение содержит подстроку
-        Assert.assertTrue(driver.findElement(By.xpath("//*[contains(text(), 'All Projects')]")).isDisplayed());
-
-        // Поиск элемента по индексу
-        Assert.assertTrue(driver.findElement(By.xpath("//div[@class = 'summary-links text-secondary']/a[2]")).isDisplayed());
     }
 }

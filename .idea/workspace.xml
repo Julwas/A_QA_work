@@ -7,10 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d77c945-0099-49b3-afda-8efe4673f3e4" name="Changes" comment="basicLocT">
+    <list default="true" id="8d77c945-0099-49b3-afda-8efe4673f3e4" name="Changes" comment="xpt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/data/Locattors_hw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/data/Locators_hw.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/data/Locattors_hw.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/data/Locattors_hw.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/data/Locators_hw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/data/Locators_hw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/data/Locattors_hw.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,24 +126,12 @@
       <recent name="factory" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.Locators_hw.axesXPath_HW">
     <configuration name="BasicLocatorsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA21onl" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="data.BasicLocatorsTest" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CssSelectorsTest.cssSelectorsTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AQA21" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="data.CssSelectorsTest" />
-      <option name="METHOD_NAME" value="cssSelectorsTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -180,6 +168,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Locators_hw.axesXPath_HW" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AQA21onl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="data" />
+      <option name="MAIN_CLASS_NAME" value="data.Locators_hw" />
+      <option name="METHOD_NAME" value="axesXPath_HW" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Locators_hw.basicXpathLocatorsTestHW" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AQA21onl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="data" />
+      <option name="MAIN_CLASS_NAME" value="data.Locators_hw" />
+      <option name="METHOD_NAME" value="basicXpathLocatorsTestHW" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Locators_hw.cssSelectorsTestHW" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA21onl" />
       <extension name="coverage">
@@ -198,38 +222,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XpathLocatorsTest.basicXpathLocatorsTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AQA21onl" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="data.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="data" />
-      <option name="MAIN_CLASS_NAME" value="data.XpathLocatorsTest" />
-      <option name="METHOD_NAME" value="basicXpathLocatorsTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="TestNG.Locators_hw.BasicLocatorsHW" />
+      <item itemvalue="TestNG.Locators_hw.axesXPath_HW" />
+      <item itemvalue="TestNG.Locators_hw.basicXpathLocatorsTestHW" />
       <item itemvalue="TestNG.Locators_hw.cssSelectorsTestHW" />
       <item itemvalue="TestNG.BasicLocatorsTest" />
-      <item itemvalue="TestNG.CssSelectorsTest.cssSelectorsTest" />
-      <item itemvalue="TestNG.XpathLocatorsTest.basicXpathLocatorsTest (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Locators_hw.axesXPath_HW" />
+        <item itemvalue="TestNG.Locators_hw.basicXpathLocatorsTestHW" />
         <item itemvalue="TestNG.Locators_hw.BasicLocatorsHW" />
         <item itemvalue="TestNG.Locators_hw.cssSelectorsTestHW" />
         <item itemvalue="TestNG.BasicLocatorsTest" />
-        <item itemvalue="TestNG.XpathLocatorsTest.basicXpathLocatorsTest (1)" />
-        <item itemvalue="TestNG.CssSelectorsTest.cssSelectorsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -508,7 +514,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690625335199</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="xpt">
+      <created>1690649272659</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1690649272659</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -546,7 +559,8 @@
     <MESSAGE value="removed and corrected JUnit" />
     <MESSAGE value="c" />
     <MESSAGE value="basicLocT" />
-    <option name="LAST_COMMIT_MESSAGE" value="basicLocT" />
+    <MESSAGE value="xpt" />
+    <option name="LAST_COMMIT_MESSAGE" value="xpt" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
