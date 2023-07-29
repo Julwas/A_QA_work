@@ -39,9 +39,9 @@ public class Locattors_hw {
         driver.findElement(By.partialLinkText("conditions")).click();
     }
     @Test
-    public void cssSelectorsTest(){
+    public void cssSelectorsTestHW(){
 
-        driver.get("file:/Users/Sprzetowo/IdeaProjects/AQA21/src/test/resources/index.html");
+        driver.get(ReadProperties.getUrl());
 
         // Поиск по id
         Assert.assertTrue(driver.findElement(By.cssSelector("#my-Address")).isDisplayed());
