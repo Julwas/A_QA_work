@@ -7,41 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d77c945-0099-49b3-afda-8efe4673f3e4" name="Changes" comment="uploadFileTest">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/WaitService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/WaitService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testes/ActionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testes/ActionTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testes/LoginTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testes/NavigationTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testes/SmokeTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testes/TestCaseTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/factory/BrowserFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/service/WaitService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/configuration/ReadProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/LoginTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/baseEntities/BasePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/baseEntities/BaseStep.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/baseEntities/BaseTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/baseEntities/LoginStep.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/download.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/BaseProgectPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/DashBoardPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/LoginPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/SideMenuPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/TopMenuPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testes/ActionTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testes/AlertTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testes/FrameTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testes/JSTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testes/LoginTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testes/NavigationTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testes/SmokeTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testes/TestCaseTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testes/WaitsTest.class" beforeDir="false" />
-    </list>
+    <list default="true" id="8d77c945-0099-49b3-afda-8efe4673f3e4" name="Changes" comment="uploadFileTest" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -553,7 +519,21 @@
       <option name="project" value="LOCAL" />
       <updated>1690550009852</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="uploadFileTest">
+      <created>1690803574815</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1690803574815</updated>
+    </task>
+    <task id="LOCAL-00042" summary="uploadFileTest">
+      <created>1690803584129</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1690803584129</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
