@@ -10,7 +10,7 @@ public class CartPage extends BasePage {
     private final static String pagePath = "cart.html";
 
     //блок описания локаторов
-    private final By headerCartTitleLocator = By.xpath("//*[@id='header_container']/div[2]/span");
+    private final By headerCartTitleLocator = By.xpath("//span[@class='title']");
     private final By checkoutButtonLocator = By.id("checkout");
 
     // Блок инициализации
