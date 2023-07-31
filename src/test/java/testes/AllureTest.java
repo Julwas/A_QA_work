@@ -10,6 +10,7 @@ public class AllureTest {
     public void TestName1(){
         Assert.assertTrue(true);
     }
+
     @Test(description = "Human read")
     public void TestName2(){
         Assert.assertTrue(true);
