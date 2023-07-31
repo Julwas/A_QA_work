@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Surefire test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>7/3/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>9/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Jul 31 12:29:18 CEST 2023</td>
+<td>Started on:</td><td>Mon Jul 31 14:07:30 CEST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>66 seconds (66264 ms)</td>
+<tr><td>Total time:</td><td>70 seconds (70001 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,122 +76,16 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testes.ActionTests.hoverTest()'><b>hoverTest</b><br>Test class: testes.ActionTests</td>
-<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: [href=&apos;/users/1&apos;] (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.19&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\SPRZET~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58314}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58314/devtoo..., se:cdpVersion: 115.0.5790.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: dc6bc998070c3bf80ae52e8601a10ce9
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
-	at service.WaitService.waitForVisibilityLocatedBy(WaitService.java:34)
-	at testes.ActionTests.hoverTest(ActionTests.java:26)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1864007931", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1864007931'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: [href=&apos;/users/1&apos;] (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.19&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\SPRZET~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58314}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58314/devtoo..., se:cdpVersion: 115.0.5790.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: dc6bc998070c3bf80ae52e8601a10ce9
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
-	at service.WaitService.waitForVisibilityLocatedBy(WaitService.java:34)
-	at testes.ActionTests.hoverTest(ActionTests.java:26)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at org.testng.TestRunner.privateRun(TestRunner.java:848)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-	at org.testng.TestNG.runSuites(TestNG.java:1114)
-	at org.testng.TestNG.run(TestNG.java:1082)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
-</pre></div></td>
-<td>11</td>
-<td>testes.ActionTests@6fdbe764</td></tr>
-<tr>
-<td title='testes.WaitsTest.presenceOfElementTest()'><b>presenceOfElementTest</b><br>Test class: testes.WaitsTest</td>
-<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at testes.WaitsTest.presenceOfElementTest(WaitsTest.java:24)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1886186662", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1886186662'><pre>java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at org.testng.Assert.assertTrue(Assert.java:67)
-	at testes.WaitsTest.presenceOfElementTest(WaitsTest.java:24)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at org.testng.TestRunner.privateRun(TestRunner.java:848)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-	at org.testng.TestNG.runSuites(TestNG.java:1114)
-	at org.testng.TestNG.run(TestNG.java:1082)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
-</pre></div></td>
-<td>1</td>
-<td>testes.WaitsTest@52719fb6</td></tr>
-<tr>
 <td title='testes.ActionTests.uploadFileTest()'><b>uploadFileTest</b><br>Test class: testes.ActionTests</td>
 <td><div><pre>org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : /C:/Users/Sprzetowo/IdeaProjects/AQA21/target/test-classes/download.jpeg
   (Session info: chrome=115.0.5790.110)
 Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.19&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e30309724c2bf2b0aaa3e3381ffb4bab, sendKeysToElement {id=89539088E0C39AAC57F8DDA3DD5733D7_element_9, value=[Ljava.lang.CharSequence;@a451491}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\SPRZET~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58336}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58336/devtoo..., se:cdpVersion: 115.0.5790.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (e30309724c2bf2b0aaa3e3381ffb4bab)] -&gt; xpath: //form/input[@type=&apos;file&apos;]]
-Session ID: e30309724c2bf2b0aaa3e3381ffb4bab
+Command: [e8ede8e1b5035142c660ed1e4344ab1d, sendKeysToElement {id=9719FEDC2A65B3A493E9602E7C407B98_element_9, value=[Ljava.lang.CharSequence;@52d97ab6}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\SPRZET~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59221}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59221/devtoo..., se:cdpVersion: 115.0.5790.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e8ede8e1b5035142c660ed1e4344ab1d)] -&gt; xpath: //form/input[@type=&apos;file&apos;]]
+Session ID: e8ede8e1b5035142c660ed1e4344ab1d
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
@@ -203,16 +97,16 @@ Session ID: e30309724c2bf2b0aaa3e3381ffb4bab
 	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:111)
 	at testes.ActionTests.uploadFileTest(ActionTests.java:42)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace337816703", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace337816703'><pre>org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : /C:/Users/Sprzetowo/IdeaProjects/AQA21/target/test-classes/download.jpeg
+... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1302779492", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1302779492'><pre>org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : /C:/Users/Sprzetowo/IdeaProjects/AQA21/target/test-classes/download.jpeg
   (Session info: chrome=115.0.5790.110)
 Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.19&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e30309724c2bf2b0aaa3e3381ffb4bab, sendKeysToElement {id=89539088E0C39AAC57F8DDA3DD5733D7_element_9, value=[Ljava.lang.CharSequence;@a451491}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\SPRZET~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58336}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58336/devtoo..., se:cdpVersion: 115.0.5790.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (e30309724c2bf2b0aaa3e3381ffb4bab)] -&gt; xpath: //form/input[@type=&apos;file&apos;]]
-Session ID: e30309724c2bf2b0aaa3e3381ffb4bab
+Command: [e8ede8e1b5035142c660ed1e4344ab1d, sendKeysToElement {id=9719FEDC2A65B3A493E9602E7C407B98_element_9, value=[Ljava.lang.CharSequence;@52d97ab6}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\SPRZET~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59221}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59221/devtoo..., se:cdpVersion: 115.0.5790.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e8ede8e1b5035142c660ed1e4344ab1d)] -&gt; xpath: //form/input[@type=&apos;file&apos;]]
+Session ID: e8ede8e1b5035142c660ed1e4344ab1d
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -261,7 +155,66 @@ Session ID: e30309724c2bf2b0aaa3e3381ffb4bab
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
 </pre></div></td>
 <td>1</td>
-<td>testes.ActionTests@6fdbe764</td></tr>
+<td>testes.ActionTests@4d5650ae</td></tr>
+<tr>
+<td title='testes.ActionTests.hoverTest()'><b>hoverTest</b><br>Test class: testes.ActionTests</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: [href=&apos;/users/1&apos;] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.19&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\SPRZET~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59199}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59199/devtoo..., se:cdpVersion: 115.0.5790.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e739e7ec9eaa8ef71ed12c0621ce60ff
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at service.WaitService.waitForVisibilityLocatedBy(WaitService.java:37)
+	at testes.ActionTests.hoverTest(ActionTests.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1828559444", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1828559444'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: [href=&apos;/users/1&apos;] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.19&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\SPRZET~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59199}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59199/devtoo..., se:cdpVersion: 115.0.5790.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e739e7ec9eaa8ef71ed12c0621ce60ff
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at service.WaitService.waitForVisibilityLocatedBy(WaitService.java:37)
+	at testes.ActionTests.hoverTest(ActionTests.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+</pre></div></td>
+<td>11</td>
+<td>testes.ActionTests@4d5650ae</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -272,40 +225,50 @@ Session ID: e30309724c2bf2b0aaa3e3381ffb4bab
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testes.AlertTests.infoAlertTest()'><b>infoAlertTest</b><br>Test class: testes.AlertTests</td>
-<td></td>
-<td>1</td>
-<td>testes.AlertTests@51c668e3</td></tr>
-<tr>
 <td title='testes.JSTests.jsTest()'><b>jsTest</b><br>Test class: testes.JSTests</td>
 <td></td>
 <td>6</td>
-<td>testes.JSTests@6221a451</td></tr>
+<td>testes.JSTests@2e6a8155</td></tr>
 <tr>
-<td title='testes.AlertTests.confirmAlertTest()'><b>confirmAlertTest</b><br>Test class: testes.AlertTests</td>
+<td title='testes.Alert2Tests.confirmAlertTest()'><b>confirmAlertTest</b><br>Test class: testes.Alert2Tests</td>
 <td></td>
 <td>4</td>
-<td>testes.AlertTests@51c668e3</td></tr>
+<td>testes.Alert2Tests@a38c7fe</td></tr>
+<tr>
+<td title='testes.AlertTests.infoAlertTest()'><b>infoAlertTest</b><br>Test class: testes.AlertTests</td>
+<td></td>
+<td>1</td>
+<td>testes.AlertTests@6fdbe764</td></tr>
 <tr>
 <td title='testes.JSTests.actionTest1()'><b>actionTest1</b><br>Test class: testes.JSTests</td>
 <td></td>
 <td>7</td>
-<td>testes.JSTests@6221a451</td></tr>
-<tr>
-<td title='testes.WaitsTest.presenceOfElementWaitTest()'><b>presenceOfElementWaitTest</b><br>Test class: testes.WaitsTest</td>
-<td></td>
-<td>6</td>
-<td>testes.WaitsTest@52719fb6</td></tr>
-<tr>
-<td title='testes.FrameTests.frameTest()'><b>frameTest</b><br>Test class: testes.FrameTests</td>
-<td></td>
-<td>1</td>
-<td>testes.FrameTests@2e6a8155</td></tr>
+<td>testes.JSTests@2e6a8155</td></tr>
 <tr>
 <td title='testes.AlertTests.promptAlertTest()'><b>promptAlertTest</b><br>Test class: testes.AlertTests</td>
 <td></td>
 <td>6</td>
-<td>testes.AlertTests@51c668e3</td></tr>
+<td>testes.AlertTests@6fdbe764</td></tr>
+<tr>
+<td title='testes.AlertTests.confirmAlertTest()'><b>confirmAlertTest</b><br>Test class: testes.AlertTests</td>
+<td></td>
+<td>4</td>
+<td>testes.AlertTests@6fdbe764</td></tr>
+<tr>
+<td title='testes.Alert2Tests.infoAlertTest()'><b>infoAlertTest</b><br>Test class: testes.Alert2Tests</td>
+<td></td>
+<td>1</td>
+<td>testes.Alert2Tests@a38c7fe</td></tr>
+<tr>
+<td title='testes.FrameTests.frameTest()'><b>frameTest</b><br>Test class: testes.FrameTests</td>
+<td></td>
+<td>1</td>
+<td>testes.FrameTests@51c668e3</td></tr>
+<tr>
+<td title='testes.Alert2Tests.promptAlertTest()'><b>promptAlertTest</b><br>Test class: testes.Alert2Tests</td>
+<td></td>
+<td>6</td>
+<td>testes.Alert2Tests@a38c7fe</td></tr>
 </table><p>
 </body>
 </html>

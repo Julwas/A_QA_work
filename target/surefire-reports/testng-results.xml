@@ -1,62 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="7" failed="3" skipped="0">
+<testng-results ignored="0" total="11" passed="9" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-31T12:29:18 CEST" name="Surefire suite" finished-at="2023-07-31T12:30:24 CEST" duration-ms="66264">
+  <suite started-at="2023-07-31T14:07:30 CEST" name="Surefire suite" finished-at="2023-07-31T14:08:40 CEST" duration-ms="70001">
     <groups>
     </groups>
-    <test started-at="2023-07-31T12:29:18 CEST" name="Surefire test" finished-at="2023-07-31T12:30:24 CEST" duration-ms="66264">
+    <test started-at="2023-07-31T14:07:30 CEST" name="Surefire test" finished-at="2023-07-31T14:08:40 CEST" duration-ms="70001">
       <class name="testes.JSTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testes.JSTests@6221a451]" started-at="2023-07-31T12:29:57 CEST" name="setUp" finished-at="2023-07-31T12:29:58 CEST" duration-ms="1204" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testes.JSTests@2e6a8155]" started-at="2023-07-31T14:08:24 CEST" name="setUp" finished-at="2023-07-31T14:08:25 CEST" duration-ms="1117" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="actionTest1()[pri:0, instance:testes.JSTests@6221a451]" started-at="2023-07-31T12:29:58 CEST" name="actionTest1" finished-at="2023-07-31T12:30:05 CEST" duration-ms="7320" status="PASS">
+        <test-method signature="actionTest1()[pri:0, instance:testes.JSTests@2e6a8155]" started-at="2023-07-31T14:08:25 CEST" name="actionTest1" finished-at="2023-07-31T14:08:33 CEST" duration-ms="7218" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- actionTest1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testes.JSTests@6221a451]" started-at="2023-07-31T12:30:05 CEST" name="tearDown" finished-at="2023-07-31T12:30:05 CEST" duration-ms="219" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testes.JSTests@2e6a8155]" started-at="2023-07-31T14:08:33 CEST" name="tearDown" finished-at="2023-07-31T14:08:33 CEST" duration-ms="189" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testes.JSTests@6221a451]" started-at="2023-07-31T12:30:05 CEST" name="setUp" finished-at="2023-07-31T12:30:06 CEST" duration-ms="1083" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testes.JSTests@2e6a8155]" started-at="2023-07-31T14:08:33 CEST" name="setUp" finished-at="2023-07-31T14:08:34 CEST" duration-ms="1103" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="jsTest()[pri:0, instance:testes.JSTests@6221a451]" started-at="2023-07-31T12:30:06 CEST" name="jsTest" finished-at="2023-07-31T12:30:13 CEST" duration-ms="6454" status="PASS">
+        <test-method signature="jsTest()[pri:0, instance:testes.JSTests@2e6a8155]" started-at="2023-07-31T14:08:34 CEST" name="jsTest" finished-at="2023-07-31T14:08:40 CEST" duration-ms="6431" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- jsTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testes.JSTests@6221a451]" started-at="2023-07-31T12:30:13 CEST" name="tearDown" finished-at="2023-07-31T12:30:13 CEST" duration-ms="218" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testes.JSTests@2e6a8155]" started-at="2023-07-31T14:08:40 CEST" name="tearDown" finished-at="2023-07-31T14:08:40 CEST" duration-ms="235" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testes.JSTests -->
       <class name="testes.ActionTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testes.ActionTests@6fdbe764]" started-at="2023-07-31T12:29:18 CEST" name="setUp" finished-at="2023-07-31T12:29:22 CEST" duration-ms="4364" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testes.ActionTests@4d5650ae]" started-at="2023-07-31T14:07:31 CEST" name="setUp" finished-at="2023-07-31T14:07:34 CEST" duration-ms="3592" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="hoverTest()[pri:0, instance:testes.ActionTests@6fdbe764]" started-at="2023-07-31T12:29:22 CEST" name="hoverTest" finished-at="2023-07-31T12:29:34 CEST" duration-ms="11872" status="FAIL">
+        <test-method signature="hoverTest()[pri:0, instance:testes.ActionTests@4d5650ae]" started-at="2023-07-31T14:07:34 CEST" name="hoverTest" finished-at="2023-07-31T14:07:46 CEST" duration-ms="11698" status="FAIL">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Expected condition failed: waiting for visibility of element located by By.cssSelector: [href='/users/1'] (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.10.0', revision: 'c14d967899'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\SPRZET~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58314}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58314/devtoo..., se:cdpVersion: 115.0.5790.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: dc6bc998070c3bf80ae52e8601a10ce9]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\SPRZET~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59199}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59199/devtoo..., se:cdpVersion: 115.0.5790.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e739e7ec9eaa8ef71ed12c0621ce60ff]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: [href='/users/1'] (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.10.0', revision: 'c14d967899'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\SPRZET~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58314}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58314/devtoo..., se:cdpVersion: 115.0.5790.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: dc6bc998070c3bf80ae52e8601a10ce9
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\SPRZET~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59199}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59199/devtoo..., se:cdpVersion: 115.0.5790.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e739e7ec9eaa8ef71ed12c0621ce60ff
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
-at service.WaitService.waitForVisibilityLocatedBy(WaitService.java:34)
+at service.WaitService.waitForVisibilityLocatedBy(WaitService.java:37)
 at testes.ActionTests.hoverTest(ActionTests.java:26)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -96,15 +96,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hoverTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testes.ActionTests@6fdbe764]" started-at="2023-07-31T12:29:34 CEST" name="tearDown" finished-at="2023-07-31T12:29:34 CEST" duration-ms="276" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testes.ActionTests@4d5650ae]" started-at="2023-07-31T14:07:46 CEST" name="tearDown" finished-at="2023-07-31T14:07:46 CEST" duration-ms="200" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testes.ActionTests@6fdbe764]" started-at="2023-07-31T12:29:34 CEST" name="setUp" finished-at="2023-07-31T12:29:36 CEST" duration-ms="1224" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testes.ActionTests@4d5650ae]" started-at="2023-07-31T14:07:46 CEST" name="setUp" finished-at="2023-07-31T14:07:47 CEST" duration-ms="1288" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="uploadFileTest()[pri:0, instance:testes.ActionTests@6fdbe764]" started-at="2023-07-31T12:29:36 CEST" name="uploadFileTest" finished-at="2023-07-31T12:29:37 CEST" duration-ms="1272" status="FAIL">
+        <test-method signature="uploadFileTest()[pri:0, instance:testes.ActionTests@4d5650ae]" started-at="2023-07-31T14:07:47 CEST" name="uploadFileTest" finished-at="2023-07-31T14:07:49 CEST" duration-ms="1347" status="FAIL">
           <exception class="org.openqa.selenium.InvalidArgumentException">
             <message>
               <![CDATA[invalid argument: File not found : /C:/Users/Sprzetowo/IdeaProjects/AQA21/target/test-classes/download.jpeg
@@ -112,10 +112,10 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
 Build info: version: '4.10.0', revision: 'c14d967899'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e30309724c2bf2b0aaa3e3381ffb4bab, sendKeysToElement {id=89539088E0C39AAC57F8DDA3DD5733D7_element_9, value=[Ljava.lang.CharSequence;@a451491}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\SPRZET~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58336}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58336/devtoo..., se:cdpVersion: 115.0.5790.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (e30309724c2bf2b0aaa3e3381ffb4bab)] -> xpath: //form/input[@type='file']]
-Session ID: e30309724c2bf2b0aaa3e3381ffb4bab]]>
+Command: [e8ede8e1b5035142c660ed1e4344ab1d, sendKeysToElement {id=9719FEDC2A65B3A493E9602E7C407B98_element_9, value=[Ljava.lang.CharSequence;@52d97ab6}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\SPRZET~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59221}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59221/devtoo..., se:cdpVersion: 115.0.5790.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e8ede8e1b5035142c660ed1e4344ab1d)] -> xpath: //form/input[@type='file']]
+Session ID: e8ede8e1b5035142c660ed1e4344ab1d]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : /C:/Users/Sprzetowo/IdeaProjects/AQA21/target/test-classes/download.jpeg
@@ -123,10 +123,10 @@ Session ID: e30309724c2bf2b0aaa3e3381ffb4bab]]>
 Build info: version: '4.10.0', revision: 'c14d967899'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e30309724c2bf2b0aaa3e3381ffb4bab, sendKeysToElement {id=89539088E0C39AAC57F8DDA3DD5733D7_element_9, value=[Ljava.lang.CharSequence;@a451491}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\SPRZET~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58336}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58336/devtoo..., se:cdpVersion: 115.0.5790.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (e30309724c2bf2b0aaa3e3381ffb4bab)] -> xpath: //form/input[@type='file']]
-Session ID: e30309724c2bf2b0aaa3e3381ffb4bab
+Command: [e8ede8e1b5035142c660ed1e4344ab1d, sendKeysToElement {id=9719FEDC2A65B3A493E9602E7C407B98_element_9, value=[Ljava.lang.CharSequence;@52d97ab6}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\SPRZET~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59221}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59221/devtoo..., se:cdpVersion: 115.0.5790.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e8ede8e1b5035142c660ed1e4344ab1d)] -> xpath: //form/input[@type='file']]
+Session ID: e8ede8e1b5035142c660ed1e4344ab1d
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -179,131 +179,97 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- uploadFileTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testes.ActionTests@6fdbe764]" started-at="2023-07-31T12:29:37 CEST" name="tearDown" finished-at="2023-07-31T12:29:37 CEST" duration-ms="191" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testes.ActionTests@4d5650ae]" started-at="2023-07-31T14:07:49 CEST" name="tearDown" finished-at="2023-07-31T14:07:49 CEST" duration-ms="183" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testes.ActionTests -->
       <class name="testes.AlertTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testes.AlertTests@51c668e3]" started-at="2023-07-31T12:29:37 CEST" name="setUp" finished-at="2023-07-31T12:29:38 CEST" duration-ms="1282" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testes.AlertTests@6fdbe764]" started-at="2023-07-31T14:08:05 CEST" name="setUp" finished-at="2023-07-31T14:08:06 CEST" duration-ms="1236" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="confirmAlertTest()[pri:0, instance:testes.AlertTests@51c668e3]" started-at="2023-07-31T12:29:38 CEST" name="confirmAlertTest" finished-at="2023-07-31T12:29:43 CEST" duration-ms="4292" status="PASS">
+        <test-method signature="confirmAlertTest()[pri:0, instance:testes.AlertTests@6fdbe764]" started-at="2023-07-31T14:08:06 CEST" name="confirmAlertTest" finished-at="2023-07-31T14:08:10 CEST" duration-ms="4264" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- confirmAlertTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testes.AlertTests@51c668e3]" started-at="2023-07-31T12:29:43 CEST" name="tearDown" finished-at="2023-07-31T12:29:43 CEST" duration-ms="251" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testes.AlertTests@6fdbe764]" started-at="2023-07-31T14:08:10 CEST" name="tearDown" finished-at="2023-07-31T14:08:11 CEST" duration-ms="200" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testes.AlertTests@51c668e3]" started-at="2023-07-31T12:29:43 CEST" name="setUp" finished-at="2023-07-31T12:29:44 CEST" duration-ms="1473" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testes.AlertTests@6fdbe764]" started-at="2023-07-31T14:08:11 CEST" name="setUp" finished-at="2023-07-31T14:08:12 CEST" duration-ms="1189" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="infoAlertTest()[pri:0, instance:testes.AlertTests@51c668e3]" started-at="2023-07-31T12:29:44 CEST" name="infoAlertTest" finished-at="2023-07-31T12:29:46 CEST" duration-ms="1324" status="PASS">
+        <test-method signature="infoAlertTest()[pri:0, instance:testes.AlertTests@6fdbe764]" started-at="2023-07-31T14:08:12 CEST" name="infoAlertTest" finished-at="2023-07-31T14:08:13 CEST" duration-ms="1294" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- infoAlertTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testes.AlertTests@51c668e3]" started-at="2023-07-31T12:29:46 CEST" name="tearDown" finished-at="2023-07-31T12:29:46 CEST" duration-ms="198" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testes.AlertTests@6fdbe764]" started-at="2023-07-31T14:08:13 CEST" name="tearDown" finished-at="2023-07-31T14:08:13 CEST" duration-ms="259" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testes.AlertTests@51c668e3]" started-at="2023-07-31T12:29:46 CEST" name="setUp" finished-at="2023-07-31T12:29:47 CEST" duration-ms="1168" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testes.AlertTests@6fdbe764]" started-at="2023-07-31T14:08:13 CEST" name="setUp" finished-at="2023-07-31T14:08:15 CEST" duration-ms="1207" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="promptAlertTest()[pri:0, instance:testes.AlertTests@51c668e3]" started-at="2023-07-31T12:29:47 CEST" name="promptAlertTest" finished-at="2023-07-31T12:29:53 CEST" duration-ms="6252" status="PASS">
+        <test-method signature="promptAlertTest()[pri:0, instance:testes.AlertTests@6fdbe764]" started-at="2023-07-31T14:08:15 CEST" name="promptAlertTest" finished-at="2023-07-31T14:08:21 CEST" duration-ms="6255" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- promptAlertTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testes.AlertTests@51c668e3]" started-at="2023-07-31T12:29:53 CEST" name="tearDown" finished-at="2023-07-31T12:29:53 CEST" duration-ms="216" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testes.AlertTests@6fdbe764]" started-at="2023-07-31T14:08:21 CEST" name="tearDown" finished-at="2023-07-31T14:08:21 CEST" duration-ms="236" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testes.AlertTests -->
-      <class name="testes.WaitsTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testes.WaitsTest@52719fb6]" started-at="2023-07-31T12:30:13 CEST" name="setUp" finished-at="2023-07-31T12:30:14 CEST" duration-ms="1177" status="PASS">
+      <class name="testes.Alert2Tests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testes.Alert2Tests@a38c7fe]" started-at="2023-07-31T14:07:49 CEST" name="setUp" finished-at="2023-07-31T14:07:50 CEST" duration-ms="1104" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="presenceOfElementTest()[pri:0, instance:testes.WaitsTest@52719fb6]" started-at="2023-07-31T12:30:14 CEST" name="presenceOfElementTest" finished-at="2023-07-31T12:30:16 CEST" duration-ms="1330" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at org.testng.Assert.assertTrue(Assert.java:67)
-at testes.WaitsTest.presenceOfElementTest(WaitsTest.java:24)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="confirmAlertTest()[pri:0, instance:testes.Alert2Tests@a38c7fe]" started-at="2023-07-31T14:07:50 CEST" name="confirmAlertTest" finished-at="2023-07-31T14:07:54 CEST" duration-ms="4237" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- presenceOfElementTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testes.WaitsTest@52719fb6]" started-at="2023-07-31T12:30:16 CEST" name="tearDown" finished-at="2023-07-31T12:30:16 CEST" duration-ms="526" status="PASS">
+        </test-method> <!-- confirmAlertTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testes.Alert2Tests@a38c7fe]" started-at="2023-07-31T14:07:54 CEST" name="tearDown" finished-at="2023-07-31T14:07:54 CEST" duration-ms="191" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testes.WaitsTest@52719fb6]" started-at="2023-07-31T12:30:16 CEST" name="setUp" finished-at="2023-07-31T12:30:17 CEST" duration-ms="1073" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testes.Alert2Tests@a38c7fe]" started-at="2023-07-31T14:07:54 CEST" name="setUp" finished-at="2023-07-31T14:07:56 CEST" duration-ms="1197" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="presenceOfElementWaitTest()[pri:0, instance:testes.WaitsTest@52719fb6]" started-at="2023-07-31T12:30:17 CEST" name="presenceOfElementWaitTest" finished-at="2023-07-31T12:30:24 CEST" duration-ms="6611" status="PASS">
+        <test-method signature="infoAlertTest()[pri:0, instance:testes.Alert2Tests@a38c7fe]" started-at="2023-07-31T14:07:56 CEST" name="infoAlertTest" finished-at="2023-07-31T14:07:57 CEST" duration-ms="1279" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- presenceOfElementWaitTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testes.WaitsTest@52719fb6]" started-at="2023-07-31T12:30:24 CEST" name="tearDown" finished-at="2023-07-31T12:30:24 CEST" duration-ms="237" status="PASS">
+        </test-method> <!-- infoAlertTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testes.Alert2Tests@a38c7fe]" started-at="2023-07-31T14:07:57 CEST" name="tearDown" finished-at="2023-07-31T14:07:57 CEST" duration-ms="195" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testes.WaitsTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testes.Alert2Tests@a38c7fe]" started-at="2023-07-31T14:07:57 CEST" name="setUp" finished-at="2023-07-31T14:07:58 CEST" duration-ms="1337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="promptAlertTest()[pri:0, instance:testes.Alert2Tests@a38c7fe]" started-at="2023-07-31T14:07:58 CEST" name="promptAlertTest" finished-at="2023-07-31T14:08:05 CEST" duration-ms="6270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- promptAlertTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testes.Alert2Tests@a38c7fe]" started-at="2023-07-31T14:08:05 CEST" name="tearDown" finished-at="2023-07-31T14:08:05 CEST" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testes.Alert2Tests -->
       <class name="testes.FrameTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testes.FrameTests@2e6a8155]" started-at="2023-07-31T12:29:53 CEST" name="setUp" finished-at="2023-07-31T12:29:55 CEST" duration-ms="1149" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testes.FrameTests@51c668e3]" started-at="2023-07-31T14:08:21 CEST" name="setUp" finished-at="2023-07-31T14:08:22 CEST" duration-ms="1206" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="frameTest()[pri:0, instance:testes.FrameTests@2e6a8155]" started-at="2023-07-31T12:29:55 CEST" name="frameTest" finished-at="2023-07-31T12:29:56 CEST" duration-ms="1708" status="PASS">
+        <test-method signature="frameTest()[pri:0, instance:testes.FrameTests@51c668e3]" started-at="2023-07-31T14:08:22 CEST" name="frameTest" finished-at="2023-07-31T14:08:24 CEST" duration-ms="1719" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- frameTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testes.FrameTests@2e6a8155]" started-at="2023-07-31T12:29:56 CEST" name="tearDown" finished-at="2023-07-31T12:29:57 CEST" duration-ms="171" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testes.FrameTests@51c668e3]" started-at="2023-07-31T14:08:24 CEST" name="tearDown" finished-at="2023-07-31T14:08:24 CEST" duration-ms="219" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

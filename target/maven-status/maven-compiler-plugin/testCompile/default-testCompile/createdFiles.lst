@@ -6,9 +6,9 @@ testes\AlertTests.class
 testes\FrameTests.class
 pages\SideMenuPage.class
 testes\JSTests.class
-testes\WaitsTest.class
 baseEntities\BaseStep.class
 baseEntities\LoginStep.class
 pages\BaseProgectPage.class
+testes\Alert2Tests.class
 pages\TopMenuPage.class
 testes\ActionTests.class

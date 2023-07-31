@@ -11,13 +11,6 @@
           <include name="hoverTest"/>
         </methods>
       </class> <!-- testes.ActionTests -->
-      <class name="testes.WaitsTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="presenceOfElementTest"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- testes.WaitsTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->
