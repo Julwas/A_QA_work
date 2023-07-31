@@ -1,0 +1,14 @@
+baseEntities\BasePage.class
+baseEntities\BaseTest.class
+pages\DashBoardPage.class
+pages\LoginPage.class
+testes\AlertTests.class
+testes\FrameTests.class
+pages\SideMenuPage.class
+testes\JSTests.class
+testes\WaitsTest.class
+baseEntities\BaseStep.class
+baseEntities\LoginStep.class
+pages\BaseProgectPage.class
+pages\TopMenuPage.class
+testes\ActionTests.class

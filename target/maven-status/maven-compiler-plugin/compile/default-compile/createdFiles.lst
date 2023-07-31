@@ -1,0 +1,3 @@
+factory\BrowserFactory.class
+service\WaitService.class
+utils\configuration\ReadProperties.class
