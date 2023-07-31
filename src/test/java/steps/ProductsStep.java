@@ -1,4 +1,4 @@
-package Steps;
+package steps;
 
 import baseEntities.BaseStep;
 import org.openqa.selenium.WebDriver;
@@ -9,12 +9,10 @@ public class ProductsStep extends BaseStep {
         super(driver);
     }
 
-    public CartPage AddProdusts() {
+    public CartPage AddProducts() {
         productsPage.getProducts();
 
         return cartPage;
 
     }
-
-
 }

@@ -5,7 +5,6 @@ import java.util.Properties;
 
 public class ReadProperties {
     private static final Properties properties;
-    public static String firstname;
 
     static {
         properties = new Properties();
@@ -31,17 +30,23 @@ public class ReadProperties {
     public static String password() {
         return properties.getProperty("password");
     }
+
     public static String firstname() {
         return properties.getProperty("firstname");
-    }    public static String lastname() {
-        return properties.getProperty("lastname");
+
+
+    }
+
+    public static String zip() {
+        return properties.getProperty("zip");
     }
 
     public static boolean isHeadless() {
         return properties.getProperty("headless").equalsIgnoreCase("true");
     }
 
-    public static String zip() {
-        return properties.getProperty("zip");
+
+    public static String lastname() {
+        return properties.getProperty("lastname");
     }
 }

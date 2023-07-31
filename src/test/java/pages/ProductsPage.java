@@ -40,7 +40,7 @@ public class ProductsPage extends BasePage {
     }
     //блок комплексных методов
     public void getProducts(){
-        getAddToCartButton();
-        getShoppingCart();
+        getAddToCartButton().click();
+        getShoppingCart().click();
     }
 }

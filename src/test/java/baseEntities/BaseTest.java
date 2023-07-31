@@ -1,8 +1,8 @@
 package baseEntities;
 
-import Steps.CheckoutStep;
-import Steps.LoginStep;
-import Steps.ProductsStep;
+import steps.CheckoutStep;
+import steps.LoginStep;
+import steps.ProductsStep;
 import factory.BrowserFactory;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
