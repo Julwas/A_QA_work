@@ -36,7 +36,7 @@ public class ActionTests extends BaseTest {
         WaitService waitService = new WaitService(driver);
 
         WebElement fileUploadElement = waitService.waitForExists(By.xpath("//form/input[@type='file']"));
-        String pathToFile = ActionTests.class.getClassLoader().getResource("download.jpeg").getPath();
+        String pathToFile = "C:/Users/Sprzetowo/IdeaProjects/AQA21/src/test/resources/download.jpeg";
 
         System.out.println(pathToFile);
         fileUploadElement.sendKeys(pathToFile);
