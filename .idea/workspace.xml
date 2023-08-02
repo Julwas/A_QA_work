@@ -237,13 +237,6 @@
       <option name="presentableId" value="Default" />
       <updated>1687195925274</updated>
     </task>
-    <task id="LOCAL-00002" summary="Calculate trst comit">
-      <created>1687257348582</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1687257348582</updated>
-    </task>
     <task id="LOCAL-00003" summary="Commit Class work">
       <created>1687521534003</created>
       <option name="number" value="00003" />
@@ -580,7 +573,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690970805061</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="fixed">
+      <created>1690971477462</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1690971477462</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
