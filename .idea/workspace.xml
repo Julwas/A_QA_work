@@ -127,7 +127,7 @@
       <recent name="factory" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.HomeWorkTests.FramesTest">
+  <component name="RunManager" selected="TestNG.HomeWorkTests">
     <configuration name="HomeWorkTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA21onl" />
       <extension name="coverage">
@@ -226,10 +226,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.HomeWorkTests" />
         <item itemvalue="TestNG.HomeWorkTests.FramesTest" />
         <item itemvalue="TestNG.HomeWorkTests.fileUploadTest" />
         <item itemvalue="TestNG.HomeWorkTests.DynamicControlsTest" />
-        <item itemvalue="TestNG.HomeWorkTests" />
         <item itemvalue="TestNG.HomeWorkTests.ContextMenuTest" />
       </list>
     </recent_temporary>
