@@ -8,7 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d77c945-0099-49b3-afda-8efe4673f3e4" name="Changes" comment="uploadFileTest">
-      <change beforePath="$PROJECT_DIR$/src/test/java/testes/ActionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testes/ActionTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +42,7 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="AdvancedActions" />
+        <entry key="$PROJECT_DIR$" value="AdvancedActions_hw" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -127,7 +128,7 @@
       <recent name="factory" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ActionTests.uploadFileTest">
+  <component name="RunManager" selected="TestNG.AlertTests">
     <configuration name="ActionTests.uploadFileTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA21onl" />
       <extension name="coverage">
@@ -223,9 +224,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AlertTests" />
         <item itemvalue="TestNG.ActionTests.uploadFileTest" />
         <item itemvalue="TestNG.ParameterTests" />
-        <item itemvalue="TestNG.AlertTests" />
         <item itemvalue="TestNG.JSTests" />
         <item itemvalue="TestNG.FrameTests" />
       </list>
