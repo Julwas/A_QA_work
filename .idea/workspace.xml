@@ -8,9 +8,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d77c945-0099-49b3-afda-8efe4673f3e4" name="Changes" comment="uploadFileTest">
+      <change afterPath="$PROJECT_DIR$/src/test/java/testes/HomeWorkTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/ninja.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testes/ActionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testes/ActionTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testes/ActionTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testes/ActionTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/WaitService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/WaitService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/baseEntities/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseEntities/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testes/FrameTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testes/FrameTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/factory/BrowserFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/WaitService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/configuration/ReadProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/baseEntities/BasePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/baseEntities/BaseStep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/baseEntities/BaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/baseEntities/LoginStep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/download.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/BaseProgectPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/DashBoardPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/SideMenuPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/TopMenuPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testes/ActionTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testes/AlertTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testes/FrameTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testes/JSTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testes/LoginTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testes/NavigationTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testes/SmokeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testes/TestCaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testes/WaitsTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,8 +155,8 @@
       <recent name="factory" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ActionTests.uploadFileTest">
-    <configuration name="ActionTests" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.HomeWorkTests.FramesTest">
+    <configuration name="HomeWorkTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA21onl" />
       <extension name="coverage">
         <pattern>
@@ -139,7 +165,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testes" />
-      <option name="MAIN_CLASS_NAME" value="testes.ActionTests" />
+      <option name="MAIN_CLASS_NAME" value="testes.HomeWorkTests" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -147,7 +173,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ActionTests.uploadFileTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HomeWorkTests.ContextMenuTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA21onl" />
       <extension name="coverage">
         <pattern>
@@ -156,8 +182,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testes" />
-      <option name="MAIN_CLASS_NAME" value="testes.ActionTests" />
-      <option name="METHOD_NAME" value="uploadFileTest" />
+      <option name="MAIN_CLASS_NAME" value="testes.HomeWorkTests" />
+      <option name="METHOD_NAME" value="ContextMenuTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -165,7 +191,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AlertTests.promptAlertTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HomeWorkTests.DynamicControlsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA21onl" />
       <extension name="coverage">
         <pattern>
@@ -174,8 +200,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testes" />
-      <option name="MAIN_CLASS_NAME" value="testes.AlertTests" />
-      <option name="METHOD_NAME" value="promptAlertTest" />
+      <option name="MAIN_CLASS_NAME" value="testes.HomeWorkTests" />
+      <option name="METHOD_NAME" value="DynamicControlsTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -183,7 +209,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FrameTests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HomeWorkTests.FramesTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA21onl" />
       <extension name="coverage">
         <pattern>
@@ -192,15 +218,16 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testes" />
-      <option name="MAIN_CLASS_NAME" value="testes.FrameTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="testes.HomeWorkTests" />
+      <option name="METHOD_NAME" value="FramesTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JSTests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HomeWorkTests.fileUploadTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA21onl" />
       <extension name="coverage">
         <pattern>
@@ -209,8 +236,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testes" />
-      <option name="MAIN_CLASS_NAME" value="testes.JSTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="testes.HomeWorkTests" />
+      <option name="METHOD_NAME" value="fileUploadTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -218,19 +246,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.ActionTests.uploadFileTest" />
-      <item itemvalue="TestNG.ActionTests" />
-      <item itemvalue="TestNG.AlertTests.promptAlertTest" />
-      <item itemvalue="TestNG.FrameTests" />
-      <item itemvalue="TestNG.JSTests" />
+      <item itemvalue="TestNG.HomeWorkTests" />
+      <item itemvalue="TestNG.HomeWorkTests.ContextMenuTest" />
+      <item itemvalue="TestNG.HomeWorkTests.DynamicControlsTest" />
+      <item itemvalue="TestNG.HomeWorkTests.FramesTest" />
+      <item itemvalue="TestNG.HomeWorkTests.fileUploadTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ActionTests.uploadFileTest" />
-        <item itemvalue="TestNG.ActionTests" />
-        <item itemvalue="TestNG.AlertTests.promptAlertTest" />
-        <item itemvalue="TestNG.JSTests" />
-        <item itemvalue="TestNG.FrameTests" />
+        <item itemvalue="TestNG.HomeWorkTests.FramesTest" />
+        <item itemvalue="TestNG.HomeWorkTests.fileUploadTest" />
+        <item itemvalue="TestNG.HomeWorkTests.DynamicControlsTest" />
+        <item itemvalue="TestNG.HomeWorkTests" />
+        <item itemvalue="TestNG.HomeWorkTests.ContextMenuTest" />
       </list>
     </recent_temporary>
   </component>
@@ -523,7 +551,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690550009852</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="valueOb">
+      <created>1691005955837</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1691005955837</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -551,7 +586,8 @@
     <MESSAGE value="workspace" />
     <MESSAGE value="kw waitservice" />
     <MESSAGE value="uploadFileTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="uploadFileTest" />
+    <MESSAGE value="valueOb" />
+    <option name="LAST_COMMIT_MESSAGE" value="valueOb" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

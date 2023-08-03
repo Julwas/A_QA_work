@@ -4,6 +4,7 @@ import factory.BrowserFactory;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import utils.configuration.ReadProperties;
 
 public class BaseTest {
     protected WebDriver driver;
@@ -16,7 +17,7 @@ public class BaseTest {
 
         loginStep = new LoginStep(driver);
 
-        //driver.get(ReadProperties.getUrl());
+        driver.get(ReadProperties.getUrl());
     }
 
     @AfterMethod

@@ -11,8 +11,8 @@ import java.util.List;
 import java.util.NoSuchElementException;
 
 public class WaitService {
-    private WebDriverWait wait;
-    private WebDriver driver;
+    private final WebDriverWait wait;
+    private final WebDriver driver;
 
     public WaitService(WebDriver driver, Duration timeout){
         this.driver = driver;
@@ -24,17 +24,17 @@ public class WaitService {
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(ReadProperties.timeout()));
     }
 
-    public WebElement waitForExists(By locator){
-        return wait.until(ExpectedConditions.presenceOfElementLocated(locator));//заменяем драйвер findelement
+    public WebElement waitForExists(By locator){//наличие ел. в дом модели
+        return wait.until(ExpectedConditions.presenceOfElementLocated(locator));
     }
     public WebElement waitForVisibility(WebElement element) {
-        return wait.until(ExpectedConditions.visibilityOf(element));
+        return wait.until(ExpectedConditions.visibilityOf(element));//есть
     }
     public WebElement waitForVisibilityLocatedBy(By locator) {
-        return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+        return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));//находит 1 элемент
     }
     public List<WebElement> waitForAllVisibleElementsLocatedBy(By locator) {
-        return wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(locator));}
+        return wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(locator));}//находит все элемент
 
     public Boolean waitForElementInvisible(WebElement element) {
         return wait.until(ExpectedConditions.invisibilityOf(element));}

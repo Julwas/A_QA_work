@@ -13,13 +13,13 @@ public class FrameTests extends BaseTest {
         WaitService waitService = new WaitService(driver);
 /*
         driver.switchTo().frame(driver.findElement(By.id("mce_0_ifr")));
-        driver.switchTo().frame(0);
+        driver.switchTo().frame(0);порядковый индекс массива(котор содержат //iframe
  */
         driver.switchTo().frame("mce_0_ifr");
 
         Assert.assertTrue(waitService.waitForVisibilityLocatedBy(By.id("tinymce")).isDisplayed());
 
-        driver.switchTo().parentFrame();
+        driver.switchTo().parentFrame();//-> на уровень выше, defaultContent()->в начало
         Assert.assertTrue(driver.findElement(By.className("tox-editor-container")).isDisplayed());
     }
 }

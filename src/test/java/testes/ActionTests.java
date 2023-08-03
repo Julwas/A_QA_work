@@ -40,7 +40,7 @@ public class ActionTests extends BaseTest {
         String pathToFile = ActionTests.class.getClassLoader().getResource("download.jpeg").getPath();
 
         System.out.println(pathToFile);
-        fileUploadElement.sendKeys(pathToFile.substring(1,pathToFile.length()));
+        fileUploadElement.sendKeys(pathToFile.substring(1));
 
         waitService.waitForVisibilityLocatedBy(By.id("file-submit")).submit();
 
