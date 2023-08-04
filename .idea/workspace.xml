@@ -8,63 +8,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d77c945-0099-49b3-afda-8efe4673f3e4" name="Changes" comment="fixed">
-      <change afterPath="$PROJECT_DIR$/src/test/java/elements/Button.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/elements/Input.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/elements/Table.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/elements/TableCell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/elements/TableRow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/elements/UIElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/DialogPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testes/WrapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/elements/ChekBoks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/baseEntities/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseEntities/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/baseEntities/InvokedListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/InvokedListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/baseEntities/Listener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testes/ActionTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testes/AlertTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testes/Allure1Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testes/AllureTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testes/FrameTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testes/JSTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testes/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testes/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testes/ParameterTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testes/ScreenShotTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/download.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/1f063d8b-0620-4b56-a8c3-a8bdfd232c05-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/2441389c-2846-489f-86d5-f869f48b3dc1-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/24bbab73-daea-420a-abb1-0051164ec4c5-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/703324d8-773d-49b1-bae5-6c29a14a7067-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/7d0af79b-a7c0-4e62-bf84-1749d3697ab2-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/allure.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/c7f52644-1be0-40cf-834e-52c646379ca6-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/e236bac7-fea6-4cdc-bb9b-01800575c28a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/executor.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/factory/BrowserFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/service/WaitService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/configuration/ReadProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/allure.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/baseEntities/BasePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/baseEntities/BaseStep.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/baseEntities/BaseTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/baseEntities/InvokedListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/baseEntities/Listener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/download.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/BaseProgectPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/DashBoardPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/LoginPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/SideMenuPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/TopMenuPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/LoginStep.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testes/ActionTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testes/AlertTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testes/Allure1Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testes/AllureTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testes/FrameTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testes/JSTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testes/ParameterTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testes/ScreenShotTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/elements/TableRow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/elements/TableRow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/elements/UIElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/elements/UIElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,11 +127,11 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="elements" />
       <recent name="testes" />
       <recent name="pages" />
       <recent name="data" />
       <recent name="" />
-      <recent name="factory" />
     </key>
   </component>
   <component name="RunManager" selected="TestNG.ScreenShotTest">

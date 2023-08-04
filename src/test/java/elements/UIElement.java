@@ -17,7 +17,7 @@ public class UIElement implements WebElement {
         this.by = by;
         this.waitService = new WaitService(driver);
         this.webElement = driver.findElement(by);
-        // this.webElement = waitService.waitForExists(by);
+        this.webElement = waitService.waitForExists(by);
     }
 
     public UIElement(WebDriver driver, WebElement webElement) {
@@ -84,6 +84,7 @@ public class UIElement implements WebElement {
     public List<WebElement> findElements(By by) {
         return null;
     }
+
     public List<UIElement> findUIElements(By by) {
         ArrayList<UIElement> list = new ArrayList<>();
         for (WebElement element : webElement.findElements(by)) {

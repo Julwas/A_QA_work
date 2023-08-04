@@ -19,7 +19,8 @@ public class TableRow {
     }
 
     public TableCell getCell(int index) {
-        ArrayList<UIElement> list = (ArrayList<UIElement>) uiElement.findUIElements(By.xpath("td"));
+        ArrayList<UIElement> list = (ArrayList<UIElement>) uiElement.findUIElements
+                (By.xpath("td"));
         return new TableCell(driver, list.get(index));
     }
 }
