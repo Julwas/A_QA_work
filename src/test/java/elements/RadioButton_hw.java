@@ -22,4 +22,13 @@ public class RadioButton_hw {
     public RadioButton_hw(WebDriver driver, WebElement webElement) {
         this.uiElement = new UIElement(driver, webElement);
     }
+    public selectionByName(WebDriver driver, By by) {
+
+    }
+    public selectionByValue(WebDriver driver, By by) {
+
+    }
+    public selectionByNumber(WebDriver driver, By by) {
+
+    }
 }
