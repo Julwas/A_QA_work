@@ -4,14 +4,14 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class ChekBoks {
+public class CheckBox {
     private UIElement uiElement;
 
-    public ChekBoks(WebDriver driver, By by) {
+    public CheckBox(WebDriver driver, By by) {
         this.uiElement = new UIElement(driver, by);
     }
 
-    public ChekBoks(WebDriver driver, WebElement webElement) {
+    public CheckBox(WebDriver driver, WebElement webElement) {
         this.uiElement = new UIElement(driver, webElement);
     }
 
@@ -27,4 +27,6 @@ public class ChekBoks {
         uiElement.clear();
         sendKeys(keysToSend);
     }
+
+
 }

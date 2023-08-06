@@ -7,9 +7,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d77c945-0099-49b3-afda-8efe4673f3e4" name="Changes" comment="mvn">
-      <change afterPath="$PROJECT_DIR$/src/test/java/elements/ChekBoks_hw.java" afterDir="false" />
+    <list default="true" id="8d77c945-0099-49b3-afda-8efe4673f3e4" name="Changes" comment="wraper test">
+      <change afterPath="$PROJECT_DIR$/src/test/java/elements/CheckBox_hw.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/elements/DropDownElement_hw.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/elements/RadioButton_hw.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testes/WrapperTest_hw.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/elements/Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/elements/Button.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/elements/ChekBoks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/elements/CheckBox.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +47,7 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="allure" />
+        <entry key="$PROJECT_DIR$" value="wrapers" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -131,25 +136,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.WrapperTest.tableTest">
-    <configuration name="ActionTests.uploadFileTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AQA21onl" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testes" />
-      <option name="MAIN_CLASS_NAME" value="testes.ActionTests" />
-      <option name="METHOD_NAME" value="uploadFileTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.WrapperTest_hw.testCheckBox_hw">
     <configuration name="AllureTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA21onl" />
       <extension name="coverage">
@@ -178,6 +165,24 @@
       <option name="PACKAGE_NAME" value="testes" />
       <option name="MAIN_CLASS_NAME" value="testes.ScreenShotTest" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WrapperTest_hw.testCheckBox_hw" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AQA21onl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testes" />
+      <option name="MAIN_CLASS_NAME" value="testes.WrapperTest_hw" />
+      <option name="METHOD_NAME" value="testCheckBox_hw" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -217,18 +222,18 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.WrapperTest.tableTest" />
+      <item itemvalue="TestNG.WrapperTest_hw.testCheckBox_hw" />
       <item itemvalue="TestNG.ScreenShotTest" />
       <item itemvalue="TestNG.testes.Allure1Test and 1 more" />
       <item itemvalue="TestNG.AllureTest" />
-      <item itemvalue="TestNG.ActionTests.uploadFileTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.WrapperTest_hw.testCheckBox_hw" />
         <item itemvalue="TestNG.WrapperTest.tableTest" />
         <item itemvalue="TestNG.ScreenShotTest" />
         <item itemvalue="TestNG.AllureTest" />
         <item itemvalue="TestNG.testes.Allure1Test and 1 more" />
-        <item itemvalue="TestNG.ActionTests.uploadFileTest" />
       </list>
     </recent_temporary>
   </component>
@@ -240,13 +245,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1687195925274</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Commit HomeWork1">
-      <created>1687633363991</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1687633363991</updated>
     </task>
     <task id="LOCAL-00007" summary="Commit HomeWork1">
       <created>1687641835728</created>
@@ -584,7 +582,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691319062926</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="wraper test">
+      <created>1691326734870</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1691326734870</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -615,23 +620,10 @@
     <MESSAGE value="maven cw" />
     <MESSAGE value="fixed" />
     <MESSAGE value="mvn" />
-    <option name="LAST_COMMIT_MESSAGE" value="mvn" />
+    <MESSAGE value="wraper test" />
+    <option name="LAST_COMMIT_MESSAGE" value="wraper test" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/elements/TableRow.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="52" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/testes/WrapperTest.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="54" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="TestNG">
         <watch expression="driver" language="JAVA" />

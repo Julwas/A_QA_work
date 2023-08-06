@@ -4,15 +4,15 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class Button {
+public class DropDownMenu_hw {
     private UIElement uiElement;
 
-    public Button(WebDriver driver, By by) {
+    public DropDownMenu_hw(WebDriver driver, By by) {
         this.uiElement = new UIElement(driver, by);
 
     }
 
-    public Button(WebDriver driver, WebElement webElement) {
+    public DropDownMenu_hw(WebDriver driver, WebElement webElement) {
         this.uiElement = new UIElement(driver, webElement);
     }
 
