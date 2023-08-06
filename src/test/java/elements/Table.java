@@ -50,6 +50,9 @@ public class Table {
     public TableRow getRow(int index) {
         ArrayList<UIElement> list = (ArrayList<UIElement>) uiElement.findUIElements(By.tagName("tr"));
         return new TableRow(driver, list.get(index));
+        //получили масив строк uielementa, проинициализировали новый класс, по имении нужного елемента
+        //те по инд полоучили нужный ел
+
     }
 
     public TableCell getCell(String targetColumnName, String uniqueValue, String expectedColumnName) {

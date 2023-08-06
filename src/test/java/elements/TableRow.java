@@ -22,5 +22,7 @@ public class TableRow {
         ArrayList<UIElement> list = (ArrayList<UIElement>) uiElement.findUIElements
                 (By.xpath("td"));
         return new TableCell(driver, list.get(index));
+
+
     }
 }

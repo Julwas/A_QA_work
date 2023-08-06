@@ -1,10 +1,12 @@
 package testes;
 
 import baseEntities.BaseTest;
+import elements.TableCell;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import pages.ProjectsPage;
 import utils.configuration.ReadProperties;
 
 public class WrapperTest extends BaseTest {
@@ -28,6 +30,21 @@ public class WrapperTest extends BaseTest {
 
         WebElement el1 = driver.findElement(By.cssSelector("class1")).findElement(By.cssSelector("class2"));
         WebElement el2 = webElement.findElement(By.cssSelector("class1")).findElement(By.cssSelector("class2"));
+    }
+    @Test
+    public void tableTest() {
+        /*loginStep.successLogin(
+                ReadProperties.username(),
+                ReadProperties.password()
+        );
+
+         */
+
+        ProjectsPage projectsPage = new ProjectsPage(driver);
+        projectsPage.openPageByUrl();
+
+        TableCell cell = projectsPage.getProjectsTable().getCell(1, 0);
+
     }
 
 }

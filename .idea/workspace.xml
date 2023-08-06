@@ -7,12 +7,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d77c945-0099-49b3-afda-8efe4673f3e4" name="Changes" comment="fixed">
-      <change afterPath="$PROJECT_DIR$/src/test/java/elements/ChekBoks.java" afterDir="false" />
+    <list default="true" id="8d77c945-0099-49b3-afda-8efe4673f3e4" name="Changes" comment="mvn">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ProjectsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/elements/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/elements/Table.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/elements/TableRow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/elements/TableRow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/elements/UIElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/elements/UIElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testes/WrapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testes/WrapperTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +134,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ScreenShotTest">
+  <component name="RunManager" selected="TestNG.WrapperTest.tableTest">
     <configuration name="ActionTests.uploadFileTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA21onl" />
       <extension name="coverage">
@@ -170,23 +170,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParameterTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AQA21onl" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testes" />
-      <option name="MAIN_CLASS_NAME" value="testes.ParameterTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ScreenShotTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA21onl" />
       <extension name="coverage">
@@ -198,6 +181,24 @@
       <option name="PACKAGE_NAME" value="testes" />
       <option name="MAIN_CLASS_NAME" value="testes.ScreenShotTest" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WrapperTest.tableTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AQA21onl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testes" />
+      <option name="MAIN_CLASS_NAME" value="testes.WrapperTest" />
+      <option name="METHOD_NAME" value="tableTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -218,19 +219,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="TestNG.WrapperTest.tableTest" />
       <item itemvalue="TestNG.ScreenShotTest" />
       <item itemvalue="TestNG.testes.Allure1Test and 1 more" />
       <item itemvalue="TestNG.AllureTest" />
-      <item itemvalue="TestNG.ParameterTests" />
       <item itemvalue="TestNG.ActionTests.uploadFileTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.WrapperTest.tableTest" />
         <item itemvalue="TestNG.ScreenShotTest" />
         <item itemvalue="TestNG.AllureTest" />
         <item itemvalue="TestNG.testes.Allure1Test and 1 more" />
         <item itemvalue="TestNG.ActionTests.uploadFileTest" />
-        <item itemvalue="TestNG.ParameterTests" />
       </list>
     </recent_temporary>
   </component>
@@ -242,13 +243,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1687195925274</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Commit Class work">
-      <created>1687521582434</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1687521582434</updated>
     </task>
     <task id="LOCAL-00005" summary="Commit HomeWork">
       <created>1687541747048</created>
@@ -586,7 +580,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690971511728</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="mvn">
+      <created>1691148192152</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1691148192152</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -616,7 +617,8 @@
     <MESSAGE value="uploadFileTest" />
     <MESSAGE value="maven cw" />
     <MESSAGE value="fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed" />
+    <MESSAGE value="mvn" />
+    <option name="LAST_COMMIT_MESSAGE" value="mvn" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
