@@ -8,8 +8,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d77c945-0099-49b3-afda-8efe4673f3e4" name="Changes" comment="mvn">
-      <change afterPath="$PROJECT_DIR$/src/test/java/elements/ChekBoks_hw.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/baseEntities/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseEntities/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/elements/Button.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/elements/ChekBoks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/elements/Input.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/elements/Table.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/elements/TableCell.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/elements/TableRow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/elements/UIElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/ProjectsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/ProjectsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testes/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testes/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testes/WrapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testes/WrapperTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +53,7 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="allure" />
+        <entry key="$PROJECT_DIR$" value="wrapers" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -131,25 +142,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.WrapperTest.tableTest">
-    <configuration name="ActionTests.uploadFileTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AQA21onl" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testes" />
-      <option name="MAIN_CLASS_NAME" value="testes.ActionTests" />
-      <option name="METHOD_NAME" value="uploadFileTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.LoginTest">
     <configuration name="AllureTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA21onl" />
       <extension name="coverage">
@@ -160,6 +153,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="testes" />
       <option name="MAIN_CLASS_NAME" value="testes.AllureTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AQA21onl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testes" />
+      <option name="MAIN_CLASS_NAME" value="testes.LoginTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -216,19 +226,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="TestNG.LoginTest" />
       <item itemvalue="TestNG.WrapperTest.tableTest" />
       <item itemvalue="TestNG.ScreenShotTest" />
       <item itemvalue="TestNG.testes.Allure1Test and 1 more" />
       <item itemvalue="TestNG.AllureTest" />
-      <item itemvalue="TestNG.ActionTests.uploadFileTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoginTest" />
         <item itemvalue="TestNG.WrapperTest.tableTest" />
         <item itemvalue="TestNG.ScreenShotTest" />
         <item itemvalue="TestNG.AllureTest" />
         <item itemvalue="TestNG.testes.Allure1Test and 1 more" />
-        <item itemvalue="TestNG.ActionTests.uploadFileTest" />
       </list>
     </recent_temporary>
   </component>
@@ -618,20 +628,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="mvn" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/elements/TableRow.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="52" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/testes/WrapperTest.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="54" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="TestNG">
         <watch expression="driver" language="JAVA" />

@@ -1,10 +1,8 @@
 package testes;
 
 import baseEntities.BaseTest;
-import elements.TableCell;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.ProjectsPage;
 import utils.configuration.ReadProperties;
@@ -37,9 +35,8 @@ public class WrapperTest extends BaseTest {
                 ReadProperties.username(),
                 ReadProperties.password()
         );
+
         ProjectsPage projectsPage = new ProjectsPage(driver);
         projectsPage.openPageByUrl();
-
-        TableCell cell = projectsPage.getProjectsTable().getCell(1, 0);
     }
 }
