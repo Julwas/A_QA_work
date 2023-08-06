@@ -33,18 +33,13 @@ public class WrapperTest extends BaseTest {
     }
     @Test
     public void tableTest() {
-        /*loginStep.successLogin(
+        loginStep.successLogin(
                 ReadProperties.username(),
                 ReadProperties.password()
         );
-
-         */
-
         ProjectsPage projectsPage = new ProjectsPage(driver);
         projectsPage.openPageByUrl();
 
         TableCell cell = projectsPage.getProjectsTable().getCell(1, 0);
-
     }
-
 }

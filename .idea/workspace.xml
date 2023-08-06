@@ -8,11 +8,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d77c945-0099-49b3-afda-8efe4673f3e4" name="Changes" comment="mvn">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ProjectsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/elements/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/elements/Table.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/elements/TableRow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/elements/TableRow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testes/WrapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testes/WrapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/elements/Table.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/elements/Table.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testes/WrapperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testes/WrapperTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -243,13 +243,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1687195925274</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Commit HomeWork">
-      <created>1687541747048</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1687541747048</updated>
     </task>
     <task id="LOCAL-00006" summary="Commit HomeWork1">
       <created>1687633363991</created>
@@ -587,7 +580,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691148192152</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="mvn">
+      <created>1691319062925</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1691319062926</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -621,6 +621,20 @@
     <option name="LAST_COMMIT_MESSAGE" value="mvn" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/elements/TableRow.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/testes/WrapperTest.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="TestNG">
         <watch expression="driver" language="JAVA" />

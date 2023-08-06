@@ -28,8 +28,8 @@ public class Table {
     }
 
     public Table(WebDriver driver, WebElement webElement) {
-        this.driver = driver;
-        this.uiElement = new UIElement(driver, webElement);
+        /*this.driver = driver;
+        this.uiElement = new UIElement(driver, webElement);*/
     }
 
     public TableCell getCell(int columnIndex, int rowIndex) {
@@ -48,7 +48,7 @@ public class Table {
      * @return
      */
     public TableRow getRow(int index) {
-        ArrayList<UIElement> list = (ArrayList<UIElement>) uiElement.findUIElements(By.tagName("tr"));
+        ArrayList<UIElement> list = (ArrayList<UIElement>) uiElement.findUIElements(By.xpath("//tr/td/.."));
         return new TableRow(driver, list.get(index));
         //получили масив строк uielementa, проинициализировали новый класс, по имении нужного елемента
         //те по инд полоучили нужный ел
