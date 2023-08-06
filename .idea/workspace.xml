@@ -7,21 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d77c945-0099-49b3-afda-8efe4673f3e4" name="Changes" comment="mvn">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/baseEntities/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseEntities/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/elements/Button.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/elements/ChekBoks.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/elements/Input.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/elements/Table.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/elements/TableCell.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/elements/TableRow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/elements/UIElement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/ProjectsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/ProjectsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testes/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testes/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testes/WrapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testes/WrapperTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="8d77c945-0099-49b3-afda-8efe4673f3e4" name="Changes" comment="page factory" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -250,13 +236,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1687195925274</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Commit HomeWork1">
-      <created>1687633363991</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1687633363991</updated>
     </task>
     <task id="LOCAL-00007" summary="Commit HomeWork1">
       <created>1687641835728</created>
@@ -594,7 +573,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691319062926</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="page factory">
+      <created>1691339794658</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1691339794658</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -625,7 +611,8 @@
     <MESSAGE value="maven cw" />
     <MESSAGE value="fixed" />
     <MESSAGE value="mvn" />
-    <option name="LAST_COMMIT_MESSAGE" value="mvn" />
+    <MESSAGE value="page factory" />
+    <option name="LAST_COMMIT_MESSAGE" value="page factory" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
