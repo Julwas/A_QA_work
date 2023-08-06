@@ -7,7 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d77c945-0099-49b3-afda-8efe4673f3e4" name="Changes" comment="fixed" />
+    <list default="true" id="8d77c945-0099-49b3-afda-8efe4673f3e4" name="Changes" comment="fixed">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +41,7 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="pageObgect" />
+        <entry key="$PROJECT_DIR$" value="pageFactory" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -211,11 +213,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.E2ETest.successLoginTest" />
+        <item itemvalue="TestNG.E2ETest.shortPswLoginTest" />
+        <item itemvalue="TestNG.E2ETest.incorrectEmailLoginTest" />
         <item itemvalue="TestNG.E2ETest.E2ETest" />
         <item itemvalue="TestNG.E2ETest" />
-        <item itemvalue="TestNG.E2ETest.successLoginTest" />
-        <item itemvalue="TestNG.E2ETest.incorrectEmailLoginTest" />
-        <item itemvalue="TestNG.E2ETest.shortPswLoginTest" />
       </list>
     </recent_temporary>
   </component>
