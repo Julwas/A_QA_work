@@ -45,4 +45,11 @@ public class LoginTest extends BaseTest {
                 "Password is too short (5 characters required).",
                 "Неверное сообщение об ошибке");
     }
+    @Test
+    public void loadebleTest() throws InterruptedException {
+        LoginPage loginPage = new LoginPage(driver);
+        loginPage.login(ReadProperties.username(), ReadProperties.password());
+        DashBoardPage dashBoardPage = new DashBoardPage(driver);
+
+    }
 }

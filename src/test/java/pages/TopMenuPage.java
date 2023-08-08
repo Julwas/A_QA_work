@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
 public class TopMenuPage extends BasePage {
     private final By topPanelLocator = By.className("top-panel");
 
-    public TopMenuPage(WebDriver driver) {
+    public TopMenuPage(WebDriver driver) throws InterruptedException {
         super(driver);
     }
 

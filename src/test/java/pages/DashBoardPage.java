@@ -14,7 +14,7 @@ public class DashBoardPage extends BasePage {
     public TopMenuPage topMenuPage;
     public SideMenuPage sideMenuPage;
     // Блок инициализации
-    public DashBoardPage(WebDriver driver){
+    public DashBoardPage(WebDriver driver) throws InterruptedException {
 
         super(driver);
 
