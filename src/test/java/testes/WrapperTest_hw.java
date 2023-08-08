@@ -20,13 +20,13 @@ public class WrapperTest_hw extends BaseTest {
         checkBox1.setFlack();
         checkBox2.removeFlack();
     }
-    @Test
+  /*  @Test
     public void testRadioButton_hw() {
 
     }
     @Test
     public void testDropDownMenu_hw() {
 
-    }
+    }*/
 
 }

@@ -9,7 +9,12 @@
   <component name="ChangeListManager">
     <list default="true" id="8d77c945-0099-49b3-afda-8efe4673f3e4" name="Changes" comment="checkout">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/elements/CheckBox_hw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/elements/CheckBox_hw.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/elements/RadioButton_hw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/elements/RadioButton_hw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testes/WrapperTest_hw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testes/WrapperTest_hw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/elements/Button.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/elements/Button.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/elements/CheckBox_hw.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/elements/CheckBox_hw.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testes/WrapperTest_hw.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testes/WrapperTest_hw.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,6 +171,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WrapperTest_hw" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AQA21onl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testes" />
+      <option name="MAIN_CLASS_NAME" value="testes.WrapperTest_hw" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WrapperTest_hw.testCheckBox_hw" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA21onl" />
       <extension name="coverage">
@@ -202,33 +224,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testes.Allure1Test and 1 more" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AQA21onl" />
-      <option name="TEST_OBJECT" value="PATTERN" />
-      <properties />
-      <listeners />
-      <patterns>
-        <pattern testClass="testes.Allure1Test" />
-        <pattern testClass="testes.AllureTest" />
-      </patterns>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="TestNG.WrapperTest_hw" />
       <item itemvalue="TestNG.WrapperTest.tableTest" />
       <item itemvalue="TestNG.WrapperTest_hw.testCheckBox_hw" />
       <item itemvalue="TestNG.ScreenShotTest" />
-      <item itemvalue="TestNG.testes.Allure1Test and 1 more" />
       <item itemvalue="TestNG.AllureTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.WrapperTest_hw.testCheckBox_hw" />
+        <item itemvalue="TestNG.WrapperTest_hw" />
         <item itemvalue="TestNG.WrapperTest.tableTest" />
         <item itemvalue="TestNG.ScreenShotTest" />
         <item itemvalue="TestNG.AllureTest" />
-        <item itemvalue="TestNG.testes.Allure1Test and 1 more" />
       </list>
     </recent_temporary>
   </component>
