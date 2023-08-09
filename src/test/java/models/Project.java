@@ -22,9 +22,7 @@ public class Project {
         return projectName;
     }
 
-    public void setProjectName(String projectName) {
-        this.projectName = projectName;
-    }
+
 
     public String getAnnouncement() {
         return announcement;
