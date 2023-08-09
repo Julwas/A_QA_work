@@ -34,10 +34,11 @@ public class AddProjectPage extends BasePage {
     }
 
     public void fillForm(Project project) {
+        /*
         setProjectName(project.getProjectName());
         setAnnouncement(project.getAnnouncement());
         setFlag(project.isFlag());
         setProjectType(project.getProjectType());
-        setDate(project.getDate());
+        setDate(project.getDate());*/
     }
 }
