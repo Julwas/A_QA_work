@@ -1,6 +1,7 @@
 package testes;
 
 import baseEntities.BaseTest;
+import helper.DataHelper;
 import models.User;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -16,8 +17,6 @@ public class LoginTest extends BaseTest {
     }
 
     @Test
-
-
     public void incorrectEmailLoginTest() {
         User user = new User();
         user.setEmail("asdasd");

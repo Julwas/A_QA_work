@@ -1,18 +1,19 @@
 package models;
 
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.*;
 
 
-@Getter
-@Setter
-@ToString
-@EqualsAndHashCode
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@RequiredArgsConstructor
 public class User {
+    @EqualsAndHashCode.Exclude
     private int id;
+
+    @NonNull
     private String username;
+    @NonNull
     private String password;
     //@ToString.Exclude
     private String email;
@@ -21,4 +22,7 @@ public class User {
     private String code;
 
 
+    public User() {
+
+    }
 }
