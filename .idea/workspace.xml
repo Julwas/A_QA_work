@@ -8,13 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d77c945-0099-49b3-afda-8efe4673f3e4" name="Changes" comment="class work">
-      <change afterPath="$PROJECT_DIR$/src/test/java/models/UserBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/helpers/DataHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helper/DataHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testes/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testes/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testes/LombokTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testes/LombokTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -556,7 +550,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691596971658</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="class work">
+      <created>1691615740214</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1691615740214</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

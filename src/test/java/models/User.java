@@ -5,7 +5,6 @@ import lombok.*;
 
 @Data
 @AllArgsConstructor
-@NoArgsConstructor
 @RequiredArgsConstructor
 public class User {
     @EqualsAndHashCode.Exclude
