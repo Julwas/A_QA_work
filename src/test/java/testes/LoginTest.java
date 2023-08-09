@@ -1,6 +1,7 @@
 package testes;
 
 import baseEntities.BaseTest;
+import models.Project;
 import models.User;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -39,6 +40,14 @@ public class LoginTest extends BaseTest {
                 loginStep.negativeLogin(user).getErrorTextElement().getText(),
                 "Email/Login or Password is incorrect. Please try again.",
                 "Неверное сообщение об ошибке");
+    }
+    @Test
+    public void builderTest() {
+        Project project = new Project.Builder()
+                .withProjectName("ssdfsd")
+                .withProjectType(1)
+                .withFlag(true)
+                .build();
     }
 
 }
