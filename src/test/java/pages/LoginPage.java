@@ -1,39 +1,28 @@
 package pages;
 
-import baseEntities.BasePage;
+import factory.BrowserSingleton;
 import models.User;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.BeforeMethod;
-import utils.configuration.ReadProperties;
+import services.WaitService;
 
-import java.time.Duration;
+public class LoginPage {
 
-public class LoginPage extends BasePage {
-
-    //блок описания локаторов private final By elementNameTypeLocator = By.id("");
+    // Блок описания локаторов для элементов
     private final By emailInputLocator = By.id("name");
     private final By pswInputLocator = By.id("password");
     private final By logInButtonLocator = By.id("button_primary");
     private final By errorTextLocator = By.className("error-text");
     private final By errorFieldTextLocator = By.className("loginpage-message");
 
+    private WaitService waitService;
+
     // Блок инициализации
-    public LoginPage(WebDriver driver){
-
-        super(driver);
-
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+    public LoginPage() {
+        waitService = new WaitService();
     }
 
-    @Override
-    protected By getPageIdentifier() {
-        return logInButtonLocator;
-    }
-    //блок атомарных методов
-
+    // Блок атомарных методов
     public WebElement getEmailInput() {
         return waitService.waitForExists(emailInputLocator);
     }
@@ -47,7 +36,7 @@ public class LoginPage extends BasePage {
     }
 
     public WebElement getLogInButton() {
-        return driver.findElement(logInButtonLocator);
+        return BrowserSingleton.getInstance().driver.findElement(logInButtonLocator);
     }
 
     public void setEmail(String value) {
@@ -55,16 +44,18 @@ public class LoginPage extends BasePage {
     }
 
     public WebElement getErrorTextElement() {
-        return driver.findElement(errorTextLocator);
+        return BrowserSingleton.getInstance().driver.findElement(errorTextLocator);
     }
 
     public WebElement getErrorFieldTextElement() {
-        return driver.findElement(errorFieldTextLocator);
+        return BrowserSingleton.getInstance().driver.findElement(errorFieldTextLocator);
     }
-    //блок комплексных методов
+
+    // Блок комплексных методов
     public void login(User user) {
-        setEmail(user. getEmail());
+        setEmail(user.getEmail());
         getPswInput().sendKeys(user.getPassword());
         getLogInButton().click();
     }
+
 }

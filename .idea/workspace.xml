@@ -8,14 +8,55 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d77c945-0099-49b3-afda-8efe4673f3e4" name="Changes" comment="ws">
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/BrowserSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/DashboardPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testes/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testes/SingletoneTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/AddProjectPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/AddProjectPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/WaitService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/WaitService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/baseEntities/BasePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/baseEntities/BaseStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/baseEntities/BaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/baseEntities/LoginStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/LoginStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/helpers/DataHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helpers/DataHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/AddProjectPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/BaseProgectPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/DashBoardPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/SideMenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/SideMenuPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/TopMenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/TopMenuPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testes/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testes/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/factory/BrowserFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/WaitService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/configuration/ReadProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/baseEntities/BasePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/baseEntities/BaseStep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/baseEntities/BaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/baseEntities/LoginStep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/download.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/BaseProgectPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/DashBoardPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/SideMenuPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/TopMenuPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testes/ActionTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testes/AlertTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testes/FrameTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testes/JSTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testes/LoginTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testes/NavigationTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testes/SmokeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testes/TestCaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testes/WaitsTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -43,7 +84,7 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="valueOfObjects" />
+        <entry key="$PROJECT_DIR$" value="bilder" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -551,7 +592,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691580203858</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="ws">
+      <created>1691581918779</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1691581918779</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
