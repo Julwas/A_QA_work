@@ -18,10 +18,8 @@ public class CheckBox_hw {
     public void setFlack() {
         if (uiElement.isSelected() &&  !uiElement.isSelected())  {
             uiElement.click();
-
         }
     }
-
         public void removeFlack() {
             if (uiElement.isSelected()&& uiElement.isSelected()){
                 uiElement.click();

@@ -6,7 +6,9 @@ import elements.CheckBox_hw;
 import elements.TableCell;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
+import pages.AddProjectsPage;
 import pages.ProjectsPage;
+import pages.TestCasePage;
 import utils.configuration.ReadProperties;
 
 public class WrapperTest_hw extends BaseTest {
@@ -20,13 +22,29 @@ public class WrapperTest_hw extends BaseTest {
         checkBox1.setFlack();
         checkBox2.removeFlack();
     }
-  /*  @Test
+    @Test
     public void testRadioButton_hw() {
+        loginStep.successLogin(
+                ReadProperties.username(),
+                ReadProperties.password()
+        );
+        AddProjectsPage addProjectsPage = new AddProjectsPage(driver);
+        addProjectsPage.openPageByUrl();
+        addProjectsPage.getType().selectionByName("Use a single repository for all cases (recommended)");
+        addProjectsPage.getType().selectionByNumber(1);
+        addProjectsPage.getType().selectionByValue("1");
 
     }
     @Test
-    public void testDropDownMenu_hw() {
-
-    }*/
+    public void dropdownTest() {
+        loginStep.successLogin(
+                ReadProperties.username(),
+                ReadProperties.password()
+        );
+        TestCasePage testCasePage_homework = new TestCasePage(driver);
+        testCasePage_homework.openPageByUrl();
+        testCasePage_homework.dropdown();
+        testCasePage_homework.gettextDropDown();
+    }
 
 }

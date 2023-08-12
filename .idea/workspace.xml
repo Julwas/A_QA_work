@@ -7,7 +7,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d77c945-0099-49b3-afda-8efe4673f3e4" name="Changes" comment="ws" />
+    <list default="true" id="8d77c945-0099-49b3-afda-8efe4673f3e4" name="Changes" comment="ws">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/AddProjectsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TestCasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/elements/CheckBox_hw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/elements/CheckBox_hw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/elements/RadioButton_hw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/elements/RadioButton_hw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testes/WrapperTest_hw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testes/WrapperTest_hw.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -128,41 +135,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.WrapperTest_hw.testCheckBox_hw">
-    <configuration name="AllureTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AQA21onl" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testes" />
-      <option name="MAIN_CLASS_NAME" value="testes.AllureTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ScreenShotTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AQA21onl" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testes" />
-      <option name="MAIN_CLASS_NAME" value="testes.ScreenShotTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.WrapperTest_hw.testRadioButton_hw">
     <configuration name="WrapperTest_hw" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA21onl" />
       <extension name="coverage">
@@ -180,6 +153,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WrapperTest_hw.dropdownTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AQA21onl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testes" />
+      <option name="MAIN_CLASS_NAME" value="testes.WrapperTest_hw" />
+      <option name="METHOD_NAME" value="dropdownTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WrapperTest_hw.testCheckBox_hw" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA21onl" />
       <extension name="coverage">
@@ -191,6 +182,24 @@
       <option name="PACKAGE_NAME" value="testes" />
       <option name="MAIN_CLASS_NAME" value="testes.WrapperTest_hw" />
       <option name="METHOD_NAME" value="testCheckBox_hw" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WrapperTest_hw.testRadioButton_hw" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AQA21onl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testes" />
+      <option name="MAIN_CLASS_NAME" value="testes.WrapperTest_hw" />
+      <option name="METHOD_NAME" value="testRadioButton_hw" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -217,19 +226,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="TestNG.WrapperTest_hw.dropdownTest" />
+      <item itemvalue="TestNG.WrapperTest_hw.testRadioButton_hw" />
       <item itemvalue="TestNG.WrapperTest_hw" />
       <item itemvalue="TestNG.WrapperTest.tableTest" />
       <item itemvalue="TestNG.WrapperTest_hw.testCheckBox_hw" />
-      <item itemvalue="TestNG.ScreenShotTest" />
-      <item itemvalue="TestNG.AllureTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.WrapperTest_hw.testRadioButton_hw" />
+        <item itemvalue="TestNG.WrapperTest_hw.dropdownTest" />
         <item itemvalue="TestNG.WrapperTest_hw.testCheckBox_hw" />
         <item itemvalue="TestNG.WrapperTest_hw" />
         <item itemvalue="TestNG.WrapperTest.tableTest" />
-        <item itemvalue="TestNG.ScreenShotTest" />
-        <item itemvalue="TestNG.AllureTest" />
       </list>
     </recent_temporary>
   </component>

@@ -16,25 +16,24 @@ public class RadioButton_hw {
         textList = new ArrayList<>();
         valueList = new ArrayList<>();
 
-        for (WebElement element : driver.findElements(By.name(attributeNameValue))) {
+        for (WebElement webElement : driver.findElements( By.name(attributeNameValue) )) {
             UIElement element = new UIElement(driver, webElement);
            uiElementList.add(element);
            valueList.add(element.getAttribute("value"));
-           textList.add(element.findUIElements(By.xpath("").getText().trim());
+           textList.add(element.findElement(By.name("suite_mode")).getText().trim());
         };
-
     }
 
-    public RadioButton_hw(WebDriver driver, WebElement webElement) {
-        this.uiElement = new UIElement(driver, webElement);
-    }
-    public selectionByName(WebDriver driver, By by) {
+    public void selectionByName(String name) {
+        uiElementList.get(textList.indexOf(name)).click();
 
     }
-    public selectionByValue(WebDriver driver, By by) {
+    public void selectionByValue(String value) {
+        uiElementList.get(valueList.indexOf(value)).click();
 
     }
-    public selectionByNumber(WebDriver driver, By by) {
+    public void selectionByNumber(int number) {
+        uiElementList.get(number).click();
 
     }
 }
