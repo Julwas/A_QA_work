@@ -14,9 +14,9 @@ public class LoginPage extends BasePage {
 
     // Блок инициализации
     public LoginPage(WebDriver driver){
-
         super(driver);
     }
+
     @Override
     protected By getPageIdentifier() {
         return logInButtonLocator;
@@ -27,20 +27,27 @@ public class LoginPage extends BasePage {
         return driver.findElement(emailInputLocator);
     }
 
-    public WebElement getPswInput() {
+    public WebElement getPasswordInput() {
         return driver.findElement(pswInputLocator);
     }
 
     public WebElement getLogInButton() {
         return driver.findElement(logInButtonLocator);
     }
-    public void setEmail(String value) {
+
+    public LoginPage setEmail(String value) {
         getEmailInput().sendKeys(value);
+        return this;
     }
-    //блок комплексных методов
-    public void login(String username, String psw) {
-        setEmail(username);
-        getPswInput().sendKeys(psw);
+
+    public LoginPage setPassword(String password) {
+        getPasswordInput().sendKeys(password);
+        return this;
+    }
+
+    public ProductsPage clickLogIn() {
         getLogInButton().click();
+        return new ProductsPage(driver);
     }
+
 }

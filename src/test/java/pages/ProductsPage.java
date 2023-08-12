@@ -9,9 +9,9 @@ public class ProductsPage extends BasePage {
     private final static String pagePath = "/inventory.html";
 
     //блок описания локаторов
-    private static final By headerTitleLocator = By.className("title");
-    private static final By addToCartButtonLocator = By.id("add-to-cart-test.allthethings()-t-shirt-(red)");
-    private static final By shoppingCartLocator = By.id("shopping_cart_container");
+    private final By headerTitleLocator = By.className("title");
+    private final By addToCartButtonLocator = By.id("add-to-cart-test.allthethings()-t-shirt-(red)");
+    private  final By shoppingCartLocator = By.id("shopping_cart_container");
 
     // Блок инициализации
     public ProductsPage(WebDriver driver) {
@@ -27,20 +27,26 @@ public class ProductsPage extends BasePage {
     }
 
     //блок атомарных методов
-    public static WebElement getHeaderTitle() {
+    public WebElement getHeaderTitle() {
         return driver.findElement(headerTitleLocator);
     }
 
-    public static WebElement getAddToCartButton() {
+    public  WebElement getAddToCartButton() {
         return driver.findElement(addToCartButtonLocator);
     }
 
-    public static WebElement getShoppingCart() {
+    public  WebElement getShoppingCart() {
         return driver.findElement(shoppingCartLocator);
     }
     //блок комплексных методов
-    public void getProducts(){
+    public ProductsPage clickAddToCart() {
         getAddToCartButton().click();
-        getShoppingCart().click();
+        return this;
     }
+
+    public CartPage clickShoppingCart() {
+        getShoppingCart().click();
+        return new CartPage(driver);
+    }
+
 }

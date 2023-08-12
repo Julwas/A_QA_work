@@ -31,22 +31,8 @@ public class ReadProperties {
         return properties.getProperty("password");
     }
 
-    public static String firstname() {
-        return properties.getProperty("firstname");
-
-
-    }
-
-    public static String zip() {
-        return properties.getProperty("zip");
-    }
-
     public static boolean isHeadless() {
         return properties.getProperty("headless").equalsIgnoreCase("true");
     }
 
-
-    public static String lastname() {
-        return properties.getProperty("lastname");
-    }
 }

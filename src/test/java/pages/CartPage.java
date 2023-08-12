@@ -35,4 +35,9 @@ public class CartPage extends BasePage {
     public WebElement getCheckoutButton() {
         return driver.findElement(checkoutButtonLocator);
     }
+    public CheckoutInfoPage clickCheckout() {
+        getCheckoutButton().click();
+        return new CheckoutInfoPage(driver);
+    }
+
 }

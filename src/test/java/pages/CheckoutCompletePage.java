@@ -39,4 +39,12 @@ public class CheckoutCompletePage extends BasePage {
     public WebElement getThanYouMessage() {
         return driver.findElement(thanYouMessageLocator);
     }
+    public CheckoutCompletePage thankYouMessage() {
+        getThanYouMessage().isDisplayed();
+        return this;
+    }
+    public CheckoutCompletePage clickHomeButton() {
+        getBackHomeButton().click();
+        return this;
+    }
 }

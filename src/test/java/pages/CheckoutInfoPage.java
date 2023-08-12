@@ -15,6 +15,7 @@ public class CheckoutInfoPage extends BasePage {
     private final By zipCodeInputLocator = By.id("postal-code");
     private final By continueButtonLocator = By.id("continue");
 
+
     // Блок инициализации
     public CheckoutInfoPage(WebDriver driver) {
         super(driver);
@@ -49,13 +50,23 @@ public class CheckoutInfoPage extends BasePage {
     public WebElement getContinueButton() {
         return driver.findElement(continueButtonLocator);
     }
-
-    //блок комплексных методов
-
-    public void inputYourData(String firstname, String lastname, String zip) {
-        getFirstNameInput().sendKeys(firstname);
-        getLastNameInput().sendKeys(lastname);
-        getZipCodeInput().sendKeys(zip);
-        getContinueButton().click();
+    public CheckoutInfoPage getFirstName() {
+        getFirstNameInput().sendKeys("Wasilewska");
+        return this;
     }
+
+    public CheckoutInfoPage geLastName( ) {
+        getLastNameInput().sendKeys("Julia");
+        return this;
+    }
+
+    public CheckoutInfoPage getZipCode() {
+        getZipCodeInput().sendKeys("zip");
+        return this;}
+
+        public CheckoutOverviewPage clickContinueButton() {
+            getContinueButton().click();
+            return new CheckoutOverviewPage(driver);
+        }
+
 }

@@ -36,4 +36,9 @@ public class CheckoutOverviewPage extends BasePage {
     public WebElement getFinishCheckoutButton() {
         return driver.findElement(finishCheckoutButtonLocator);
     }
+    public CheckoutCompletePage clickFinishCheckout() {
+        getFinishCheckoutButton().click();
+        return new CheckoutCompletePage(driver);
+    }
+
 }
