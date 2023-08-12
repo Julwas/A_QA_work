@@ -16,16 +16,16 @@ public class E2ETest extends BaseTest {
         Assert.assertTrue(productsStep.AddProducts().isPageOpened());
 
         CartPage cartPage = new CartPage(driver);
-        cartPage.getCheckoutButton().click();
+        cartPage.checkoutButton.click();
 
         checkoutStep.getYourData(ReadProperties.firstname(),
                 ReadProperties.lastname(), ReadProperties.zip()).isPageOpened();
 
         CheckoutOverviewPage checkoutOverviewPage = new CheckoutOverviewPage(driver);
-        checkoutOverviewPage.getFinishCheckoutButton().click();
+        checkoutOverviewPage.finishCheckoutButton.click();
 
         CheckoutCompletePage checkoutCompletePage =new CheckoutCompletePage(driver);
-        checkoutCompletePage.getBackHomeButton().click();
+        checkoutCompletePage.backHomeButton.click();
         Assert.assertTrue(new ProductsPage(driver).isPageOpened());
     }
 }

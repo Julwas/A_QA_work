@@ -4,16 +4,22 @@ import baseEntities.BasePage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 
 public class CheckoutInfoPage extends BasePage {
     private final static String pagePath = "checkout-step-one.html";
 
     //блок описания локаторов
-    private final By headerCheckoutInfoLocator = By.xpath("//*[@id='header_container']/div[2]/span");
-    private final By firstNameInputLocator = By.id("first-name");
-    private final By lastNameInputLocator = By.id("last-name");
-    private final By zipCodeInputLocator = By.id("postal-code");
-    private final By continueButtonLocator = By.id("continue");
+    @FindBy(xpath = "//*[@id='header_container']/div[2]/span")
+    public WebElement headerCheckoutInfo;
+    @FindBy(id ="first-name" )
+    public WebElement firstNameInput;
+    @FindBy(id = "last-name")
+    public WebElement lastNameInput;
+    @FindBy(id = "postal-code")
+    public WebElement zipCodeInput;
+    @FindBy(id = "continue")
+    public WebElement continueButton;
 
     // Блок инициализации
     public CheckoutInfoPage(WebDriver driver) {
@@ -25,37 +31,12 @@ public class CheckoutInfoPage extends BasePage {
 
     @Override
     protected By getPageIdentifier() {
-        return continueButtonLocator;
+        return By.id("continue");
     }
-
-    //блок атомарных методов
-
-    public WebElement getHeaderCheckoutInfo() {
-        return driver.findElement(headerCheckoutInfoLocator);
-    }
-
-    public WebElement getFirstNameInput() {
-        return driver.findElement(firstNameInputLocator);
-    }
-
-    public WebElement getLastNameInput() {
-        return driver.findElement(lastNameInputLocator);
-    }
-
-    public WebElement getZipCodeInput() {
-        return driver.findElement(zipCodeInputLocator);
-    }
-
-    public WebElement getContinueButton() {
-        return driver.findElement(continueButtonLocator);
-    }
-
-    //блок комплексных методов
-
     public void inputYourData(String firstname, String lastname, String zip) {
-        getFirstNameInput().sendKeys(firstname);
-        getLastNameInput().sendKeys(lastname);
-        getZipCodeInput().sendKeys(zip);
-        getContinueButton().click();
+        firstNameInput.sendKeys(firstname);
+        lastNameInput.sendKeys(lastname);
+       zipCodeInput.sendKeys(zip);
+        continueButton.click();
     }
 }

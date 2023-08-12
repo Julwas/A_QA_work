@@ -4,14 +4,17 @@ import baseEntities.BasePage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 
 public class CartPage extends BasePage {
 
     private final static String pagePath = "cart.html";
 
     //блок описания локаторов
-    private final By headerCartTitleLocator = By.xpath("//span[@class='title']");
-    private final By checkoutButtonLocator = By.id("checkout");
+    @FindBy(xpath = "//span[@class='title']")
+    public WebElement headerCartTitle;
+    @FindBy(id ="checkout" )
+    public WebElement checkoutButton;
 
     // Блок инициализации
     public CartPage(WebDriver driver) {
@@ -20,19 +23,9 @@ public class CartPage extends BasePage {
 
     @Override
     protected By getPageIdentifier() {
-        return checkoutButtonLocator;
+        return By.id("checkout");
     }
     public void openPageByUrl(){
         super.openPageByUrl(pagePath);
-    }
-
-    //блок атомарных методов
-
-    public WebElement getHeaderCartTitle() {
-        return driver.findElement(headerCartTitleLocator);
-    }
-
-    public WebElement getCheckoutButton() {
-        return driver.findElement(checkoutButtonLocator);
     }
 }
