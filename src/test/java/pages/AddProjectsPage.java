@@ -5,13 +5,11 @@ import elements.RadioButton_hw;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ISelect;
 
 public class AddProjectsPage extends BasePage {
     private final static String pagePath = "/index.php?/admin/projects/add/1";
 
     // Блок описания локаторов для элементов
-    private final By headerTitleLabelLocator = By.className("tab-header");
     private final By addButtonLocator = By.id("accept");
 
     // Блок инициализации
@@ -22,7 +20,7 @@ public class AddProjectsPage extends BasePage {
 
     @Override
     protected By getPageIdentifier() {
-        return headerTitleLabelLocator;
+        return addButtonLocator;
     }
     public void openPageByUrl() {
         super.openPageByUrl(pagePath);
