@@ -1,0 +1,13 @@
+baseEntities\BasePage.class
+baseEntities\BaseTest.class
+allureTestsHW.class
+pages\ProductsPage.class
+pages\LoginPage.class
+pages\CartPage.class
+steps\CheckoutStep.class
+steps\ProductsStep.class
+pages\CheckoutCompletePage.class
+steps\LoginStep.class
+baseEntities\BaseStep.class
+pages\CheckoutOverviewPage.class
+pages\CheckoutInfoPage.class
