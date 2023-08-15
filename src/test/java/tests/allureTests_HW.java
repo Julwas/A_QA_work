@@ -1,3 +1,5 @@
+package tests;
+
 import baseEntities.BaseTest;
 import io.qameta.allure.Description;
 import io.qameta.allure.Severity;
@@ -10,7 +12,7 @@ import pages.CheckoutOverviewPage;
 import pages.ProductsPage;
 import utils.configuration.ReadProperties;
 
-public class allureTestsHW extends BaseTest {
+public class allureTests_HW extends BaseTest {
 
    @Test(description = "End to end test by product.")
    @Description("Verifies the entire process of purchasing an item on the website.")
