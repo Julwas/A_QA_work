@@ -20,4 +20,7 @@ public class User {
     //@ToString.Exclude
     private String code;
 
+    public User() {
+
+    }
 }
