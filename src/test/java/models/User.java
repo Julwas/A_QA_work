@@ -12,7 +12,7 @@ public class User {
 
     @NonNull
     private String username;
-    @NonNull
+    @NonNull @With(AccessLevel.PROTECTED)
     private String password;
     //@ToString.Exclude
     private String email;
@@ -20,8 +20,4 @@ public class User {
     //@ToString.Exclude
     private String code;
 
-
-    public User() {
-
-    }
 }
