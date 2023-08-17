@@ -4,14 +4,19 @@ import baseEntities.BasePage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 
 public class CheckoutCompletePage extends BasePage {
     private final static String pagePath = "checkout-complete.html";
 
     //блок описания локаторов
-    private final By headerCheckoutCompleteTitleLocator = By.xpath("//*[@id='header_container']/div[2]/span");
-    private final By thanYouMessageLocator = By.className("complete-header");
-    private final By backHomeButtonLocator = By.id("back-to-products");
+    @FindBy(xpath ="//*[@id='header_container']/div[2]/span" )
+    public WebElement headerCheckoutCompleteTitle;
+    @FindBy(className ="complete-header" )
+    public WebElement thanYouMessage;
+    @FindBy(id = "back-to-products")
+    public WebElement backHomeButton;
+
 
     public CheckoutCompletePage(WebDriver driver) {
         super(driver);
@@ -23,20 +28,6 @@ public class CheckoutCompletePage extends BasePage {
 
     @Override
     protected By getPageIdentifier() {
-        return backHomeButtonLocator;
-    }
-
-    //блок атомарных методов
-
-    public WebElement getHeaderCheckoutCompleteTitle() {
-        return driver.findElement(headerCheckoutCompleteTitleLocator);
-    }
-
-    public WebElement getBackHomeButton() {
-        return driver.findElement(backHomeButtonLocator);
-    }
-
-    public WebElement getThanYouMessage() {
-        return driver.findElement(thanYouMessageLocator);
+        return By.id("back-to-products");
     }
 }
