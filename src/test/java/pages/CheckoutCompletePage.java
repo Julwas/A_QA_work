@@ -10,12 +10,10 @@ public class CheckoutCompletePage extends BasePage {
     private final static String pagePath = "checkout-complete.html";
 
     //блок описания локаторов
-    @FindBy(xpath ="//*[@id='header_container']/div[2]/span" )
-    public WebElement headerCheckoutCompleteTitle;
-    @FindBy(className ="complete-header" )
-    public WebElement thanYouMessage;
-    @FindBy(id = "back-to-products")
-    public WebElement backHomeButton;
+    private final By headerCheckoutCompleteTitleLocator = By.xpath("//*[@id='header_container']/div[2]/span");
+    private final By thanYouMessageLocator = By.className("complete-header");
+    private final By backHomeButtonLocator = By.id("back-to-products");
+
 
 
     public CheckoutCompletePage(WebDriver driver) {
@@ -29,5 +27,18 @@ public class CheckoutCompletePage extends BasePage {
     @Override
     protected By getPageIdentifier() {
         return By.id("back-to-products");
+    }
+    //блок атомарных методов
+
+    public WebElement getHeaderCheckoutCompleteTitle() {
+        return driver.findElement(headerCheckoutCompleteTitleLocator);
+    }
+
+    public WebElement getBackHomeButton() {
+        return driver.findElement(backHomeButtonLocator);
+    }
+
+    public WebElement getThanYouMessage() {
+        return driver.findElement(thanYouMessageLocator);
     }
 }

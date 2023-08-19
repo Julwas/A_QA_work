@@ -11,10 +11,8 @@ public class CartPage extends BasePage {
     private final static String pagePath = "cart.html";
 
     //блок описания локаторов
-    @FindBy(xpath = "//span[@class='title']")
-    public WebElement headerCartTitle;
-    @FindBy(id ="checkout" )
-    public WebElement checkoutButton;
+    private final By headerCartTitleLocator = By.xpath("//span[@class='title']");
+    private final By checkoutButtonLocator = By.id("checkout");
 
     // Блок инициализации
     public CartPage(WebDriver driver) {
@@ -27,5 +25,15 @@ public class CartPage extends BasePage {
     }
     public void openPageByUrl(){
         super.openPageByUrl(pagePath);
+    }
+
+    //блок атомарных методов
+
+    public WebElement getHeaderCartTitle() {
+        return driver.findElement(headerCartTitleLocator);
+    }
+
+    public WebElement getCheckoutButton() {
+        return driver.findElement(checkoutButtonLocator);
     }
 }

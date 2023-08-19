@@ -11,10 +11,9 @@ public class CheckoutOverviewPage extends BasePage {
     private final static String pagePath = "/checkout-step-two.html";
 
     //блок описания локаторов
-    @FindBy(xpath ="//*[@id='header_container']/div[2]/span" )
-    public WebElement headerCheckoutOverview;
-    @FindBy(id ="finish" )
-    public WebElement finishCheckoutButton;
+    private final By headerCheckoutOverviewLocator = By.xpath("//*[@id='header_container']/div[2]/span");
+    private final By finishCheckoutButtonLocator = By.id("finish");
+
 
 
     // Блок инициализации
@@ -28,6 +27,16 @@ public class CheckoutOverviewPage extends BasePage {
     @Override
     protected By getPageIdentifier() {
         return  By.id("finish");
+    }
+
+    //блок атомарных методов
+
+    public WebElement getHeaderCheckoutOverview() {
+        return driver.findElement(headerCheckoutOverviewLocator);
+    }
+
+    public WebElement getFinishCheckoutButton() {
+        return driver.findElement(finishCheckoutButtonLocator);
     }
 
 }

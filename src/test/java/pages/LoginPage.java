@@ -10,13 +10,10 @@ import org.openqa.selenium.support.FindBy;
 public class LoginPage extends BasePage {
 
     //блок описания локаторов
-    @FindBy(id = "user-name")
-    public WebElement EmailInput;
+    private final By emailInputLocator = By.id("user-name");
+    private final By pswInputLocator = By.id("password");
+    private final By logInButtonLocator = By.id("login-button");
 
-    @FindBy(id = "password")
-    public WebElement pswInput;
-    @FindBy(id = "login-button")
-    public WebElement logInButton;
     // Блок инициализации
     public LoginPage(WebDriver driver){
 
@@ -27,15 +24,27 @@ public class LoginPage extends BasePage {
         return  By.id("login-button");
     }
     //блок атомарных методов
-    public void setEmail(String value) {
-        EmailInput.sendKeys(value);
+    //блок атомарных методов
+
+    public WebElement getEmailInput() {
+        return driver.findElement(emailInputLocator);
     }
 
+    public WebElement getPswInput() {
+        return driver.findElement(pswInputLocator);
+    }
+
+    public WebElement getLogInButton() {
+        return driver.findElement(logInButtonLocator);
+    }
+    public void setEmail(String value) {
+        getEmailInput().sendKeys(value);
+    }
     //блок комплексных методов
     public void login(String username, String psw) {
         setEmail(username);
-        pswInput.sendKeys(psw);
-        logInButton.click();
+        getPswInput().sendKeys(psw);
+        getLogInButton().click();
     }
 }
 
