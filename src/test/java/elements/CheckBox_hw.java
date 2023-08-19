@@ -11,18 +11,18 @@ public class CheckBox_hw {
         this.uiElement = new UIElement(driver, by);
     }
 
-    public CheckBox_hw(WebDriver driver, WebElement webElement) {
-        this.uiElement = new UIElement(driver, webElement);
+    public void set() {
+        setFlag(true);
     }
-
-    public void setFlack() {
-        if (uiElement.isSelected() &&  !uiElement.isSelected())  {
+        public void remove() {
+            setFlag(false);
+    }
+    public void setFlag(boolean flag){
+        if(!isSelected() && flag){
             uiElement.click();
         }
     }
-        public void removeFlack() {
-            if (uiElement.isSelected()&& uiElement.isSelected()){
-                uiElement.click();
-            }
+    public boolean isSelected(){
+        return uiElement.isSelected();
     }
     }

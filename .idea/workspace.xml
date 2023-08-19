@@ -8,10 +8,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d77c945-0099-49b3-afda-8efe4673f3e4" name="Changes" comment="ws">
+      <change afterPath="$PROJECT_DIR$/src/test/java/helper/DataHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/models/Milestone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/models/Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/ProjectStep.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/factory/BrowserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/BrowserFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/baseEntities/BaseStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseEntities/BaseStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/baseEntities/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseEntities/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/elements/CheckBox_hw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/elements/CheckBox_hw.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/elements/RadioButton_hw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/elements/RadioButton_hw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/elements/UIElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/elements/UIElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/AddProjectsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/AddProjectsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/LoginStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/LoginStep.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testes/WrapperTest_hw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testes/WrapperTest_hw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,14 +139,14 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="steps" />
       <recent name="elements" />
       <recent name="testes" />
       <recent name="pages" />
       <recent name="data" />
-      <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.WrapperTest_hw.testRadioButton_hw">
+  <component name="RunManager" selected="TestNG.WrapperTest_hw">
     <configuration name="WrapperTest_hw" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA21onl" />
       <extension name="coverage">
@@ -151,7 +164,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WrapperTest_hw.dropdownTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WrapperTest_hw.RadioButton_hw" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA21onl" />
       <extension name="coverage">
         <pattern>
@@ -161,7 +174,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="testes" />
       <option name="MAIN_CLASS_NAME" value="testes.WrapperTest_hw" />
-      <option name="METHOD_NAME" value="dropdownTest" />
+      <option name="METHOD_NAME" value="RadioButton_hw" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -169,7 +182,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WrapperTest_hw.testCheckBox_hw" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WrapperTest_hw.successLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA21onl" />
       <extension name="coverage">
         <pattern>
@@ -179,7 +192,25 @@
       </extension>
       <option name="PACKAGE_NAME" value="testes" />
       <option name="MAIN_CLASS_NAME" value="testes.WrapperTest_hw" />
-      <option name="METHOD_NAME" value="testCheckBox_hw" />
+      <option name="METHOD_NAME" value="successLoginTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WrapperTest_hw.test5" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AQA21onl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testes" />
+      <option name="MAIN_CLASS_NAME" value="testes.WrapperTest_hw" />
+      <option name="METHOD_NAME" value="test5" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -205,38 +236,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WrapperTest.tableTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AQA21onl" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testes" />
-      <option name="MAIN_CLASS_NAME" value="testes.WrapperTest" />
-      <option name="METHOD_NAME" value="tableTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="TestNG.WrapperTest_hw.dropdownTest" />
+      <item itemvalue="TestNG.WrapperTest_hw.RadioButton_hw" />
+      <item itemvalue="TestNG.WrapperTest_hw.successLoginTest" />
+      <item itemvalue="TestNG.WrapperTest_hw.test5" />
       <item itemvalue="TestNG.WrapperTest_hw.testRadioButton_hw" />
       <item itemvalue="TestNG.WrapperTest_hw" />
-      <item itemvalue="TestNG.WrapperTest.tableTest" />
-      <item itemvalue="TestNG.WrapperTest_hw.testCheckBox_hw" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.WrapperTest_hw.testRadioButton_hw" />
-        <item itemvalue="TestNG.WrapperTest_hw.dropdownTest" />
-        <item itemvalue="TestNG.WrapperTest_hw.testCheckBox_hw" />
         <item itemvalue="TestNG.WrapperTest_hw" />
-        <item itemvalue="TestNG.WrapperTest.tableTest" />
+        <item itemvalue="TestNG.WrapperTest_hw.successLoginTest" />
+        <item itemvalue="TestNG.WrapperTest_hw.RadioButton_hw" />
+        <item itemvalue="TestNG.WrapperTest_hw.test5" />
+        <item itemvalue="TestNG.WrapperTest_hw.testRadioButton_hw" />
       </list>
     </recent_temporary>
   </component>
@@ -629,6 +642,19 @@
     <option name="LAST_COMMIT_MESSAGE" value="ws" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/testes/WrapperTest_hw.java</url>
+          <line>44</line>
+          <properties class="testes.WrapperTest_hw" method="RadioButton_hw">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="TestNG">
         <watch expression="driver" language="JAVA" />

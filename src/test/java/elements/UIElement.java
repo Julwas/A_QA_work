@@ -16,7 +16,7 @@ public class UIElement implements WebElement {
         this.driver = driver;
         this.by = by;
         this.waitService = new WaitService(driver);
-        this.webElement = driver.findElement(by);
+       // this.webElement = driver.findElement(by);
         this.webElement = waitService.waitForExists(by);
     }
 
@@ -76,13 +76,17 @@ public class UIElement implements WebElement {
     }
 
     @Override
-    public String getText() {
-        return null;
+    public  String getText() {
+        return webElement.getText();
     }
 
     @Override
     public List<WebElement> findElements(By by) {
-        return null;
+        return webElement.findElements(by);
+    }
+
+    public UIElement findUIElement(By by){
+        return new UIElement(driver, webElement.findElement(by));
     }
 
     public List<UIElement> findUIElements(By by) {
@@ -95,8 +99,7 @@ public class UIElement implements WebElement {
 
     @Override
     public WebElement findElement(By by) {
-        //return webElement.findElemnt(by) ищет от webelementa (driver->от началад д-та)
-        return null;
+       return new UIElement(driver, webElement.findElement(by));
     }
 
     @Override

@@ -9,29 +9,24 @@ import java.util.List;
 
 public class RadioButton_hw {
 
-    private List<UIElement>  uiElementList;
-    private List<String> textList;
-    private List<String> valueList;
-    public RadioButton_hw(WebDriver driver, String attributeNameValue) {
-        this.uiElementList = new ArrayList<>();
-        this.textList = new ArrayList<>();
-        this.valueList = new ArrayList<>();
-
-        for (WebElement webElement : driver.findElements( By.name(attributeNameValue) )) {
-            UIElement element = new UIElement(driver, webElement);
-           uiElementList.add(element);
-           valueList.add(element.getAttribute("value"));
-           textList.add(element.findElement(By.name("suite_mode")).getText().trim());
+    private List<UIElement> optionsList =new ArrayList<>();
+    private List<String> textsList = new ArrayList<>();
+    private List<String> valuesList = new ArrayList<>();
+    public RadioButton_hw(WebDriver driver,By by) {
+        for(WebElement webElement : driver.findElements(by)){
+        UIElement element = new UIElement(driver, webElement);
+        optionsList.add(element);
+            textsList.add(element.findUIElement(By.xpath("parent::*/strong")).getText());
+            valuesList.add(element.getAttribute("value"));
         }
     }
-
-    public void selectionByName(String name) {
-        uiElementList.get(textList.indexOf(name)).click();
+    public void selectByIndex(int index) {
+        optionsList.get(index).click();
     }
-    public void selectionByValue(String value) {
-        uiElementList.get(valueList.indexOf(value)).click();
+    public void selectByText(String text) {
+        optionsList.get(textsList.indexOf(text)).click();
     }
-    public void selectionByNumber(int number) {
-        uiElementList.get(number).click();
+    public void selectByValue(String value) {
+        optionsList.get(valuesList.indexOf(value)).click();
     }
 }
