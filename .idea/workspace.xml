@@ -8,14 +8,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d77c945-0099-49b3-afda-8efe4673f3e4" name="Changes" comment="hw">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j2-test-fi.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j2-test.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/factory/BrowserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/BrowserFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/E2ETest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/E2ETest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/CheckoutInfoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/CheckoutInfoPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/CheckoutOverviewPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/CheckoutOverviewPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/ProductsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/ProductsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/log4j2-test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/models/SwagLabs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/models/SwagLabs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +47,7 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="valueOfObject_HW" />
+        <entry key="$PROJECT_DIR$" value="bilder_HW" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -151,11 +150,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E2ETest.buildTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="E2ETest.E2ETest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA21onl" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="E2ETest" />
-      <option name="METHOD_NAME" value="buildTest" />
+      <option name="METHOD_NAME" value="E2ETest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -163,11 +162,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E2ETest.incorrectEmailLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="E2ETest.buildTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA21onl" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="E2ETest" />
-      <option name="METHOD_NAME" value="incorrectEmailLoginTest" />
+      <option name="METHOD_NAME" value="buildTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -212,19 +211,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="TestNG.E2ETest.E2ETest" />
       <item itemvalue="TestNG.E2ETest" />
       <item itemvalue="TestNG.E2ETest.buildTest" />
-      <item itemvalue="TestNG.E2ETest.incorrectEmailLoginTest" />
       <item itemvalue="TestNG.E2ETest.shortPswLoginTest" />
       <item itemvalue="TestNG.E2ETest.successLoginTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.E2ETest" />
+        <item itemvalue="TestNG.E2ETest.E2ETest" />
         <item itemvalue="TestNG.E2ETest.buildTest" />
         <item itemvalue="TestNG.E2ETest.successLoginTest" />
         <item itemvalue="TestNG.E2ETest.shortPswLoginTest" />
-        <item itemvalue="TestNG.E2ETest.incorrectEmailLoginTest" />
       </list>
     </recent_temporary>
   </component>
