@@ -4,6 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import utils.configuration.ReadProperties;
 
+import static com.codeborne.selenide.Selenide.$;
+
 public abstract class BasePage {
 
     public static WebDriver driver;
@@ -17,7 +19,7 @@ public abstract class BasePage {
     }
     protected abstract By getPageIdentifier();
     public boolean isPageOpened() {
-        return driver.findElement(getPageIdentifier()).isDisplayed();
+        return $(getPageIdentifier()).isDisplayed();
     }
 }
 

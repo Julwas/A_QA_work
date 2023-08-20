@@ -5,6 +5,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+import static com.codeborne.selenide.Selenide.$;
+
 public class CheckoutInfoPage extends BasePage {
     private final static String pagePath = "checkout-step-one.html";
 
@@ -31,23 +33,23 @@ public class CheckoutInfoPage extends BasePage {
     //блок атомарных методов
 
     public WebElement getHeaderCheckoutInfo() {
-        return driver.findElement(headerCheckoutInfoLocator);
+        return $(headerCheckoutInfoLocator);
     }
 
     public WebElement getFirstNameInput() {
-        return driver.findElement(firstNameInputLocator);
+        return $(firstNameInputLocator);
     }
 
     public WebElement getLastNameInput() {
-        return driver.findElement(lastNameInputLocator);
+        return $(lastNameInputLocator);
     }
 
     public WebElement getZipCodeInput() {
-        return driver.findElement(zipCodeInputLocator);
+        return $(zipCodeInputLocator);
     }
 
     public WebElement getContinueButton() {
-        return driver.findElement(continueButtonLocator);
+        return $(continueButtonLocator);
     }
 
     //блок комплексных методов

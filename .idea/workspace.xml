@@ -8,7 +8,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d77c945-0099-49b3-afda-8efe4673f3e4" name="Changes" comment="fixed">
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/SelenideTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/E2ETest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/E2ETest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/baseEntities/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseEntities/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/CartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/CheckoutCompletePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/CheckoutCompletePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/CheckoutInfoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/CheckoutInfoPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/CheckoutOverviewPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/CheckoutOverviewPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/ProductsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/ProductsPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,41 +136,18 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
       <recent name="Steps" />
       <recent name="pages" />
       <recent name="testes" />
       <recent name="data" />
-      <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.E2ETest.E2ETest">
-    <configuration name="E2ETest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AQA21onl" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="E2ETest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="E2ETest.E2ETest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AQA21onl" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="E2ETest" />
-      <option name="METHOD_NAME" value="E2ETest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.SelenideTest.userCanLogin">
     <configuration name="E2ETest.incorrectEmailLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA21onl" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="E2ETest" />
+      <option name="MAIN_CLASS_NAME" value="tests.E2ETest" />
       <option name="METHOD_NAME" value="incorrectEmailLoginTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -171,7 +159,7 @@
     <configuration name="E2ETest.shortPswLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA21onl" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="E2ETest" />
+      <option name="MAIN_CLASS_NAME" value="tests.E2ETest" />
       <option name="METHOD_NAME" value="shortPswLoginTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -183,7 +171,7 @@
     <configuration name="E2ETest.successLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA21" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="E2ETest" />
+      <option name="MAIN_CLASS_NAME" value="tests.E2ETest" />
       <option name="METHOD_NAME" value="successLoginTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -204,20 +192,55 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SelenideTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AQA21onl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SelenideTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelenideTest.userCanLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AQA21onl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SelenideTest" />
+      <option name="METHOD_NAME" value="userCanLogin" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="TestNG.E2ETest" />
-      <item itemvalue="TestNG.E2ETest.E2ETest" />
+      <item itemvalue="TestNG.SelenideTest" />
+      <item itemvalue="TestNG.SelenideTest.userCanLogin" />
       <item itemvalue="TestNG.E2ETest.incorrectEmailLoginTest" />
       <item itemvalue="TestNG.E2ETest.shortPswLoginTest" />
       <item itemvalue="TestNG.E2ETest.successLoginTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SelenideTest.userCanLogin" />
+        <item itemvalue="TestNG.SelenideTest" />
         <item itemvalue="TestNG.E2ETest.successLoginTest" />
         <item itemvalue="TestNG.E2ETest.shortPswLoginTest" />
         <item itemvalue="TestNG.E2ETest.incorrectEmailLoginTest" />
-        <item itemvalue="TestNG.E2ETest.E2ETest" />
-        <item itemvalue="TestNG.E2ETest" />
       </list>
     </recent_temporary>
   </component>
@@ -567,7 +590,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/pages/CheckoutInfoPage.java</url>
-          <line>55</line>
+          <line>57</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>

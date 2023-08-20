@@ -5,6 +5,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+import static com.codeborne.selenide.Selenide.$;
+
 public class LoginPage extends BasePage {
 
     //блок описания локаторов
@@ -24,15 +26,15 @@ public class LoginPage extends BasePage {
     //блок атомарных методов
 
     public WebElement getEmailInput() {
-        return driver.findElement(emailInputLocator);
+        return $(emailInputLocator);
     }
 
     public WebElement getPswInput() {
-        return driver.findElement(pswInputLocator);
+        return $(pswInputLocator);
     }
 
     public WebElement getLogInButton() {
-        return driver.findElement(logInButtonLocator);
+        return $(logInButtonLocator);
     }
     public void setEmail(String value) {
         getEmailInput().sendKeys(value);

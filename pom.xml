@@ -13,6 +13,10 @@
         <maven.compiler.source>11</maven.compiler.source>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <aspectj.version>1.9.5</aspectj.version>
+        <testng.version>7.7.1</testng.version>
+        <selenium-java.version>4.10.0</selenium-java.version>
+        <webdrivermanager.version>5.4.1</webdrivermanager.version>
+        <testng.xml.path>src/test/resources/smoke.xml</testng.xml.path>
     </properties>
 
     <dependencies>
@@ -33,6 +37,12 @@
             <groupId>io.github.bonigarcia</groupId>
             <artifactId>webdrivermanager</artifactId>
             <version>5.4.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.codeborne</groupId>
+            <artifactId>selenide</artifactId>
+            <version>6.9.0</version>
         </dependency>
     </dependencies>
 
@@ -59,6 +69,20 @@
                     </dependency>
                 </dependencies>
             </plugin>
+            <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.11.0</version>
+            <configuration>
+                <annotationProcessorPaths>
+                    <path>
+                        <groupId>org.projectlombok</groupId>
+                        <artifactId>lombok</artifactId>
+                        <version>1.18.28</version>
+                    </path>
+                </annotationProcessorPaths>
+            </configuration>
+        </plugin>
         </plugins>
     </build>
 

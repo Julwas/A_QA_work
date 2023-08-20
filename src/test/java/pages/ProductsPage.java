@@ -5,6 +5,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+import static com.codeborne.selenide.Selenide.$;
+
 public class ProductsPage extends BasePage {
     private final static String pagePath = "/inventory.html";
 
@@ -28,15 +30,15 @@ public class ProductsPage extends BasePage {
 
     //блок атомарных методов
     public static WebElement getHeaderTitle() {
-        return driver.findElement(headerTitleLocator);
+        return $(headerTitleLocator);
     }
 
     public static WebElement getAddToCartButton() {
-        return driver.findElement(addToCartButtonLocator);
+        return $(addToCartButtonLocator);
     }
 
     public static WebElement getShoppingCart() {
-        return driver.findElement(shoppingCartLocator);
+        return $(shoppingCartLocator);
     }
     //блок комплексных методов
     public void getProducts(){

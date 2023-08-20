@@ -5,6 +5,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+import static com.codeborne.selenide.Selenide.$;
+
 public class CartPage extends BasePage {
 
     private final static String pagePath = "cart.html";
@@ -29,10 +31,10 @@ public class CartPage extends BasePage {
     //блок атомарных методов
 
     public WebElement getHeaderCartTitle() {
-        return driver.findElement(headerCartTitleLocator);
+        return $(headerCartTitleLocator);
     }
 
     public WebElement getCheckoutButton() {
-        return driver.findElement(checkoutButtonLocator);
+        return $(checkoutButtonLocator);
     }
 }

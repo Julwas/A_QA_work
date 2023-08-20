@@ -1,3 +1,5 @@
+package tests;
+
 import baseEntities.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;

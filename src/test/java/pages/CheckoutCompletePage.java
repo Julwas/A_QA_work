@@ -5,6 +5,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+import static com.codeborne.selenide.Selenide.$;
+
 public class CheckoutCompletePage extends BasePage {
     private final static String pagePath = "checkout-complete.html";
 
@@ -29,14 +31,14 @@ public class CheckoutCompletePage extends BasePage {
     //блок атомарных методов
 
     public WebElement getHeaderCheckoutCompleteTitle() {
-        return driver.findElement(headerCheckoutCompleteTitleLocator);
+        return $(headerCheckoutCompleteTitleLocator);
     }
 
     public WebElement getBackHomeButton() {
-        return driver.findElement(backHomeButtonLocator);
+        return $(backHomeButtonLocator);
     }
 
     public WebElement getThanYouMessage() {
-        return driver.findElement(thanYouMessageLocator);
+        return $(thanYouMessageLocator);
     }
 }
