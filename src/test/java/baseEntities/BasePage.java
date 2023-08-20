@@ -1,6 +1,7 @@
 package baseEntities;
 
-import configuration.ReadProperties;
+import models.User;
+import utils.configuration.ReadProperties;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import service.WaitService;
@@ -8,20 +9,22 @@ import service.WaitService;
 
 public abstract class BasePage {
     protected WebDriver driver;
-    protected WaitService waitsService;
+    protected WaitService waitService;
 
     public BasePage(WebDriver driver) {
         this.driver = driver;
-        waitsService = new WaitService(driver);
-    }
-
-    protected abstract By getPageIdentifier();
-
-    public boolean isPageOpened() {
-        return waitsService.waitForVisibilityBy(getPageIdentifier()).isDisplayed();
+        this.waitService = new WaitService(driver);
     }
 
     public void openPageByUrl(String pagePath) {
         driver.get(ReadProperties.getUrl() + pagePath);
     }
+
+    protected abstract By getPageIdentifier();
+
+    public boolean isPageOpened() {
+        return driver.findElement(getPageIdentifier()).isDisplayed();
+    }
+
+
 }

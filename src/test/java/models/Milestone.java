@@ -1,18 +1,8 @@
 package models;
 
-import lombok.*;
+import lombok.Data;
 
 @Data
-@NoArgsConstructor(force = true)
-
 public class Milestone {
-    @EqualsAndHashCode.Exclude
-    private int id;
-
-    @NonNull
     private String name;
-    private String references;
-    private String description;
-    @ToString.Exclude
-    private boolean completed;
 }

@@ -1,60 +1,26 @@
 package models;
 
+import lombok.*;
+
+
+@Data
+@AllArgsConstructor
+@RequiredArgsConstructor
 public class User {
-    private String firstname;
-    private String lastname;
-    private String email;
+    @EqualsAndHashCode.Exclude
+    private int id;
+
+    @NonNull
+    private String username;
+    @NonNull @With(AccessLevel.PROTECTED)
     private String password;
+    //@ToString.Exclude
+    private String email;
 
-    public static class Builder {
-        private User newUser;
+    //@ToString.Exclude
+    private String code;
 
-        public Builder() {
-            newUser = new User();
-        }
+    public User() {
 
-        public Builder withEmail(String value) {
-            newUser.email = value;
-
-            return this;
-        }
-
-        public Builder withPassword(String value) {
-            newUser.password = value;
-
-            return this;
-        }
-
-        public Builder withFirstname(String value) {
-            newUser.firstname = value;
-
-            return this;
-        }
-
-        public Builder withLastname(String value) {
-            newUser.lastname = value;
-
-            return this;
-        }
-
-        public User build() {
-            return newUser;
-        }
-    }
-
-    public String getFirstname() {
-        return firstname;
-    }
-
-    public String getLastname() {
-        return lastname;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public String getPassword() {
-        return password;
     }
 }

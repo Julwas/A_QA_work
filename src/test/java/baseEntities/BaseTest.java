@@ -1,59 +1,27 @@
 package baseEntities;
 
 import factory.BrowserFactory;
-import io.qameta.allure.Attachment;
 import org.openqa.selenium.WebDriver;
-import org.testng.ITestContext;
-import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Listeners;
-import service.WaitService;
-import steps.ProjectSteps;
-import steps.UserStep;
-import configuration.ReadProperties;
+import steps.LoginStep;
 
-@Listeners(InvokedListener.class)
 public class BaseTest {
     protected WebDriver driver;
-    protected UserStep userStep;
-    protected ProjectSteps projectSteps;
-    protected WaitService waitsService;
+    protected LoginStep loginStep;
 
     @BeforeMethod
-    public void setUp(ITestContext iTestContext) {
-        driver = new BrowserFactory().getDriver();
-        waitsService = new WaitService(driver);
-        driver.get(ReadProperties.getUrl());
+    public void setUp() {
+        BrowserFactory browserFactory = new BrowserFactory();
+        driver = browserFactory.getDriver();
 
-        // Solution 1
-        iTestContext.setAttribute("driver", driver);
-        // Solution 1 - Finish
+        loginStep = new LoginStep(driver);
 
-        userStep = new UserStep(driver);
-        projectSteps = new ProjectSteps(driver);
+        //driver.get(ReadProperties.getUrl());
     }
 
     @AfterMethod
-    public void tearDown(ITestResult testResult) {
-        // Solution - 2: Плохое решение - потому, что Screenshot добавляется в шаг TearDown
-        /*
-        if (testResult.getStatus() == ITestResult.FAILURE) {
-            try {
-                byte[] srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
-                saveScreenshot(srcFile);
-            } catch (NoSuchSessionException ex) {
-
-            }
-        }
-        */
+    public void tearDown() {
         driver.quit();
     }
-
-    // Solution - 2:
-    @Attachment(value = "Page screenshot", type = "image/png")
-    private byte[] saveScreenshot(byte[] screenshot) {
-        return screenshot;
-    }
-    // Solution - 2: Finish
 }

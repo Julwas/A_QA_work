@@ -2,24 +2,41 @@ package tests;
 
 
 import baseEntities.BaseTest;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import helper.DataHelper;
+import models.User;
+import org.testng.Assert;
 import org.testng.annotations.Test;
+import utils.configuration.ReadProperties;
 
 public class LoggerTest extends BaseTest {
-    Logger logger = LogManager.getLogger(LoggerTest.class);
     @Test
-    public void loggerTest () {
-        logger.trace("Trace Message: ...");
-        logger.debug("Debug Message: ...");
-        logger.info("Info Message: ...");
-        logger.warn("Warning Message: ...");
-        logger.error("Error Message: ...");
-        logger.fatal("Fatal Message: ...");
+    public void successLoginTest() {
+        Assert.assertTrue(
+                loginStep.successLogin(DataHelper.getAdminUser()).isPageOpened()
+        );
+    }
 
-       // loggerFile.error("Error Message: ...");
-      //  loggerFile.fatal("Fatal Message: ...");
+    @Test
+    public void incorrectEmailLoginTest() {
+        User user = new User();
+        user.setEmail("asdasd");
+        user.setPassword(ReadProperties.password());
 
+        Assert.assertEquals(
+                loginStep.negativeLogin(user).getErrorTextElement().getText(),
+                "Email/Login or Password is incorrect. Please try again."
+        );
+    }
 
+    @Test
+    public void incorrectPswLoginTest() {
+        User user = new User();
+        user.setEmail(ReadProperties.username());
+        user.setPassword("123456");
+
+        Assert.assertEquals(
+                loginStep.negativeLogin(user).getErrorTextElement().getText(),
+                "Email/Login or Password is incorrect. Please try again.",
+                "Неверное сообщение об ошибке");
     }
 }

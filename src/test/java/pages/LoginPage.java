@@ -3,6 +3,7 @@ package pages;
 import baseEntities.BasePage;
 import elements.Button;
 import elements.UIElement;
+import models.User;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -29,4 +30,7 @@ public class LoginPage extends BasePage {
     public UIElement getPassword() { return new UIElement(driver, passwordInputLocator);}
     public Button getLogInButton() { return new Button(driver, logInButtonLocator);}
     public UIElement getErrorTextElement() { return new UIElement(driver, errorTextLocator); }
+
+    public void login(User user) {
+    }
 }
