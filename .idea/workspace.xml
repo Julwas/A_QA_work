@@ -7,57 +7,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d77c945-0099-49b3-afda-8efe4673f3e4" name="Changes" comment="cw..">
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/Listener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/helper/DataHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/AddProjectPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/BaseProjectPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/SideMenuPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TopMenuPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/LoginStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="8d77c945-0099-49b3-afda-8efe4673f3e4" name="Changes" comment="hw push">
+      <change afterPath="$PROJECT_DIR$/src/test/java/elements/CheckBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/elements/DropDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/elements/Input.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/elements/RadioButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/elements/UIElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/AddTestCasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/ProjectStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/AddProjectTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/configuration/ReadProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/configuration/ReadProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/configuration/Singleton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/factory/BrowserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/BrowserFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/WaitService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/WaitService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/WaitService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/services/WaitService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/baseEntities/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseEntities/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/baseEntities/BaseStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseEntities/BaseStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/baseEntities/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseEntities/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/models/Milestone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/models/Milestone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/models/MilestoneBilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/models/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/models/Project.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/DashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/DashboardPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/project/AddProjectPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/NavigationSteps.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/ProjectSteps.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/UserStep.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LoggerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LoggerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/MilestoneTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/SingletonTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/AddProjectPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/AddProjectPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/download.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/log4j2-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/log4j2-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/factory/BrowserFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/service/WaitService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/configuration/ReadProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/configuration/Singleton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/logfile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/environment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/allure.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/download.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/log4j2-test-colored.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/log4j2-test-simple.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/log4j2-test.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/smoke.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testes/ActionTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testes/AlertTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testes/FrameTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testes/JSTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testes/ParameterTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +54,7 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="maven" />
+        <entry key="$PROJECT_DIR$" value="ci_cd" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -169,14 +133,14 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="models" />
       <recent name="steps" />
+      <recent name="pages.project" />
+      <recent name="models" />
       <recent name="testes" />
       <recent name="pages" />
-      <recent name="data" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AlertTests">
+  <component name="RunManager" selected="TestNG.LoggerTest">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="TAF_AQA18_onl" />
       <method v="2">
@@ -208,6 +172,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AddProjectTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TAF_AQA18_onl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.AddProjectTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddProjectTest.successLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TAF_AQA18_onl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.AddProjectTest" />
+      <option name="METHOD_NAME" value="successLoginTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AlertTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA21onl" />
       <extension name="coverage">
@@ -225,50 +224,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FrameTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AQA21onl" />
+    <configuration name="LoggerTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TAF_AQA18_onl" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="steps.*" />
+          <option name="PATTERN" value="tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testes" />
-      <option name="MAIN_CLASS_NAME" value="testes.FrameTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JSTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AQA21onl" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="steps.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testes" />
-      <option name="MAIN_CLASS_NAME" value="testes.JSTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ParameterTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AQA21onl" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="steps.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testes" />
-      <option name="MAIN_CLASS_NAME" value="testes.ParameterTests" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.LoggerTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -277,19 +242,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="TestNG.AddProjectTest" />
+      <item itemvalue="TestNG.AddProjectTest.successLoginTest" />
+      <item itemvalue="TestNG.LoggerTest" />
       <item itemvalue="TestNG.AlertTests" />
-      <item itemvalue="TestNG.ParameterTests" />
       <item itemvalue="TestNG.ActionTests.uploadFileTest" />
-      <item itemvalue="TestNG.FrameTests" />
-      <item itemvalue="TestNG.JSTests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoggerTest" />
+        <item itemvalue="TestNG.AddProjectTest" />
+        <item itemvalue="TestNG.AddProjectTest.successLoginTest" />
         <item itemvalue="TestNG.AlertTests" />
         <item itemvalue="TestNG.ActionTests.uploadFileTest" />
-        <item itemvalue="TestNG.ParameterTests" />
-        <item itemvalue="TestNG.JSTests" />
-        <item itemvalue="TestNG.FrameTests" />
       </list>
     </recent_temporary>
   </component>
@@ -610,7 +575,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692269850907</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="hw push">
+      <created>1692546907932</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1692546907932</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -640,7 +612,8 @@
     <MESSAGE value="uploadFileTest" />
     <MESSAGE value="fixed" />
     <MESSAGE value="cw.." />
-    <option name="LAST_COMMIT_MESSAGE" value="cw.." />
+    <MESSAGE value="hw push" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw push" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

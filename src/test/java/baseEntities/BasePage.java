@@ -1,10 +1,9 @@
 package baseEntities;
 
-import models.User;
 import utils.configuration.ReadProperties;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import service.WaitService;
+import services.WaitService;
 
 
 public abstract class BasePage {
@@ -25,6 +24,4 @@ public abstract class BasePage {
     public boolean isPageOpened() {
         return driver.findElement(getPageIdentifier()).isDisplayed();
     }
-
-
 }
