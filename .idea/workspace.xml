@@ -8,56 +8,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d77c945-0099-49b3-afda-8efe4673f3e4" name="Changes" comment="cw..">
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/Listener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/helper/DataHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/AddProjectPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/BaseProjectPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/SideMenuPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TopMenuPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/LoginStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/UIElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefs/FirstStepDefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/first.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/second.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/configuration/ReadProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/configuration/ReadProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/configuration/Singleton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/factory/BrowserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/BrowserFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/WaitService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/WaitService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/baseEntities/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseEntities/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/baseEntities/BaseStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseEntities/BaseStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/baseEntities/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseEntities/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/models/Milestone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/models/Milestone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/models/MilestoneBilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/models/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/models/Project.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/DashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/DashboardPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/project/AddProjectPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/NavigationSteps.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/ProjectSteps.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/UserStep.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LoggerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LoggerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/MilestoneTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/SingletonTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/download.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/log4j2-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/log4j2-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/factory/BrowserFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/service/WaitService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/configuration/ReadProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/configuration/Singleton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/logfile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/environment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/allure.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/download.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/log4j2-test-colored.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/log4j2-test-simple.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/log4j2-test.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/smoke.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testes/ActionTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testes/AlertTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testes/FrameTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testes/JSTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testes/ParameterTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/AddProjectPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/AddProjectPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LoggerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +30,7 @@
       <list>
         <option value="HTML File" />
         <option value="TestNG Test Class" />
+        <option value="Kotlin Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -142,15 +104,16 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG&quot;: &quot;&quot;,
     &quot;last_directory_selection&quot;: &quot;C:/Users/Sprzetowo/IdeaProjects/AQA21/src/test/java&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Sprzetowo/IdeaProjects/AQA21/src/test/resources&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="pages" />
       <recent name="baseEntities" />
       <recent name="util.configuration" />
       <recent name="" />
@@ -165,6 +128,9 @@
       <recent name="C:\Users\Sprzetowo\IdeaProjects\AQA21\.idea\shelf" />
       <recent name="C:\Users\Sprzetowo\IdeaProjects\AQA21\src\test\resources" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
     </key>
@@ -176,34 +142,60 @@
       <recent name="data" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AlertTests">
-    <configuration default="true" type="JetRunConfigurationType">
+  <component name="RunManager" selected="Cucumber Java.Feature: second">
+    <configuration name="Feature: first" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/first.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="TAF_AQA18_onl" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="TAF_AQA18_onl" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ActionTests.uploadFileTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AQA21onl" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: first" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="steps.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testes" />
-      <option name="MAIN_CLASS_NAME" value="testes.ActionTests" />
-      <option name="METHOD_NAME" value="uploadFileTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: second" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/second.feature" />
+      <option name="GLUE" value="stepDefs" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="TAF_AQA18_onl" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: second" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: a simple test with Given and When" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/first.feature" />
+      <option name="GLUE" value="stepDefs" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="TAF_AQA18_onl" />
+      <option name="NAME_FILTER" value="^a simple test with Given and When$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^a simple test with Given and When$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: a simple test with Given and When" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -225,50 +217,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FrameTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AQA21onl" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="steps.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testes" />
-      <option name="MAIN_CLASS_NAME" value="testes.FrameTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JSTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AQA21onl" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="steps.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testes" />
-      <option name="MAIN_CLASS_NAME" value="testes.JSTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ParameterTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AQA21onl" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="steps.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testes" />
-      <option name="MAIN_CLASS_NAME" value="testes.ParameterTests" />
+    <configuration name="RunCucumberTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TAF_AQA18_onl" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RunCucumberTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -277,19 +229,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Cucumber Java.Feature: second" />
+      <item itemvalue="Cucumber Java.Scenario: a simple test with Given and When" />
+      <item itemvalue="Cucumber Java.Feature: first" />
+      <item itemvalue="TestNG.RunCucumberTest" />
       <item itemvalue="TestNG.AlertTests" />
-      <item itemvalue="TestNG.ParameterTests" />
-      <item itemvalue="TestNG.ActionTests.uploadFileTest" />
-      <item itemvalue="TestNG.FrameTests" />
-      <item itemvalue="TestNG.JSTests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: second" />
+        <item itemvalue="TestNG.RunCucumberTest" />
+        <item itemvalue="Cucumber Java.Feature: first" />
+        <item itemvalue="Cucumber Java.Scenario: a simple test with Given and When" />
         <item itemvalue="TestNG.AlertTests" />
-        <item itemvalue="TestNG.ActionTests.uploadFileTest" />
-        <item itemvalue="TestNG.ParameterTests" />
-        <item itemvalue="TestNG.JSTests" />
-        <item itemvalue="TestNG.FrameTests" />
       </list>
     </recent_temporary>
   </component>
