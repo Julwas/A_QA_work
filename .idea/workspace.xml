@@ -8,17 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d77c945-0099-49b3-afda-8efe4673f3e4" name="Changes" comment="cw..">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/Button.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/UIElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefs/FirstStepDefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/first.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/second.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/AddProjectPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/AddProjectPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LoggerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/factory/BrowserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/BrowserFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +133,7 @@
       <recent name="data" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: second">
+  <component name="RunManager" selected="Cucumber Java.Scenario: a simple test with Given">
     <configuration name="Feature: first" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/first.feature" />
@@ -200,19 +191,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AlertTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AQA21onl" />
+    <configuration name="Scenario: a simple test with Given" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/first.feature" />
+      <option name="GLUE" value="stepDefs" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="TAF_AQA18_onl" />
+      <option name="NAME_FILTER" value="^a simple test with Given$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^a simple test with Given$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: a simple test with Given" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="steps.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testes" />
-      <option name="MAIN_CLASS_NAME" value="testes.AlertTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -230,18 +224,18 @@
     </configuration>
     <list>
       <item itemvalue="Cucumber Java.Feature: second" />
+      <item itemvalue="Cucumber Java.Scenario: a simple test with Given" />
       <item itemvalue="Cucumber Java.Scenario: a simple test with Given and When" />
       <item itemvalue="Cucumber Java.Feature: first" />
       <item itemvalue="TestNG.RunCucumberTest" />
-      <item itemvalue="TestNG.AlertTests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: a simple test with Given" />
         <item itemvalue="Cucumber Java.Feature: second" />
         <item itemvalue="TestNG.RunCucumberTest" />
         <item itemvalue="Cucumber Java.Feature: first" />
         <item itemvalue="Cucumber Java.Scenario: a simple test with Given and When" />
-        <item itemvalue="TestNG.AlertTests" />
       </list>
     </recent_temporary>
   </component>
@@ -562,7 +556,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692269850907</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="cw..">
+      <created>1692644878045</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1692644878045</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
