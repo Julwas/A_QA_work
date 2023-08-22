@@ -7,9 +7,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d77c945-0099-49b3-afda-8efe4673f3e4" name="Changes" comment="cw..">
+    <list default="true" id="8d77c945-0099-49b3-afda-8efe4673f3e4" name="Changes" comment="cucumber">
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefs/FirstStepdefs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/factory/BrowserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/BrowserFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefs/FirstStepDefs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/first.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/first.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/second.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/second.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +46,7 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="maven" />
+        <entry key="$PROJECT_DIR$" value="ci_cd" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -133,7 +136,7 @@
       <recent name="data" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: a simple test with Given">
+  <component name="RunManager" selected="Cucumber Java.Feature: second">
     <configuration name="Feature: first" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/first.feature" />
@@ -231,10 +234,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: a simple test with Given" />
         <item itemvalue="Cucumber Java.Feature: second" />
         <item itemvalue="TestNG.RunCucumberTest" />
         <item itemvalue="Cucumber Java.Feature: first" />
+        <item itemvalue="Cucumber Java.Scenario: a simple test with Given" />
         <item itemvalue="Cucumber Java.Scenario: a simple test with Given and When" />
       </list>
     </recent_temporary>
@@ -563,7 +566,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692644878045</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="cucumber">
+      <created>1692730181088</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1692730181088</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -593,7 +603,8 @@
     <MESSAGE value="uploadFileTest" />
     <MESSAGE value="fixed" />
     <MESSAGE value="cw.." />
-    <option name="LAST_COMMIT_MESSAGE" value="cw.." />
+    <MESSAGE value="cucumber" />
+    <option name="LAST_COMMIT_MESSAGE" value="cucumber" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

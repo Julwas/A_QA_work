@@ -1,20 +1,22 @@
 package stepDefs;
 
-
 import io.cucumber.java.en.*;
 import org.testng.Assert;
 
-public class FirstStepDefs {
-
+public class FirstStepdefs {
     @Given("start browser")
     public void startBrowser() {
+        //driver = new BrowserFactory().getDriver();
     }
+
     @When("the login page is open")
-    public void OpenLoginPage() {
+    public void theLoginPageIsOpen() {
+        //driver = new BrowserFactory().getDriver();
     }
 
     @Then("is username file visible")
     public void isUsernameFileVisible() {
+
     }
 
     @And("password field is displayed")
@@ -32,22 +34,38 @@ public class FirstStepDefs {
         System.out.println("Username"+ username);
         System.out.println("Password"+ password);
     }
+ @When("^admin ([^\"]*) password \"([^\"]*)\" loged in$")
+    public void adminPasswordLogedIn(String username, String password) {
+        System.out.println("Username"+ username);
+        System.out.println("Password"+ password);
+    }
 
     @Given("is Browser Open")
     public void isBrowserOpen() {
-        
+
+
     }
 
     @When("is Login PageOpen")
     public void isLoginPageOpen() {
     }
 
-    @And("project id is {int}")
-    public void projectIdIs(int value) {
-        
-    }
-
     @Then("title is {string}")
     public void titleIs(String value) {
+        System.out.println("Project ID:" + value);
+    }
+
+    @And("^project id is (\\d+)$")
+    public void projectIdIs(int value) {
+    }
+
+    @And("^all elements \"(are|are not)\" visible$")
+    public void allElementsAreVisible(String parametr) {
+        if(parametr.equals("are")){
+        }else {
+
+        }
     }
 }
+
+

@@ -1,20 +1,20 @@
 Feature: new test for cucumber
 
- Scenario: a simple test without a body
+  Scenario: a simple test without a body
 
-   Scenario: a simple test with Given
-     Given start browser
+  Scenario: a simple test with Given
+    Given start browser
 
-Scenario: a simple test with Given and When
-     Given start browser
-     When the login page is open
+  Scenario: a simple test with Given and When
+    Given start browser
+    When the login page is open
 
   Scenario: a simple test with Given and When and Then
     Given start browser
     When the login page is open
     Then is username file visible
 
-Scenario: a simple test with Given and When and Then AND
+  Scenario: a simple test with Given and When and Then AND
     Given start browser
     And password field is displayed
     When the login page is open
@@ -26,3 +26,8 @@ Scenario: a simple test with Given and When and Then AND
     Then is username file visible
     But is password field not displayed
 
+  Scenario: wrong test
+    Given start browser
+    * password field is displayed
+    * is username file visible
+    * is password field not displayed
