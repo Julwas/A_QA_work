@@ -52,13 +52,13 @@ public class BrowserFactory {
     public ChromeOptions getChromeOptions() {
         ChromeOptions chromeOptions = new ChromeOptions();
 
-        chromeOptions.setHeadless(false);
+        //chromeOptions.setHeadless(false);
         chromeOptions.addArguments("--disable-gpu");
         chromeOptions.addArguments("--ignore-certificate-errors");
         chromeOptions.addArguments("--silent");
         chromeOptions.addArguments("--start-maximized");
         chromeOptions.addArguments("--incognito");
-        chromeOptions.addArguments("--headless=new");
+        //chromeOptions.addArguments("--headless=new");
 
         return chromeOptions;
     }
@@ -66,7 +66,7 @@ public class BrowserFactory {
     public FirefoxOptions getFirefoxOptions() {
         FirefoxOptions firefoxOptions = new FirefoxOptions();
 
-        firefoxOptions.setHeadless(false);
+        //firefoxOptions.setHeadless(false);
         firefoxOptions.addArguments("--disable-gpu");
         firefoxOptions.addArguments("--ignore-certificate-errors");
         firefoxOptions.addArguments("--silent");
