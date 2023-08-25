@@ -7,65 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d77c945-0099-49b3-afda-8efe4673f3e4" name="Changes" comment="cucumber cw">
+    <list default="true" id="8d77c945-0099-49b3-afda-8efe4673f3e4" name="Changes" comment="cw process">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefs/RunCucumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RunCucumberTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/005db0b6-3f2f-4eac-9fb7-e9544e3bff0b-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/1210ac3f-9318-4172-a729-199c572d7d2a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/149d208f-61fa-441f-b9ab-9a43fcfdc07d-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/179f59c2-0910-4e6b-8759-13c3ad3d71a1-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/2499d715-a384-48eb-9e4f-b9a2d53cdae4-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/2889ecc8-3f0f-4d44-aef8-bda291ddb90e-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/44095039-7bef-4b55-a086-0ed99241ea75-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/4645bc87-5811-469d-a314-27c84f26f505-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/68eb82ca-283e-4c47-bfb7-7181762006f8-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/6d7cf697-032e-46f5-9dd8-5af37d997eb6-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/73006bf6-2d75-4c9c-9d28-0656a829a86b-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/78affde6-66c5-432e-94f8-b80b0e977c2b-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/7b4c6baa-0e5c-409d-857a-52536fb3a55e-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/7d7f151a-6bd2-47ab-bff4-3454ae0b6b21-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/928a0538-9a90-4cce-9490-34ea4ba40665-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/977d148b-64e5-4c03-829f-609dbaa6f54d-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/a3d50364-c244-442d-a1ab-62d0ca94adfe-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/adb8938f-b24f-4da7-8843-ab193086e35f-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/b288aae1-7140-44c3-98bb-a502eaa71b67-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/cce23650-c266-42f3-b37b-8bddce8668f3-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/d44467b3-eb9d-4ec6-a7aa-17ab86a12e40-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/e59084fc-61a0-4608-aaa3-5ad5515faf04-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/factory/BrowserFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/service/WaitService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/Listener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/configuration/ReadProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber-pretty" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/allure.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/baseEntities/BasePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/baseEntities/BaseTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/environment.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/first.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/login.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/second.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/third.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/helper/DataHelper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/log4j2-test.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/models/Milestone.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/models/Project.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/models/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/AddProjectPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/BaseProjectPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/Button.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/DashboardPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/LoginPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/SideMenuPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/TopMenuPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/UIElement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefs/ErrorSteps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefs/FirstStepDefs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefs/Hook.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefs/RunCucumberTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefs/loginSteps.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -644,7 +588,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692951589803</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="cw process">
+      <created>1692953374223</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1692953374223</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -677,7 +628,8 @@
     <MESSAGE value="cucumber" />
     <MESSAGE value="cucumber delete" />
     <MESSAGE value="cucumber cw" />
-    <option name="LAST_COMMIT_MESSAGE" value="cucumber cw" />
+    <MESSAGE value="cw process" />
+    <option name="LAST_COMMIT_MESSAGE" value="cw process" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
