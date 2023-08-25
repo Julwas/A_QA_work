@@ -7,11 +7,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d77c945-0099-49b3-afda-8efe4673f3e4" name="Changes" comment="cucumber delete" />
+    <list default="true" id="8d77c945-0099-49b3-afda-8efe4673f3e4" name="Changes" comment="cucumber delete">
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefs/ErrorSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefs/Hook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefs/loginSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/login.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/third.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/factory/BrowserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/BrowserFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RunCucumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefs/RunCucumberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/baseEntities/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseEntities/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/baseEntities/BaseStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/baseEntities/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseEntities/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/helper/DataHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helper/DataHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefs/FirstStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefs/FirstStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/LoginStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/second.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/second.feature" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -130,33 +151,15 @@
       <recent name="data" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: second">
-    <configuration name="Feature: first" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.RunCucumberTest">
+    <configuration name="Feature: login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/first.feature" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="TAF_AQA18_onl" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: first" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Feature: second" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/second.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/login.feature" />
       <option name="GLUE" value="stepDefs" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="TAF_AQA18_onl" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: second" />
+      <option name="SUGGESTED_NAME" value="Feature: login" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -168,15 +171,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: a simple test with Given and When" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: third" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/first.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/third.feature" />
       <option name="GLUE" value="stepDefs" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="TAF_AQA18_onl" />
-      <option name="NAME_FILTER" value="^a simple test with Given and When$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^a simple test with Given and When$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: a simple test with Given and When" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: third" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -188,15 +190,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: a simple test with Given" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Incorrect Login (invalid username)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/first.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/login.feature" />
       <option name="GLUE" value="stepDefs" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="TAF_AQA18_onl" />
-      <option name="NAME_FILTER" value="^a simple test with Given$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^a simple test with Given$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: a simple test with Given" />
+      <option name="NAME_FILTER" value="^Incorrect Login \(invalid username\)$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Incorrect Login \(invalid username\)$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Incorrect Login (invalid username)" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Success Login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/login.feature" />
+      <option name="GLUE" value="stepDefs" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="TAF_AQA18_onl" />
+      <option name="NAME_FILTER" value="^Success Login$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Success Login$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Success Login" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -211,7 +233,7 @@
     <configuration name="RunCucumberTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TAF_AQA18_onl" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RunCucumberTest" />
+      <option name="MAIN_CLASS_NAME" value="stepDefs.RunCucumberTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -220,19 +242,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Cucumber Java.Feature: second" />
-      <item itemvalue="Cucumber Java.Scenario: a simple test with Given" />
-      <item itemvalue="Cucumber Java.Scenario: a simple test with Given and When" />
-      <item itemvalue="Cucumber Java.Feature: first" />
+      <item itemvalue="Cucumber Java.Feature: login" />
+      <item itemvalue="Cucumber Java.Feature: third" />
+      <item itemvalue="Cucumber Java.Scenario: Incorrect Login (invalid username)" />
+      <item itemvalue="Cucumber Java.Scenario: Success Login" />
       <item itemvalue="TestNG.RunCucumberTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: second" />
         <item itemvalue="TestNG.RunCucumberTest" />
-        <item itemvalue="Cucumber Java.Feature: first" />
-        <item itemvalue="Cucumber Java.Scenario: a simple test with Given" />
-        <item itemvalue="Cucumber Java.Scenario: a simple test with Given and When" />
+        <item itemvalue="Cucumber Java.Scenario: Success Login" />
+        <item itemvalue="Cucumber Java.Feature: login" />
+        <item itemvalue="Cucumber Java.Scenario: Incorrect Login (invalid username)" />
+        <item itemvalue="Cucumber Java.Feature: third" />
       </list>
     </recent_temporary>
   </component>
@@ -567,7 +589,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692730181088</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="cucumber delete">
+      <created>1692866610184</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1692866610184</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -598,7 +627,8 @@
     <MESSAGE value="fixed" />
     <MESSAGE value="cw.." />
     <MESSAGE value="cucumber" />
-    <option name="LAST_COMMIT_MESSAGE" value="cucumber" />
+    <MESSAGE value="cucumber delete" />
+    <option name="LAST_COMMIT_MESSAGE" value="cucumber delete" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

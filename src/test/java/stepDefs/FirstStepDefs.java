@@ -1,22 +1,30 @@
 package stepDefs;
 
+import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.*;
+import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
+import pages.LoginPage;
 
-public class FirstStepdefs {
+import java.util.Map;
+
+public class FirstStepDefs {
+    private WebDriver driver;
+
     @Given("start browser")
     public void startBrowser() {
         //driver = new BrowserFactory().getDriver();
     }
 
     @When("the login page is open")
-    public void theLoginPageIsOpen() {
+    public void openLoginPage() {
         //driver = new BrowserFactory().getDriver();
     }
 
     @Then("is username file visible")
     public void isUsernameFileVisible() {
-
+        LoginPage loginPage = new LoginPage(driver);
+        Assert.assertTrue(loginPage.getEmailInput().isDisplayed());
     }
 
     @And("password field is displayed")
@@ -30,24 +38,20 @@ public class FirstStepdefs {
     }
 
     @When("user {string} password {string} loged in")
-    public void userPasswordLogedIn(String username, String password) {
+    public void userPasswordLoggedIn(String username, String password) {
         System.out.println("Username"+ username);
         System.out.println("Password"+ password);
+    }
+    @When("user logged in")
+    public void userLoggedIn(DataTable parameters) {
+        Map<String, String> expectedValues = parameters.asMap(String.class, String.class);
+        System.out.println("Username: " + expectedValues.get("username"));
+        System.out.println("Password: " + expectedValues.get("password"));
     }
  @When("^admin ([^\"]*) password \"([^\"]*)\" loged in$")
-    public void adminPasswordLogedIn(String username, String password) {
+    public void adminPasswordLoggedIn(String username, String password) {
         System.out.println("Username"+ username);
         System.out.println("Password"+ password);
-    }
-
-    @Given("is Browser Open")
-    public void isBrowserOpen() {
-
-
-    }
-
-    @When("is Login PageOpen")
-    public void isLoginPageOpen() {
     }
 
     @Then("title is {string}")
@@ -65,6 +69,10 @@ public class FirstStepdefs {
         }else {
 
         }
+    }
+    @Then("error is displayed")
+    public void errorIsDisplayed() {
+        System.out.println("Error displayed");
     }
 }
 
