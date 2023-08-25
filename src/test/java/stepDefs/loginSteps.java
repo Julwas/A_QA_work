@@ -15,10 +15,10 @@ public class loginSteps extends BaseTest {
     public loginSteps(BaseTest baseTest){
         this.baseTest =baseTest;
     }
-    @Given("start browser")
+   /* @Given("start browser")
     public void startBrowser() {
 
-    }
+    }*/
 
     @Given("open login page")
     public void openLoginPage() {

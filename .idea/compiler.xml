@@ -20,6 +20,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="AQA21onl" target="11" />
+      <module name="TAF_AQA18_onl" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
