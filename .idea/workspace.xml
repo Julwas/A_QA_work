@@ -8,68 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d77c945-0099-49b3-afda-8efe4673f3e4" name="Changes" comment="cw process">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/factory/BrowserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/BrowserFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RunCucumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RunCucumberTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/1606d489-4ee2-460d-bc77-da3ee0775391-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/19dc3a50-b928-4f4f-8576-005cb85eb149-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/2915c138-b3c9-4ac2-a75b-5af5789194d7-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/2941d652-3ae2-4a49-aec0-f0fbb76bf639-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/2fb01251-0ae6-4bd0-9440-6a71e9cd25a8-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/2fe45555-6901-44c9-b939-01189f13a788-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/30492208-d327-4ed3-b69e-23bbf85d683c-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/30a61435-c77e-4d00-a937-e339712f1c26-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/44b1db71-2436-4447-afb0-d81cbe9f9566-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/46b375fa-c5cb-46c3-a48c-5682add65af7-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/4db06146-2a0d-4a4a-944d-6edda1bcfb34-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/6e8da4d9-2e72-450b-ab8e-b21f5cdcca96-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/727cad29-4378-4528-b686-2f781318ceaf-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/a8ecbfd5-27f9-4371-81d0-e1f515c3ff02-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/ad0849db-eec1-4767-9be2-3c8d1b49d7fe-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/bcb25e59-4907-4cce-867b-071c3a2c9ef7-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/ca5d4639-0df6-4c9c-9a60-b6c45136e93c-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/dbf38c96-199b-4be3-9d45-3dfc5470a463-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/e3dbb4e4-a99e-41d9-941c-bed3b127ab44-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/ecdf2a59-5208-4892-a364-236febbf0a3b-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/ee817dc2-f9af-4885-928b-d7a816b61443-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/f79d056b-45a1-4b35-be8c-fde2b6e032f8-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/factory/BrowserFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/service/WaitService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/Listener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/configuration/ReadProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber-pretty" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RunCucumberTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/allure.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/baseEntities/BasePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/baseEntities/BaseTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/environment.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/first.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/login.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/second.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/third.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/helper/DataHelper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/log4j2-test.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/models/Milestone.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/models/Project.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/models/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/AddProjectPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/BaseProjectPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/Button.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/DashboardPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/LoginPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/SideMenuPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/TopMenuPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/UIElement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefs/ErrorSteps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefs/FirstStepDefs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefs/Hook.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefs/loginSteps.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -334,13 +273,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1687195925274</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Commit Class work">
-      <created>1687521534003</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1687521534003</updated>
     </task>
     <task id="LOCAL-00004" summary="Commit Class work">
       <created>1687521582434</created>
@@ -678,7 +610,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692956537907</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="cw process">
+      <created>1692964053807</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1692964053808</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
