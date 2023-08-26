@@ -1,6 +1,8 @@
 package stepDefs;
 
 import factory.BrowserFactory;
+import io.cucumber.java.After;
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -29,6 +31,7 @@ public class e2eSteps {
     }
     @When("user enter username {} and psw {}")
     public void setUsernameAndPassword(String username, String psw) {
+        loginPage  = new LoginPage(driver);
         loginPage.setEmail(username);
         loginPage.pswInput.sendKeys(psw);
     }
@@ -39,22 +42,25 @@ public class e2eSteps {
 
     @Then("products page is open")
     public void isProductsPageOpen(){
+        productsPage = new ProductsPage(driver);
         Assert.assertTrue(new ProductsPage(driver).isPageOpened());
     }
-    @Given("user add product to cart button")
+    @And("user add product to cart button")
     public void addProductsToCartButton(){
         productsPage.addToCartButton.click();
     }
-    @Given("open shopping Cart")
+    @And("open shopping Cart")
     public void openShoppingCart(){
         productsPage.shoppingCart.click();
     }
-    @Given("user click checkout Button")
+    @And("user click checkout Button")
     public void checkoutButton(){
+        cartPage = new CartPage(driver);
         cartPage.checkoutButton.click();
     }
     @When("user enter firstName{} and lastName{} and zipCode{}")
     public void setUserData(String firstname, String lastname, String zip) {
+        checkoutInfoPage = new CheckoutInfoPage(driver);
         checkoutInfoPage.firstNameInput.sendKeys(firstname);
         checkoutInfoPage.lastNameInput.sendKeys(lastname);
         checkoutInfoPage.zipCodeInput.sendKeys(zip);
@@ -65,10 +71,16 @@ public class e2eSteps {
     }
     @When("user click finish Checkout Button")
     public void clickFinishCheckoutButton() {
+        checkoutOverviewPage = new CheckoutOverviewPage(driver);
         checkoutOverviewPage.finishCheckoutButton.click();
     }
     @Then("user click backHomeButton")
     public void clickBackHomeButton(){
+        checkoutCompletePage = new CheckoutCompletePage(driver);
         checkoutCompletePage.backHomeButton.click();
+    }
+    @After
+    public void tearDown() {
+        driver.quit();
     }
 }
