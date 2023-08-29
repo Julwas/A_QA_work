@@ -1,9 +1,8 @@
 package pages;
 
 import baseEntities.BasePage;
+import com.codeborne.selenide.SelenideElement;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 
 import static com.codeborne.selenide.Selenide.$;
 
@@ -16,8 +15,8 @@ public class ProductsPage extends BasePage {
     private static final By shoppingCartLocator = By.id("shopping_cart_container");
 
     // Блок инициализации
-    public ProductsPage(WebDriver driver) {
-        super(driver);
+    public ProductsPage() {
+        super();
     }
 
     public void openPageByUrl(){
@@ -29,15 +28,15 @@ public class ProductsPage extends BasePage {
     }
 
     //блок атомарных методов
-    public static WebElement getHeaderTitle() {
+    public static SelenideElement getHeaderTitle() {
         return $(headerTitleLocator);
     }
 
-    public static WebElement getAddToCartButton() {
+    public static SelenideElement getAddToCartButton() {
         return $(addToCartButtonLocator);
     }
 
-    public static WebElement getShoppingCart() {
+    public static SelenideElement getShoppingCart() {
         return $(shoppingCartLocator);
     }
     //блок комплексных методов

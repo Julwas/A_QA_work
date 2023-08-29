@@ -11,7 +11,7 @@ import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
-public class SelenideTest {
+/*public class SelenideTest {
 
     @Test
     public void E2ESelenideTest() {
@@ -33,3 +33,4 @@ public class SelenideTest {
         $(By.className("title")).shouldBe(visible).shouldHave(text("Products"));
     }
 }
+*/

@@ -1,10 +1,8 @@
 package pages;
 
 import baseEntities.BasePage;
+import com.codeborne.selenide.SelenideElement;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-
 import static com.codeborne.selenide.Selenide.$;
 
 public class CheckoutInfoPage extends BasePage {
@@ -18,8 +16,8 @@ public class CheckoutInfoPage extends BasePage {
     private final By continueButtonLocator = By.id("continue");
 
     // Блок инициализации
-    public CheckoutInfoPage(WebDriver driver) {
-        super(driver);
+    public CheckoutInfoPage() {
+        super();
     }
     public void openPageByUrl(){
         super.openPageByUrl(pagePath);
@@ -32,23 +30,23 @@ public class CheckoutInfoPage extends BasePage {
 
     //блок атомарных методов
 
-    public WebElement getHeaderCheckoutInfo() {
+    public SelenideElement getHeaderCheckoutInfo() {
         return $(headerCheckoutInfoLocator);
     }
 
-    public WebElement getFirstNameInput() {
+    public SelenideElement getFirstNameInput() {
         return $(firstNameInputLocator);
     }
 
-    public WebElement getLastNameInput() {
+    public SelenideElement getLastNameInput() {
         return $(lastNameInputLocator);
     }
 
-    public WebElement getZipCodeInput() {
+    public SelenideElement getZipCodeInput() {
         return $(zipCodeInputLocator);
     }
 
-    public WebElement getContinueButton() {
+    public SelenideElement getContinueButton() {
         return $(continueButtonLocator);
     }
 

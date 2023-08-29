@@ -1,25 +1,21 @@
 package baseEntities;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import utils.configuration.ReadProperties;
-
+import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.$;
+import static com.codeborne.selenide.Selenide.open;
 
 public abstract class BasePage {
-
-    public static WebDriver driver;
-
-    public BasePage(WebDriver driver) {
-        this.driver = driver;
+    public BasePage() {
     }
 
     public void openPageByUrl(String pagePath) {
-        driver.get(ReadProperties.getUrl() + pagePath);
+       open(pagePath);
     }
     protected abstract By getPageIdentifier();
-    public boolean isPageOpened() {
-        return $(getPageIdentifier()).isDisplayed();
+    public void isPageOpened() {
+
+        $(getPageIdentifier()).shouldBe(visible);
     }
 }
 
