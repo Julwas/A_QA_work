@@ -150,19 +150,6 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.E2ETest">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="AQA21onl" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="AQA21onl" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="E2ETest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA21onl" />
       <extension name="coverage">
@@ -264,6 +251,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="TestNG.E2ETest.successLoginTest" />
       <item itemvalue="TestNG.E2ETest" />
       <item itemvalue="TestNG.E2ETest.E2ETest" />
       <item itemvalue="TestNG.E2ETest.E2ETest2" />
