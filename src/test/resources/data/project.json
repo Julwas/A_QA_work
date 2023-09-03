@@ -6,7 +6,7 @@
   "isShowAnnouncement" : true,
   "isCompleted" : false,
   "mentor" : null,
-  "testcases" : [1,2,3],
+  "testcases" :  ,
   "testcases1" : ["asd","asa","cds"],
   "testcases2" : [false,true,false],
   "employee" : {

@@ -8,9 +8,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d77c945-0099-49b3-afda-8efe4673f3e4" name="Changes" comment="cw push">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/data/project.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/data/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/data/project_HW.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/data/project_HW.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/data/project.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/data/project.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +48,7 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="cucumber" />
+        <entry key="$PROJECT_DIR$" value="json" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -212,6 +213,19 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="AQA21" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="AQA21" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
