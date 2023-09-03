@@ -7,10 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d77c945-0099-49b3-afda-8efe4673f3e4" name="Changes" comment="modern">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/gui/LoginTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="8d77c945-0099-49b3-afda-8efe4673f3e4" name="Changes" comment="cw" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -580,7 +577,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693566962191</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="cw">
+      <created>1693727355321</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1693727355321</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -604,14 +608,14 @@
     <MESSAGE value="Commit reformat code" />
     <MESSAGE value="retry and listener" />
     <MESSAGE value="removed and corrected JUnit" />
-    <MESSAGE value="cw" />
     <MESSAGE value="workspace" />
     <MESSAGE value="kw waitservice" />
     <MESSAGE value="uploadFileTest" />
     <MESSAGE value="fixed" />
     <MESSAGE value="cw.." />
     <MESSAGE value="modern" />
-    <option name="LAST_COMMIT_MESSAGE" value="modern" />
+    <MESSAGE value="cw" />
+    <option name="LAST_COMMIT_MESSAGE" value="cw" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
