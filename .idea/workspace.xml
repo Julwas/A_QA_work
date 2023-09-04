@@ -2,16 +2,15 @@
 <project version="4">
   <component name="AnalysisUIOptions">
     <option name="ANALYZE_INJECTED_CODE" value="false" />
+    <option name="SCOPE_TYPE" value="10" />
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d77c945-0099-49b3-afda-8efe4673f3e4" name="Changes" comment="cw push">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/data/project_HW.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/data/project_HW.xml" afterDir="false" />
+    <list default="true" id="8d77c945-0099-49b3-afda-8efe4673f3e4" name="Changes" comment="hw push">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/data/project.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/data/project.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -276,13 +275,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1687195925274</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Commit HomeWork">
-      <created>1687541747048</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1687541747048</updated>
     </task>
     <task id="LOCAL-00006" summary="Commit HomeWork1">
       <created>1687633363991</created>
@@ -620,7 +612,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692966974511</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="hw push">
+      <created>1693731552593</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1693731552594</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -654,7 +653,8 @@
     <MESSAGE value="cucumber delete" />
     <MESSAGE value="cucumber cw" />
     <MESSAGE value="cw process" />
-    <option name="LAST_COMMIT_MESSAGE" value="cw process" />
+    <MESSAGE value="hw push" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw push" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
