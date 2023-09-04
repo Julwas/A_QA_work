@@ -2,28 +2,13 @@
 <project version="4">
   <component name="AnalysisUIOptions">
     <option name="ANALYZE_INJECTED_CODE" value="false" />
+    <option name="SCOPE_TYPE" value="10" />
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d77c945-0099-49b3-afda-8efe4673f3e4" name="Changes" comment="hw push">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/factory/BrowserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/BrowserFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/baseEntities/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseEntities/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/baseEntities/BaseStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseEntities/BaseStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/baseEntities/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseEntities/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/CartPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/CheckoutCompletePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/CheckoutCompletePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/CheckoutInfoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/CheckoutInfoPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/CheckoutOverviewPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/CheckoutOverviewPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/ProductsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/ProductsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/CheckoutStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/CheckoutStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/LoginStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/LoginStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/ProductsStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/ProductsStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/E2ETest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/E2ETest.java" afterDir="false" />
-    </list>
+    <list default="true" id="8d77c945-0099-49b3-afda-8efe4673f3e4" name="Changes" comment="hw push" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,7 +43,7 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="pageFactory" />
+        <entry key="$PROJECT_DIR$" value="json_HW" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -150,6 +135,19 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.E2ETest">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="AQA21" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="AQA21" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="E2ETest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA21onl" />
       <extension name="coverage">
@@ -203,18 +201,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E2ETest.successLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AQA21onl" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="E2ETest" />
-      <option name="METHOD_NAME" value="successLoginTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SelenideTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AQA21onl" />
       <extension name="coverage">
@@ -251,7 +237,6 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.E2ETest.successLoginTest" />
       <item itemvalue="TestNG.E2ETest" />
       <item itemvalue="TestNG.E2ETest.E2ETest" />
       <item itemvalue="TestNG.E2ETest.E2ETest2" />
@@ -261,10 +246,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.E2ETest" />
-        <item itemvalue="TestNG.E2ETest.E2ETest" />
+        <item itemvalue="TestNG.SelenideTest.userCanLogin" />
         <item itemvalue="TestNG.SelenideTest" />
         <item itemvalue="TestNG.E2ETest.E2ETest2" />
-        <item itemvalue="TestNG.SelenideTest.userCanLogin" />
+        <item itemvalue="TestNG.E2ETest.E2ETest" />
       </list>
     </recent_temporary>
   </component>
@@ -276,55 +261,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1687195925274</updated>
-    </task>
-    <task id="LOCAL-00001" summary="unitcomit">
-      <created>1687196354575</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1687196354575</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Calculate trst comit">
-      <created>1687257348582</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1687257348582</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Commit Class work">
-      <created>1687521534003</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1687521534003</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Commit Class work">
-      <created>1687521582434</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1687521582434</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Commit HomeWork">
-      <created>1687541747048</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1687541747048</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Commit HomeWork1">
-      <created>1687633363991</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1687633363991</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Commit HomeWork1">
-      <created>1687641835728</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1687641835728</updated>
     </task>
     <task id="LOCAL-00008" summary="Commit add tests">
       <created>1687813623067</created>
@@ -529,63 +465,147 @@
       <option name="project" value="LOCAL" />
       <updated>1690040199611</updated>
     </task>
-    <task id="LOCAL-00037" summary="workspace">
-      <created>1690040904076</created>
+    <task id="LOCAL-00037" summary="kw waitservice">
+      <created>1690233214074</created>
       <option name="number" value="00037" />
       <option name="presentableId" value="LOCAL-00037" />
       <option name="project" value="LOCAL" />
-      <updated>1690040904076</updated>
+      <updated>1690233214074</updated>
     </task>
-    <task id="LOCAL-00038" summary="endtoend">
-      <created>1690121705083</created>
+    <task id="LOCAL-00038" summary="kw waitservice">
+      <created>1690233640581</created>
       <option name="number" value="00038" />
       <option name="presentableId" value="LOCAL-00038" />
       <option name="project" value="LOCAL" />
-      <updated>1690121705083</updated>
+      <updated>1690233640581</updated>
     </task>
-    <task id="LOCAL-00039" summary="endtoend">
-      <created>1690121722855</created>
+    <task id="LOCAL-00039" summary="kw waitservice">
+      <created>1690233646219</created>
       <option name="number" value="00039" />
       <option name="presentableId" value="LOCAL-00039" />
       <option name="project" value="LOCAL" />
-      <updated>1690121722855</updated>
+      <updated>1690233646219</updated>
     </task>
-    <task id="LOCAL-00040" summary="endtoend">
-      <created>1690121788669</created>
+    <task id="LOCAL-00040" summary="uploadFileTest">
+      <created>1690550009852</created>
       <option name="number" value="00040" />
       <option name="presentableId" value="LOCAL-00040" />
       <option name="project" value="LOCAL" />
-      <updated>1690121788669</updated>
+      <updated>1690550009852</updated>
     </task>
-    <task id="LOCAL-00041" summary="comper">
-      <created>1690123113578</created>
+    <task id="LOCAL-00041" summary="uploadFileTest">
+      <created>1690803574815</created>
       <option name="number" value="00041" />
       <option name="presentableId" value="LOCAL-00041" />
       <option name="project" value="LOCAL" />
-      <updated>1690123113578</updated>
+      <updated>1690803574815</updated>
     </task>
-    <task id="LOCAL-00042" summary="comper">
-      <created>1690834912432</created>
+    <task id="LOCAL-00042" summary="uploadFileTest">
+      <created>1690803584129</created>
       <option name="number" value="00042" />
       <option name="presentableId" value="LOCAL-00042" />
       <option name="project" value="LOCAL" />
-      <updated>1690834912432</updated>
+      <updated>1690803584129</updated>
     </task>
-    <task id="LOCAL-00043" summary="fixed">
-      <created>1690836285145</created>
+    <task id="LOCAL-00043" summary="uploadFileTest">
+      <created>1690803642539</created>
       <option name="number" value="00043" />
       <option name="presentableId" value="LOCAL-00043" />
       <option name="project" value="LOCAL" />
-      <updated>1690836285145</updated>
+      <updated>1690803642539</updated>
     </task>
-    <task id="LOCAL-00044" summary="hw push">
-      <created>1692541008881</created>
+    <task id="LOCAL-00044" summary="cw..">
+      <created>1692269850907</created>
       <option name="number" value="00044" />
       <option name="presentableId" value="LOCAL-00044" />
       <option name="project" value="LOCAL" />
-      <updated>1692541008881</updated>
+      <updated>1692269850907</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="cw..">
+      <created>1692644878045</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1692644878045</updated>
+    </task>
+    <task id="LOCAL-00046" summary="cucumber">
+      <created>1692730181088</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1692730181088</updated>
+    </task>
+    <task id="LOCAL-00047" summary="cucumber delete">
+      <created>1692866610184</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1692866610184</updated>
+    </task>
+    <task id="LOCAL-00048" summary="cucumber cw">
+      <created>1692951589803</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1692951589803</updated>
+    </task>
+    <task id="LOCAL-00049" summary="cw process">
+      <created>1692953374223</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1692953374223</updated>
+    </task>
+    <task id="LOCAL-00050" summary="cw process">
+      <created>1692956194850</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1692956194851</updated>
+    </task>
+    <task id="LOCAL-00051" summary="cw process">
+      <created>1692956537907</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1692956537907</updated>
+    </task>
+    <task id="LOCAL-00052" summary="cw process">
+      <created>1692964053807</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1692964053808</updated>
+    </task>
+    <task id="LOCAL-00053" summary="cw process">
+      <created>1692966974510</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1692966974511</updated>
+    </task>
+    <task id="LOCAL-00054" summary="hw push">
+      <created>1693731552593</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1693731552594</updated>
+    </task>
+    <task id="LOCAL-00055" summary="hw push">
+      <created>1693819334509</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1693819334509</updated>
+    </task>
+    <task id="LOCAL-00056" summary="hw push">
+      <created>1693828226706</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1693828226706</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -611,27 +631,15 @@
     <MESSAGE value="removed and corrected JUnit" />
     <MESSAGE value="cw" />
     <MESSAGE value="workspace" />
-    <MESSAGE value="endtoend" />
-    <MESSAGE value="comper" />
+    <MESSAGE value="kw waitservice" />
+    <MESSAGE value="uploadFileTest" />
     <MESSAGE value="fixed" />
+    <MESSAGE value="cw.." />
+    <MESSAGE value="cucumber" />
+    <MESSAGE value="cucumber delete" />
+    <MESSAGE value="cucumber cw" />
+    <MESSAGE value="cw process" />
     <MESSAGE value="hw push" />
     <option name="LAST_COMMIT_MESSAGE" value="hw push" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/baseEntities/BasePage.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-    <watches-manager>
-      <configuration name="TestNG">
-        <watch expression="driver" language="JAVA" />
-        <watch expression="driver" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>
