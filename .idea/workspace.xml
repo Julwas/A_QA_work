@@ -7,7 +7,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d77c945-0099-49b3-afda-8efe4673f3e4" name="Changes" comment="cw" />
+    <list default="true" id="8d77c945-0099-49b3-afda-8efe4673f3e4" name="Changes" comment="cw">
+      <change afterPath="$PROJECT_DIR$/src/test/java/adapters/BaseAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/adapters/ProjectAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/baseEntities/BaseApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/api/ReqresApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/api/TestRailApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/api/TestRailApiTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/Endpoints.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/models/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/models/Project.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/api/HttpClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/api/HttpClientTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -130,64 +142,7 @@
       <recent name="data" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTest">
-    <configuration name="Feature: first" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/first.feature" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="TAF_AQA18_onl" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: first" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Feature: second" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/second.feature" />
-      <option name="GLUE" value="stepDefs" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="TAF_AQA18_onl" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: second" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: a simple test with Given" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/first.feature" />
-      <option name="GLUE" value="stepDefs" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="TAF_AQA18_onl" />
-      <option name="NAME_FILTER" value="^a simple test with Given$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^a simple test with Given$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: a simple test with Given" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.TestRailApiTest1.addProjectTest5">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="TAF_AQA18_onl" />
       <method v="2">
@@ -201,16 +156,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestRailApiTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TAF_AQA18_onl" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.gui.*" />
+          <option name="PATTERN" value="tests.api.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.gui.LoginTest" />
+      <option name="PACKAGE_NAME" value="tests.api" />
+      <option name="MAIN_CLASS_NAME" value="tests.api.TestRailApiTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -218,11 +173,71 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunCucumberTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestRailApiTest1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TAF_AQA18_onl" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RunCucumberTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.api" />
+      <option name="MAIN_CLASS_NAME" value="tests.api.TestRailApiTest1" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRailApiTest1.addProjectTest1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TAF_AQA18_onl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.api" />
+      <option name="MAIN_CLASS_NAME" value="tests.api.TestRailApiTest1" />
+      <option name="METHOD_NAME" value="addProjectTest1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRailApiTest1.addProjectTest2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TAF_AQA18_onl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.api" />
+      <option name="MAIN_CLASS_NAME" value="tests.api.TestRailApiTest1" />
+      <option name="METHOD_NAME" value="addProjectTest2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRailApiTest1.addProjectTest5" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TAF_AQA18_onl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.api" />
+      <option name="MAIN_CLASS_NAME" value="tests.api.TestRailApiTest1" />
+      <option name="METHOD_NAME" value="addProjectTest5" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -230,19 +245,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Cucumber Java.Feature: second" />
-      <item itemvalue="Cucumber Java.Scenario: a simple test with Given" />
-      <item itemvalue="Cucumber Java.Feature: first" />
-      <item itemvalue="TestNG.LoginTest" />
-      <item itemvalue="TestNG.RunCucumberTest" />
+      <item itemvalue="TestNG.TestRailApiTest" />
+      <item itemvalue="TestNG.TestRailApiTest1" />
+      <item itemvalue="TestNG.TestRailApiTest1.addProjectTest1" />
+      <item itemvalue="TestNG.TestRailApiTest1.addProjectTest2" />
+      <item itemvalue="TestNG.TestRailApiTest1.addProjectTest5" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginTest" />
-        <item itemvalue="Cucumber Java.Scenario: a simple test with Given" />
-        <item itemvalue="Cucumber Java.Feature: second" />
-        <item itemvalue="TestNG.RunCucumberTest" />
-        <item itemvalue="Cucumber Java.Feature: first" />
+        <item itemvalue="TestNG.TestRailApiTest1.addProjectTest5" />
+        <item itemvalue="TestNG.TestRailApiTest1" />
+        <item itemvalue="TestNG.TestRailApiTest1.addProjectTest2" />
+        <item itemvalue="TestNG.TestRailApiTest1.addProjectTest1" />
+        <item itemvalue="TestNG.TestRailApiTest" />
       </list>
     </recent_temporary>
   </component>
