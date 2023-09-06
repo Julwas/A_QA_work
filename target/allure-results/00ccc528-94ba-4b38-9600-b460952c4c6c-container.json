@@ -1,1 +1,0 @@
-{"uuid":"00ccc528-94ba-4b38-9600-b460952c4c6c","name":"AQA21","children":["16bc519f-f32b-45d6-81ac-9fa514ede2c2"],"befores":[{"name":"setupUriApi","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1693917341724,"stop":1693917345248}],"afters":[],"start":1693917341583,"stop":1693917351731}

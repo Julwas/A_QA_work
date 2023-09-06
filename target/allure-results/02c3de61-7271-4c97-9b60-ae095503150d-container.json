@@ -1,1 +1,0 @@
-{"uuid":"02c3de61-7271-4c97-9b60-ae095503150d","name":"tests.api.TestRailApiTest1","children":["16bc519f-f32b-45d6-81ac-9fa514ede2c2"],"befores":[{"name":"setupApi","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1693917345310,"stop":1693917345310}],"afters":[],"start":1693917341584,"stop":1693917351762}

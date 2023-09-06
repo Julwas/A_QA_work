@@ -7,23 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d77c945-0099-49b3-afda-8efe4673f3e4" name="Changes" comment="cw">
-      <change afterPath="$PROJECT_DIR$/src/test/java/models/Projects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/api/ProjectApiTes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/api/TestRailApiTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/expectedUser.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/adapters/ProjectAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/adapters/ProjectAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/helper/DataHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helper/DataHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/api/TestRailApiTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/api/TestRailApiTest1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/gui/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/gui/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Endpoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Endpoints.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/helper/DataHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/helper/DataHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/models/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/models/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/api/TestRailApiTest1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/api/TestRailApiTest1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/gui/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/gui/LoginTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="8d77c945-0099-49b3-afda-8efe4673f3e4" name="Changes" comment="cw+" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -598,7 +582,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693941302455</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="cw+">
+      <created>1694015554328</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1694015554328</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -629,7 +620,8 @@
     <MESSAGE value="cw.." />
     <MESSAGE value="modern" />
     <MESSAGE value="cw" />
-    <option name="LAST_COMMIT_MESSAGE" value="cw" />
+    <MESSAGE value="cw+" />
+    <option name="LAST_COMMIT_MESSAGE" value="cw+" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
