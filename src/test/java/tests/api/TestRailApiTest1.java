@@ -1,17 +1,22 @@
 package tests.api;
 
+
 import baseEntities.BaseApiTest;
+
 import io.restassured.mapper.ObjectMapperType;
+import io.restassured.response.Response;
 import models.Project;
 import org.apache.http.HttpStatus;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.util.HashMap;
 import java.util.Map;
 
 import static io.restassured.RestAssured.given;
+import static org.hamcrest.Matchers.*;
 
 public class TestRailApiTest1 extends BaseApiTest {
     static Logger logger = LogManager.getLogger(TestRailApiTest1.class);
@@ -120,6 +125,55 @@ public class TestRailApiTest1 extends BaseApiTest {
                 .getInt("id");
 
         logger.info(id);
+    }
+    @Test
+    public void addProjectTest6() {
+        String endpoint = "/index.php?/api/v2/add_project";
+
+        Project expectedProject = new Project();
+        expectedProject.setProjectName("WP_Project_06");
+        expectedProject.setAnnouncement("This is a description!!!");
+        expectedProject.setProjectType(2);
+        expectedProject.setFlag(true);
+
+        Response response = given()
+                .body(expectedProject, ObjectMapperType.GSON)
+                .log().all()
+                .when()
+                .post(endpoint)
+                .then()
+                .log().body()
+                .statusCode(HttpStatus.SC_OK)
+                .extract()
+                .response();
+
+        int id = response.getBody().jsonPath().getInt("id");
+        logger.info(id);
+
+        Assert.assertEquals(expectedProject.getProjectName(),
+                response.getBody().jsonPath().getString("name"));
+    }
+    @Test
+    public void addProjectTest7() {
+        String endpoint = "/index.php?/api/v2/add_project";
+
+        Project expectedProject = new Project();
+        expectedProject.setProjectName("WP_Project_07");
+        expectedProject.setAnnouncement("This is a description!!!");
+        expectedProject.setProjectType(2);
+        expectedProject.setFlag(true);
+
+        Response response = given()
+                .body(expectedProject, ObjectMapperType.GSON)
+                .log().all()
+                .when()
+                .post(endpoint)
+                .then()
+                .log().body()
+                .statusCode(HttpStatus.SC_OK)
+                .body("name", is(expectedProject.getProjectName()))
+                .extract()
+                .response();
     }
 
    }
